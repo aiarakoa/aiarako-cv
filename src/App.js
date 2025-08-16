@@ -1,12 +1,12 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom';
-import Header from './components/CertsPage';
-import Header from './components/EducationPage';
+import CertsPage from './components/CertsPage';
+import EducationPage from './components/EducationPage';
 import Header from './components/Header';
-import Header from './components/LanguagePage';
-import Header from './components/PersonalInfoPage';
-import Header from './components/PortfolioPage';
-import Header from './components/ProXPPage';
+import LanguagePage from './components/LanguagePage';
+import PersonalInfoPage from './components/PersonalInfoPage';
+import PortfolioPage from './components/PortfolioPage';
+import ProXPPage from './components/ProXPPage';
 
 function App() {
   return (
