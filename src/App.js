@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import {Routes, Route} from 'react-router-dom';
+import Header from './components/CertsPage';
+import Header from './components/EducationPage';
+import Header from './components/Header';
+import Header from './components/LanguagePage';
+import Header from './components/PersonalInfoPage';
+import Header from './components/PortfolioPage';
+import Header from './components/ProXPPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Testing CI/CD...
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path = "/"           element = {<PersonalInfoPage />} />
+        <Route path = "/education"  element = {<EducationPage />} />
+        <Route path = "/xp"         element = {<ProXPPage />} />
+        <Route path = "/languages"  element = {<LanguagePage />} />
+        <Route path = "/certs"      element = {<CertsPage />} />
+        <Route path = "/portfolio"  element = {<PortfolioPage />} />
+      </Routes>
+    </>
   );
 }
 
