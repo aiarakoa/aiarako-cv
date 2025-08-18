@@ -1,4 +1,4 @@
-//import './ProXPPage.css';
+import './ProXPPage.css';
 
 function ProXPPage() {
   return (
