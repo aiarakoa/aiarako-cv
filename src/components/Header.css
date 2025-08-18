@@ -24,7 +24,8 @@ nav a {
 }
 
 nav a:visited {
-    color: #1f367a;
+/*    color: #1f367a;*/
+    color: #5c7ad6;
 }
 
 nav a:hover {
