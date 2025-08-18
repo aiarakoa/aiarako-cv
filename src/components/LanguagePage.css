@@ -1,0 +1,11 @@
+h3.languages-heading > strong {
+    color: #666666;
+}
+
+p.language-certified {
+    color: #666666;
+}
+
+p.language-non-certified {
+    color: #999999;
+}
