@@ -3,9 +3,9 @@
 function ProXPPage() {
   return (
     <>
-      <h1>
+      <h2>
         Professional Experience
-      </h1>
+      </h2>
     </>
   );
 }

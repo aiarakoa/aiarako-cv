@@ -3,9 +3,9 @@
 function PortfolioPage() {
   return (
     <>
-      <h1>
+      <h2>
         Portfolio
-      </h1>
+      </h2>
     </>
   );
 }

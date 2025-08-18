@@ -3,9 +3,9 @@
 function EducationPage() {
   return (
     <>
-      <h1>
+      <h2>
         Education
-      </h1>
+      </h2>
     </>
   );
 }

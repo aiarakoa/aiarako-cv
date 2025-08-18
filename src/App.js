@@ -12,14 +12,16 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path = "/"           element = {<PersonalInfoPage />} />
-        <Route path = "/education"  element = {<EducationPage />} />
-        <Route path = "/xp"         element = {<ProXPPage />} />
-        <Route path = "/languages"  element = {<LanguagePage />} />
-        <Route path = "/certs"      element = {<CertsPage />} />
-        <Route path = "/portfolio"  element = {<PortfolioPage />} />
-      </Routes>
+      <main id = "main">
+        <Routes>
+          <Route path = "/"           element = {<PersonalInfoPage />} />
+          <Route path = "/education"  element = {<EducationPage />} />
+          <Route path = "/xp"         element = {<ProXPPage />} />
+          <Route path = "/languages"  element = {<LanguagePage />} />
+          <Route path = "/certs"      element = {<CertsPage />} />
+          <Route path = "/portfolio"  element = {<PortfolioPage />} />
+        </Routes>
+      </main>
     </>
   );
 }
