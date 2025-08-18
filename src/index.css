@@ -122,10 +122,6 @@ code {
     monospace;
 }
 
-main {
-  margin: 0vh 15vw;
-}
-
 ul {
   list-style-type: none;
   margin-block-start: 0;
@@ -154,6 +150,10 @@ section > p {
     color: #5c7ad6;
     font-size: min(2vw, 3vh);
   }
+
+  main {
+    margin: 0vh 15vw;
+  }
 }
 
 @media (max-width: 599px) {
@@ -162,5 +162,9 @@ section > p {
     font-weight: 400;
     color: #5c7ad6;
     font-size: min(2vh, 3vw);
+  }
+
+  main {
+    margin: 0vh 5vw;
   }
 }
