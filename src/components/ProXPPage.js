@@ -13,63 +13,69 @@ function ProXPPage() {
           </p>
         </hgroup>
         <section aria-labelledby = "vdx-data-engineer-section">
-          <hgroup>
-            <h3 className = "cv-section-heading" id = "vdx-data-engineer-section">
-              GRADUATE DATA ENGINEER
-            </h3>
+          <details className = "xp-details">
+            <summary>
+              <span role = "heading" aria-level = "3" id = "vdx-data-engineer-section-summary" className = "xp-details-summary">
+                GRADUATE DATA ENGINEER
+              </span>
+            </summary>
             <p className = "organisation-subtitle">
               Visión, Dispositivos y eXtensiones S.L.
             </p>
             <p className = "time-frame-subtitle">
               <time dateTime="2025-07">07/2025</time> – <span>Present</span>
             </p>
-          </hgroup>
-          <p>
-            <em>Soon</em>
-          </p>
+            <p>
+              <em>Soon</em>
+            </p>
+          </details>
         </section>
         <section aria-labelledby = "vdx-data-scientist-section">
-          <hgroup>
-            <h3 className = "cv-section-heading" id = "vdx-data-scientist-section">
-              GRADUATE DATA SCIENTIST
-            </h3>
+          <details className = "xp-details">
+            <summary>
+              <span role = "heading" aria-level = "3" id = "vdx-data-scientist-section-summary" className = "xp-details-summary">
+                GRADUATE DATA SCIENTIST
+              </span>
+            </summary>
             <p className = "organisation-subtitle">
               Visión, Dispositivos y eXtensiones S.L.
             </p>
             <p className = "time-frame-subtitle">
               <time dateTime="2025-07">07/2025</time> – <span>Present</span>
             </p>
-          </hgroup>
-          <p>
-            <em>Soon</em>
-          </p>
+            <p>
+              <em>Soon</em>
+            </p>
+          </details>
         </section>
         <section aria-labelledby = "vdx-front-end-developer-section">
-          <hgroup>
-            <h3 className = "cv-section-heading" id = "vdx-front-end-developer-section">
-              FRONT END DEVELOPER
-            </h3>
+          <details className = "xp-details">
+            <summary>
+              <span role = "heading" aria-level = "3" id = "vdx-front-end-developer-section-summary" className = "xp-details-summary">
+                FRONT END DEVELOPER
+              </span>
+            </summary>
             <p className = "organisation-subtitle">
               Visión, Dispositivos y eXtensiones S.L.
             </p>
             <p className = "time-frame-subtitle">
               <time dateTime="2019-11">11/2019</time> – <span>Present</span>
             </p>
-          </hgroup>
-          <p>
-            Delivered a custom JavaScript/CSS charting tool as initial assignment, still operative after 5 years in a SCADA dashboard
-            spanning 12+ production views.
-          </p>
-          <p>
-            Designed SCADA HMI components for 5+ industrial domains by reverse-engineering legacy Java/GWT code and over 100,000 undocumented
-            XLS rows.
-          </p>
-          <p>
-            Built state-aware interactive elements using SVG, PNG, and CSS, improving system clarity and usability.
-          </p>
-          <p>
-            Ran diagnostics from backend logs to identify behavioural anomalies and support system maintenance.
-          </p>
+            <p>
+              Delivered a custom JavaScript/CSS charting tool as initial assignment, still operative after 5 years in a SCADA dashboard
+              spanning 12+ production views.
+            </p>
+            <p>
+              Designed SCADA HMI components for 5+ industrial domains by reverse-engineering legacy Java/GWT code and over 100,000 undocumented
+              XLS rows.
+            </p>
+            <p>
+              Built state-aware interactive elements using SVG, PNG, and CSS, improving system clarity and usability.
+            </p>
+            <p>
+              Ran diagnostics from backend logs to identify behavioural anomalies and support system maintenance.
+            </p>
+          </details>
         </section>
       </article>
     </>
