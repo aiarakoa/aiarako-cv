@@ -7,34 +7,53 @@ function LanguagePage() {
         <h2 className = "cv-article-heading" id = "languages-article">
           LANGUAGES
         </h2>
+        <p className = "cv-article-subheading" id = "languages-article-subheading">
+
+        </p>
         <section aria-labelledby = "languages-english-section">
-          <h3 className = "languages-heading" id = "languages-english-section">
-            English: <strong>C2</strong>
-          </h3>
-          <p className = "language-certified">
-            Cambridge English C2 (<time dateTime="2025-06">June 2025</time>)
-          </p>
+          <details className = "lang-details">
+            <summary>
+              <span role = "heading" aria-level = "3" id = "languages-english-section-summary" className = "lang-details-summary">
+                English: <strong>C2</strong>
+              </span>
+            </summary>
+            <p className = "language-certified">
+              <a target = "_blank" rel = "noopener noreferrer" href = "https://www.cambridgeenglish.org/exams-and-tests/cefr/">Cambridge English C2</a> (<time dateTime="2025-06">June 2025</time>)
+            </p>
+          </details>
         </section>
         <section aria-labelledby = "languages-spanish-section">
-          <h3 className = "languages-heading" id = "languages-spanish-section">
-            Spanish: <strong>NATIVE</strong>
-          </h3>
+          <details className = "lang-details empty-details">
+            <summary>
+              <span role = "heading" aria-level = "3" id = "languages-spanish-section-summary" className = "lang-details-summary">
+                Spanish: <strong>NATIVE</strong>
+              </span>
+            </summary>
+          </details>
         </section>
-        <section aria-labelledby = "languages-english-section">
-          <h3 className = "languages-heading" id = "languages-english-section">
-            German: <strong>B2</strong>
-          </h3>
-          <p className = "language-certified">
-            Goethe-Zertifikat B2 (<time dateTime="2013-05">May 2013</time>)
-          </p>
+        <section aria-labelledby = "languages-german-section">
+          <details className = "lang-details">
+            <summary>
+              <span role = "heading" aria-level = "3" id = "languages-german-section-summary" className = "lang-details-summary">
+                German: <strong>B2</strong>
+              </span>
+            </summary>
+            <p className = "language-certified">
+              <a target = "_blank" rel = "noopener noreferrer" href = "https://www.goethe.de/ins/es/de/sta/mad/prf/gzb2.cfm">Goethe-Zertifikat B2</a> (<time dateTime="2013-05">May 2013</time>)
+            </p>
+          </details>
         </section>
-        <section aria-labelledby = "languages-english-section">
-          <h3 className = "languages-heading" id = "languages-english-section">
-            French: <strong>B1</strong>
-          </h3>
-          <p className = "language-non-certified">
-            Non certified
-          </p>
+        <section aria-labelledby = "languages-french-section">
+          <details className = "lang-details">
+            <summary>
+              <span role = "heading" aria-level = "3" id = "languages-french-section-summary" className = "lang-details-summary">
+                French: <strong>B1</strong>
+              </span>
+            </summary>
+            <p className = "language-non-certified">
+              Non certified
+            </p>
+          </details>
         </section>
       </article>
     </>

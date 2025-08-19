@@ -139,6 +139,53 @@ a {
   margin-block-start: 0;
 }
 
+details.empty-details > summary {
+  list-style: none;
+}
+
+details.empty-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.empty-details:hover {
+  cursor: default;
+}
+
+details.empty-details:hover > summary > span[aria-level="3"] {
+  color: black;
+  font-weight: normal;
+}
+
+details:hover {
+  cursor: pointer;
+}
+
+details:hover > summary > span[aria-level="3"] {
+  color: #666666;
+  font-weight: bold;
+}
+
+details[open]:hover {
+  cursor: default;
+  font-weight: normal;
+}
+
+details[open] > summary > span[aria-level="3"] {
+  color: black;
+  font-weight: bold;
+}
+
+.organisation-subtitle {
+  font-weight: 400;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.time-frame-subtitle {
+  color: #666666;
+  margin-block-start: 0;
+}
+
 @media (min-width: 600px) {
   h2 {
     margin-block-start: 0.83em;
@@ -170,6 +217,28 @@ a {
   body {
     font-size: min(1.2vw, 1.8vh);
   }
+
+  details.empty-details > summary {
+    text-indent: min(1.3vw, 2vh);
+  }
+
+  details > p,
+  details > dl,
+  details > address {
+    margin-block-start: 1vh;
+    margin-block-end: 1vh;
+    margin-inline-start: 2.5vw;
+    margin-inline-end: 2.5vw;
+    font-size: min(1.05vw, 1.575vh);
+  }
+
+  .organisation-subtitle {
+    font-size: min(1.2vw, 1.8vh);
+  }
+
+  .time-frame-subtitle {
+    font-size: min(1.2vw, 1.8vh);
+  }
 }
 
 @media (max-width: 599px) {
@@ -189,7 +258,7 @@ a {
   summary span[aria-level="3"] {
     margin-block-start: 1em;
     margin-block-end: 1em;
-    font-size: min(2.4vh, 3.6vw);
+    font-size: min(3.5vh, 5.25vw);
   }
 
   main {
@@ -202,5 +271,27 @@ a {
 
   body {
     font-size: min(1.2vh, 1.8vw);
+  }
+
+  details.empty-details > summary {
+    text-indent: 2vw;
+  }
+
+  details > p,
+  details > dl,
+  details > address {
+    margin-block-start: 0.5vh;
+    margin-block-end: 0.5vh;
+    margin-inline-start: 5vw;
+    margin-inline-end: 5vw;
+    font-size: min(2.4vh, 3.6vw);
+  }
+
+  .organisation-subtitle {
+    font-size: min(2.4vh, 3.6vw);
+  }
+
+  .time-frame-subtitle {
+    font-size: min(2.4vh, 3.6vw);
   }
 }
