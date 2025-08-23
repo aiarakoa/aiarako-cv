@@ -69,8 +69,39 @@ function Section(props)
     function mapDescriptionDetails(descriptionDetails)
     {
         return descriptionDetails.map((detail, detailIndex) => (
-          <dd key={`${props.sectionKey}-dd-${detailIndex}`}>{detail.content}</dd>
+            <dd key={`${props.sectionKey}-dd-${detailIndex}`}>
+                {processDetailContent(detail)}
+            </dd>
         ));
+    }
+
+    function processDetailContent(detail)
+    {
+        switch(detail.type)
+        {
+            case "text":
+                return detail.content;
+            case "phone":
+                return (
+                    <a href = {`tel:${detail.number}`} target="_blank" rel="noreferrer">
+                        {detail.content}
+                    </a>
+                );
+            case "mail":
+                return (
+                    <a href = {`mailto:${detail.address}`} target="_blank" rel="noreferrer">
+                        {detail.content}
+                    </a>
+                );
+            case "url":
+                return (
+                    <a href = {`${detail.url}`} target="_blank" rel="noreferrer">
+                        {detail.content}
+                    </a>
+                );
+            default:
+                return null;
+        }
     }
 
     return (

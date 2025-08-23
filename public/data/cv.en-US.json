@@ -69,7 +69,7 @@
               {
                 "dt": "Phone number",
                 "dd": [
-                  { "content": "Carlos de la Cruz", "type": "phone", "number": "+34689991118" }
+                  { "content": "+34689991118", "type": "phone", "number": "+34689991118" }
                 ]
               },
               {

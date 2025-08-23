@@ -54,7 +54,7 @@
             "timeFrameExists": false,
             "paragraphs": [],
             "descriptionList": [
-              { "dt": "Telefon", "dd": [{ "content": "Carlos de la Cruz", "type": "phone", "number": "+34689991118" }] },
+              { "dt": "Telefon", "dd": [{ "content": "+34689991118", "type": "phone", "number": "+34689991118" }] },
               { "dt": "E-Mail", "dd": [{ "content": "carlos.de.la.cruz.ayala.vargas@gmail.com", "type": "mail", "address": "carlos.de.la.cruz.ayala.vargas@gmail.com" }] },
               { "dt": "LinkedIn", "dd": [{ "content": "Carlos Ayala Vargas", "type": "url", "url": "https://www.linkedin.com/in/carlos-ayala-vargas/" }] }
             ]
