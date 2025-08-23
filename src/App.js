@@ -1,30 +1,31 @@
 import './App.css';
-import {Routes, Route, Navigate} from 'react-router-dom';
-import CertsPage from './components/CertsPage';
-import EducationPage from './components/EducationPage';
+import MainPage from './components/MainPage';
+import Footer from './components/Footer';
 import Header from './components/Header';
-import LanguagePage from './components/LanguagePage';
-import PersonalInfoPage from './components/PersonalInfoPage';
-import PortfolioPage from './components/PortfolioPage';
-import ProXPPage from './components/ProXPPage';
-import SkillsPage from './components/SkillsPage';
+import {useEffect, useRef} from 'react';
+import { useCV } from "./components/CVProvider";
 
-function App() {
+function App()
+{
+  const { presentationMode } = useCV();
+
+  useEffect(() => {
+    const all = document.querySelectorAll('main details');
+    if (presentationMode === 'laptop')
+    {
+      all.forEach(detail => detail.setAttribute('open', ''));
+    }
+    else
+    {
+      all.forEach(detail => detail.removeAttribute('open'));
+    }
+  }, [presentationMode]);
+
   return (
     <>
       <Header />
-      <main id = "main" tabIndex = "-1">
-        <Routes>
-          <Route path = "/"           element = {<PersonalInfoPage />} />
-          <Route path = "/education"  element = {<EducationPage />} />
-          <Route path = "/xp"         element = {<ProXPPage />} />
-          <Route path = "/languages"  element = {<LanguagePage />} />
-          <Route path = "/certs"      element = {<CertsPage />} />
-          <Route path = "/skills"     element = {<SkillsPage />} />
-          <Route path = "/portfolio"  element = {<PortfolioPage />} />
-          <Route path = "*"           element = {<Navigate to="/"/>} />
-        </Routes>
-      </main>
+      <MainPage />
+      <Footer />
     </>
   );
 }

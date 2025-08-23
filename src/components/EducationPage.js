@@ -1,5 +1,17 @@
 //import './EducationPage.css';
+import Article from './Article';
 
+function EducationPage() {
+  return (
+    <>
+      <Article articleKey = "education"/>
+    </>
+  );
+}
+
+export default EducationPage;
+
+/*
 function EducationPage() {
   return (
     <>
@@ -11,7 +23,7 @@ function EducationPage() {
 
         </p>
         <section aria-labelledby = "m-sc-data-science-politecnica-madrid-section">
-          <details className = "edu-details">
+          <details open className = "edu-details">
             <summary>
               <span role = "heading" aria-level = "3" id = "m-sc-data-science-politecnica-madrid-section" className = "edu-details-summary">
                 <abbr title="Master of Science">M.Sc.</abbr> in DATA SCIENCE
@@ -35,7 +47,7 @@ function EducationPage() {
           </details>
         </section>
         <section aria-labelledby = "b-sc-telematics-politecnica-cartagena-section">
-          <details className = "edu-details">
+          <details open className = "edu-details">
             <summary>
               <span role = "heading" aria-level = "3" id = "b-sc-telematics-politecnica-cartagena-section" className = "edu-details-summary">
                 <abbr title="Bachelor of Science">B.Sc.</abbr> in TELEMATICS ENGINEERING
@@ -64,3 +76,5 @@ function EducationPage() {
 }
 
 export default EducationPage;
+
+*/

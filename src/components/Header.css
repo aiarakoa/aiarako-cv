@@ -10,7 +10,14 @@ header {
     align-items: center;
 }
 
-@media (min-width: 600px) {
+h1.cv-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+}
+
+@media (min-width: 1200px) {
     h1 {
         color: #5c7ad6;
         margin-block-end: 0;
@@ -19,29 +26,64 @@ header {
         font-size: min(2.4vw, 3.6vh);
     }
 
-    nav {
-        width: 15vw;
+    nav.top-nav ul {
+        width: 12vw;
+        margin-inline-start: 1vw;
+        margin-inline-end: 1vw;
     }
 
-    nav a {
-        font-size: min(1.8vw, 2.7vh);
+    nav.top-nav a {
+        font-size: min(1.2vw, 1.8vh);
         padding: 0.5vh 0.5vw;
+        width: 100%;
     }    
 
-    nav ul > li {
-        padding: 0.5vh 0vw 0.5vh 0vw;
+    nav.top-nav ul > li {
+        padding: 0.1vh 0vw 0.1vh 0vw;
+        width: 8vw;
     }
 
-    span.mobile-my-name {
-        display: none;
+    nav.top-nav.nav-dropdown-layout ul {
+        margin-top: 2.4vh;
+        width: 8vw;
+    }
+    
+    button.lang-button {
+        width: 2.25vw;
+        height: 2.25vw;
     }
 
-    span.laptop-my-name {
-        display: inline;
+    button.nav-seq-button {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+    nav.lang-nav.selected-language-layout ul {
+        width: 2.25vw;
+        text-wrap: nowrap;
+        overflow: hidden;
+        margin: 0vh 1vw 0vh 0vw;
+    }
+
+    nav.lang-nav.language-selection-layout ul {
+        margin-top: 2.4vh;
+        width: 60vw;
+        margin-left: 20vw;
+    }
+
+    nav.lang-nav.language-selection-layout button.lang-button {
+        width: 5vw;
+        height: 5vw;
+        font-size: min(2.5vw, 4.5vh);
+    }
+
+    span.cv-header-balance-left-span {
+        width: 5vw;
+        margin: 0vh 0vw 0vh 1vw;
     }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 1199px) {
     h1 {
         color: #5c7ad6;
         margin-block-end: 0;
@@ -50,60 +92,272 @@ header {
         font-size: min(6vh, 9vw);
     }
 
-    nav {
+    nav.top-nav ul {
         width: 50vw;
+        margin-inline-start: 2.5vw;
+        margin-inline-end: 2.5vw;
     }
 
-    nav a {
+    nav.top-nav a {
         font-size: min(4vh, 6vw);
         padding: 0.5vw 0.5vh;
     }    
 
-    nav ul > li {
+    nav.top-nav ul > li {
         padding: 0.5vw 0vh 0.5vw 0vh;
+        width: 33vw;
     }
 
-    span.mobile-my-name {
-        display: inline;
+    nav.top-nav.nav-dropdown-layout ul {
+        margin-top: 6vh;
+        width: 40vw;
     }
 
-    span.laptop-my-name {
-        display: none;
+    button.nav-seq-button {
+        width: 4vh;
+        height: 4vh;
+    }
+
+    button.lang-button {
+        width: 4vh;
+        height: 4vh;
+    }
+
+    nav.lang-nav.selected-language-layout ul {
+        width: 4vh;
+        text-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    nav.lang-nav.language-selection-layout ul {
+        margin-top: 6vh;
+        width: 80vw;
+        margin-left: 10vw;
+        justify-content: space-between;
+    }
+
+    nav.lang-nav.language-selection-layout button.lang-button {
+        width: max(5vh, 8vw);
+        height: max(5vh, 8vw);
+        font-size: min(4vh, 6vw);
+    }
+
+    span.cv-header-balance-left-span {
+        width: max(5vh, 8vw);
     }
 }
 
-nav {
+nav.top-nav {
     text-align: center;
-    text-wrap: nowrap;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-nav a {
+nav.top-nav a {
     color: #5c7ad6;
+    width: 100%;
 }
 
-nav a:not(.active-nav-link) {
+nav.top-nav a:not(.active-nav-link) {
     opacity: 0.3;
 }
 
-nav a:visited {
+nav.top-nav a:visited {
 /*    color: #1f367a;*/
     color: #5c7ad6;
 }
 
-nav a:hover {
+nav.top-nav li:has(a:hover) {
     background-color: #99ABE5;
+}
+
+nav.top-nav a:hover {
     color: #eeebfa;
     opacity: 1;
 }
 
-nav a.active-nav-link:hover,
-nav a.active-nav-link {
+nav.top-nav li:has(a.active-nav-link) {
     background-color: #5c7ad6;
+}
+
+nav.top-nav a.active-nav-link {
     color: #eeebfa;
     opacity: 1; 
 }
 
-nav ul > li {
-    display: inline-block;
+nav.top-nav.nav-sliding-layout li:has(a.active-nav-link:hover) {
+    background-image: linear-gradient(#eeebfa 0%, #FCFBFE 50%, white 100%);
+}
+
+nav.top-nav.nav-sliding-layout a.active-nav-link:hover {
+    background-color: transparent;
+    color: black;
+}
+
+nav.top-nav .label-hover {
+    display: none;
+}
+
+/* only when active AND hovered: swap */
+nav.top-nav.nav-sliding-layout a.active-nav-link:hover .label-default {
+    display: none;
+}
+
+nav.top-nav.nav-sliding-layout a.active-nav-link:hover .label-hover  {
+    display: inline;
+}
+
+nav.top-nav ul {
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+
+nav.top-nav ul > li {
+    display: inline-flex;
+}
+
+nav.top-nav.nav-dropdown-layout ul > li {
+    width: 100%;
+}
+
+button.invisible-nav-button,
+nav.top-nav.nav-dropdown-layout > button {
+    visibility: hidden;
+}
+
+nav.top-nav.nav-dropdown-layout {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+}
+
+nav.top-nav.nav-dropdown-layout ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeebfa;
+}
+
+button.nav-seq-button {
+    border-radius: 50%;
+    border-width: 0;
+    background-color: #5c7ad6;
+    font-family: 'Decalotype';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 800;
+    color: #eeebfa;
+}
+
+button.to-the-left-nav-button::after {
+    content: "<";
+}
+
+button.to-the-right-nav-button::after {
+    content: ">";
+}
+
+button.nav-seq-button:hover {
+    background-color: transparent;
+    background-image: linear-gradient(#eeebfa 0%, #FCFBFE 50%, white 100%);
+    color: black;
+}
+
+button.lang-button {
+    border-radius: 50%;
+    border-width: 0;
+    background-color: #5c7ad6;
+    font-family: 'Decalotype';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 600;
+    color: #eeebfa;
+    cursor: pointer;
+}
+
+nav.lang-nav.language-selection-layout button.lang-button[activelocale="true"],
+nav.lang-nav.language-selection-layout button.lang-button:disabled,
+nav.lang-nav.language-selection-layout button.lang-button[disabled] {
+    cursor: default;
+}
+
+nav.lang-nav.selected-language-layout button.lang-button[activelocale="true"],
+nav.lang-nav.selected-language-layout button.lang-button:disabled,
+nav.lang-nav.selected-language-layout button.lang-button[disabled] {
+    cursor: zoom-in;
+}
+
+nav.lang-nav.selected-language-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+nav.lang-nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav.lang-nav.language-selection-layout button.lang-button:not([activelocale="true"]):hover span.lang-button-abbr {
+    visibility: hidden;
+}
+
+nav.lang-nav.language-selection-layout button.lang-button:not([activelocale="true"]) {
+    color: #5c7ad6;
+    background-color: #eeebfa;
+}
+
+nav.lang-nav.language-selection-layout button.lang-button[languagecode="en-GB"]:not([activelocale="true"]):hover {
+    background-image: url('/public/images/en-GB.png');
+    background-size: contain;
+}
+
+nav.lang-nav.language-selection-layout button.lang-button[languagecode="en-US"]:not([activelocale="true"]):hover {
+    background-image: url('/public/images/en-US.png');
+    background-size: contain;
+}
+
+nav.lang-nav.language-selection-layout button.lang-button[languagecode="es-ES"]:not([activelocale="true"]):hover {
+    background-image: url('/public/images/es-ES.png');
+    background-size: contain;
+}
+
+nav.lang-nav.language-selection-layout button.lang-button[languagecode="de-DE"]:not([activelocale="true"]):hover {
+    background-image: url('/public/images/de-DE.png');
+    background-size: contain;
+}
+
+nav.lang-nav.language-selection-layout button.lang-button[languagecode="fr-FR"]:not([activelocale="true"]):hover {
+    background-image: url('/public/images/fr-FR.png');
+    background-size: contain;
+}
+
+nav.lang-nav.selected-language-layout button.lang-button:hover {
+    background-color: transparent;
+    background-image: linear-gradient(#eeebfa 0%, #FCFBFE 50%, white 100%);
+    color: black;
+}
+
+nav.lang-nav.language-selection-layout {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+}
+
+nav.lang-nav.language-selection-layout ul {
+    justify-content: space-between;
+}
+
+nav.lang-nav.selected-language-layout ul > li {
+    display: flex;
 }

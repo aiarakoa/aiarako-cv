@@ -1,0 +1,468 @@
+{
+    "articles": [
+      {
+        "key": "personal-info",
+        "path": "/",
+        "title": "INFORMACIÓN PERSONAL",
+        "mobileTitle": "INFORMACIÓN PERSONAL",
+        "subtitle": "",
+        "navLinkDescription": "Info personal",
+        "mobileNavLinkDescription": "Mis datos",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "executive-summary",
+            "title": "RESUMEN EJECUTIVO",
+            "mobileTitle": "RESUMEN EJECUTIVO",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [
+              {
+                "content": "Data Scientist en formación con más de 5 años de experiencia como desarrollador Front-End para sistemas SCADA. Dominio de Python, SQL, JS y CSS, con base académica en aprendizaje automático, series temporales y datos abiertos. Actualmente cursando un máster en Ciencia de Datos y realizando certificaciones reconocidas en IA, computación en la nube y BI.",
+                "type": "text"
+              }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "personal-details",
+            "title": "DATOS PERSONALES",
+            "mobileTitle": "DATOS PERSONALES",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [],
+            "descriptionList": [
+              { "dt": "Nombre", "dd": [{ "content": "Carlos de la Cruz", "type": "text" }] },
+              { "dt": "Apellidos", "dd": [{ "content": "Ayala Vargas", "type": "text" }] },
+              { "dt": "Nacionalidad", "dd": [{ "content": "Española", "type": "text" }] },
+              {
+                "dt": "Autorización para trabajar",
+                "dd": [
+                  { "content": "Ciudadano de la UE/EEE (España); con derecho a trabajar en toda la UE/EEE. Suiza: hasta 90 días laborables por año natural con notificación previa en línea.", "type": "text" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "contact-info",
+            "title": "CONTACTO",
+            "mobileTitle": "CONTACTO",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [],
+            "descriptionList": [
+              { "dt": "Teléfono", "dd": [{ "content": "Carlos de la Cruz", "type": "phone", "number": "+34689991118" }] },
+              { "dt": "Correo electrónico", "dd": [{ "content": "carlos.de.la.cruz.ayala.vargas@gmail.com", "type": "mail", "address": "carlos.de.la.cruz.ayala.vargas@gmail.com" }] },
+              { "dt": "LinkedIn", "dd": [{ "content": "Carlos Ayala Vargas", "type": "url", "url": "https://www.linkedin.com/in/carlos-ayala-vargas/" }] }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "professional-xp",
+        "path": "/xp",
+        "title": "EXPERIENCIA PROFESIONAL",
+        "mobileTitle": "EXPERIENCIA PROFESIONAL",
+        "subtitle": "EXPERIENCIA MÁS RELEVANTE",
+        "navLinkDescription": "Experiencia",
+        "mobileNavLinkDescription": "Experiencia",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "vdx-data-engineer",
+            "title": "INGENIERO DE DATOS RECIÉN TITULADO",
+            "mobileTitle": "ING. DATOS (RECIÉN TIT.)",
+            "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
+            "organisationHasURL": true,
+            "organisationURL": "http://vdx.es/",
+            "organisationAnchorText": "Enlace a VDX",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": false,
+            "paragraphs": [{ "content": "Próximamente…", "type": "text" }],
+            "descriptionList": []
+          },
+          {
+            "key": "vdx-data-scientist",
+            "title": "CIENTÍFICO DE DATOS RECIÉN TITULADO",
+            "mobileTitle": "CIENT. DATOS (RECIÉN TIT.)",
+            "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
+            "organisationHasURL": true,
+            "organisationURL": "http://vdx.es/",
+            "organisationAnchorText": "Enlace a VDX",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": false,
+            "paragraphs": [{ "content": "Próximamente…", "type": "text" }],
+            "descriptionList": []
+          },
+          {
+            "key": "vdx-front-end-developer",
+            "title": "DESARROLLADOR FRONT-END",
+            "mobileTitle": "DESARR. FRONT-END",
+            "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
+            "organisationHasURL": true,
+            "organisationURL": "http://vdx.es/",
+            "organisationAnchorText": "Enlace a VDX",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2019-11",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": false,
+            "paragraphs": [
+              { "content": "Entrega de una herramienta de gráficas en JS/CSS como tarea inicial, aún operativa tras 5 años en un dashboard SCADA con más de 12 vistas de producción.", "type": "text" },
+              { "content": "Diseño de componentes HMI para SCADA en 5+ sectores industriales mediante ingeniería inversa de código Java/GWT legado y más de 100.000 filas XLS sin documentar.", "type": "text" },
+              { "content": "Creación de elementos interactivos sensibles al estado usando SVG, PNG y CSS, mejorando la claridad y la usabilidad del sistema.", "type": "text" },
+              { "content": "Diagnóstico a partir de logs de backend para identificar anomalías de comportamiento y apoyar el mantenimiento.", "type": "text" }
+            ],
+            "descriptionList": []
+          }
+        ]
+      },
+      {
+        "key": "education",
+        "path": "/education",
+        "title": "FORMACIÓN ACADÉMICA",
+        "mobileTitle": "FORMACIÓN ACADÉMICA",
+        "subtitle": "",
+        "navLinkDescription": "Formación",
+        "mobileNavLinkDescription": "Formación",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "politecnica-madrid-m-sc-data-science",
+            "title": "M.Sc. in DATA SCIENCE",
+            "mobileTitle": "M.Sc., DATA SCIENCE",
+            "organisation": "Universidad Politécnica de Madrid",
+            "organisationHasURL": true,
+            "organisationURL": "https://fi.upm.es/",
+            "organisationAnchorText": "Enlace a UPM – Escuela de Informática",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2024-09",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": false,
+            "paragraphs": [
+              { "content": "60/72 ECTS superados · Nota media: 83 %", "type": "text" }
+            ],
+            "descriptionList": [
+              {
+                "dt": "Asignaturas",
+                "dd": [
+                  { "content": "Machine Learning · Deep Learning · Cloud Computing · Computer Vision · Visualización de datos · Big Data · Python · Open Data · Series temporales · Data Mining · Gobierno del dato · Procesos de datos", "type": "text" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "politecnica-cartagena-b-sc-telematics",
+            "title": "B.Sc. en INGENIERÍA TELEMÁTICA",
+            "mobileTitle": "B.Sc., TELEMATICS",
+            "organisation": "Universidad Politécnica de Cartagena",
+            "organisationHasURL": true,
+            "organisationURL": "https://teleco.upct.es/",
+            "organisationAnchorText": "Enlace a UPCT – Escuela de Telecomunicación",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2012-09",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": true,
+            "timeFrameEnd": "2019-10",
+            "paragraphs": [
+              { "content": "Nota media: 73 % · TFG: 100 %", "type": "text" }
+            ],
+            "descriptionList": [
+              {
+                "dt": "Asignaturas",
+                "dd": [
+                  { "content": "Redes · Bases de datos · Modelado y simulación · Estadística · Sistemas lineales · Sistemas de información distribuidos · Proyectos · Redes y servicios de comunicaciones · Ingeniería de protocolos", "type": "text" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "languages",
+        "path": "/languages",
+        "title": "IDIOMAS",
+        "mobileTitle": "IDIOMAS",
+        "subtitle": "",
+        "navLinkDescription": "Idiomas",
+        "mobileNavLinkDescription": "Idiomas",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "languages-english",
+            "title": "INGLÉS",
+            "mobileTitle": "INGLÉS",
+            "organisation": "Cambridge English C2",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.cambridgeenglish.org/exams-and-tests/cefr/",
+            "organisationAnchorText": "Enlace a información sobre Cambridge English C2",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-06",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "languages-spanish",
+            "title": "ESPAÑOL",
+            "mobileTitle": "ESPAÑOL",
+            "organisation": "Lengua materna",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "languages-german",
+            "title": "ALEMÁN",
+            "mobileTitle": "ALEMÁN",
+            "organisation": "Goethe-Zertifikat B2",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.goethe.de/ins/es/de/sta/mad/prf/gzb2.cfm",
+            "organisationAnchorText": "Enlace a información sobre Goethe-Zertifikat B2",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2013-05",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "languages-french",
+            "title": "FRANCÉS",
+            "mobileTitle": "FRANCÉS",
+            "organisation": "Sin certificación",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          }
+        ]
+      },
+      {
+        "key": "certs",
+        "path": "/certs",
+        "title": "LICENCIAS, CERTIFICADOS Y CERTIFICACIONES",
+        "mobileTitle": "CERTIFICADOS",
+        "subtitle": "",
+        "navLinkDescription": "Certificados",
+        "mobileNavLinkDescription": "Certificados",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "aws-cloud-consultant",
+            "title": "Consultor de tecnología en la nube de AWS",
+            "mobileTitle": "Consultor Tech en la nube",
+            "organisation": "AWS (a través de Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/professional-certificates/aws-cloud-technology-consultant/",
+            "organisationAnchorText": "Enlace a Consultor de tecnología en la nube de AWS (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "aws-cloud-solutions-architect-pre-exam",
+            "title": "AWS Cloud Solutions Architect",
+            "mobileTitle": "Cloud Solutions Architect",
+            "organisation": "AWS (a través de Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect/",
+            "organisationAnchorText": "Enlace a preparación de examen Cloud Solutions Architect (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [
+              { "content": "No es la certificación oficial de AWS, sino un certificado profesional de AWS orientado a preparar el examen.", "type": "text" }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "ms-cloud-apps-azure",
+            "title": "Creación de apps de IA en la nube con MS Azure",
+            "mobileTitle": "Apps de IA con Azure",
+            "organisation": "Microsoft (a través de Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/specializations/building-ai-cloud-apps-microsoft-azure/",
+            "organisationAnchorText": "Enlace a Building AI Cloud Apps with MS Azure (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "ms-ai-ml-engineering",
+            "title": "Ingeniería de IA y ML",
+            "mobileTitle": "Ingeniería de IA y ML",
+            "organisation": "Microsoft (a través de Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering/",
+            "organisationAnchorText": "Enlace a AI and ML Engineering (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": [
+              { "dt": "Tecnologías", "dd": [{ "content": "Azure · LLM · GenAI · Transfer Learning", "type": "text" }] }
+            ]
+          },
+          {
+            "key": "meta-front-end-developer",
+            "title": "Meta Front-End Developer",
+            "mobileTitle": "Meta Front-End Developer",
+            "organisation": "Meta (a través de Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/professional-certificates/meta-front-end-developer/",
+            "organisationAnchorText": "Enlace a Meta Front-End Developer (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2024-06",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": [
+              { "dt": "Tecnologías", "dd": [{ "content": "React · Figma · Git · UX/UI · CSS", "type": "text" }] }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "awards",
+        "path": "/awards",
+        "title": "PREMIOS",
+        "mobileTitle": "PREMIOS",
+        "subtitle": "",
+        "navLinkDescription": "Premios",
+        "mobileNavLinkDescription": "Premios",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "politecnica-madrid-m-sc-data-science-top-student",
+            "title": "2024/25 MEJOR EXPEDIENTE — M.Sc. en DATA SCIENCE",
+            "mobileTitle": "PREMIOS MEJOR EXPEDIENTE 2025",
+            "organisation": "Universidad Politécnica de Madrid",
+            "organisationHasURL": true,
+            "organisationURL": "https://fi.upm.es/",
+            "organisationAnchorText": "Enlace a UPM – Escuela de Informática",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [
+              { "content": "Del anuncio del premio: «Dirigido a estudiantes (hasta un máximo de 4) que iniciaron el Máster en Ciencia de Datos en septiembre de 2024. Los premios están financiados por la Universidad Politécnica de Madrid (Ayudas a Máster oficiales).", "type": "text" },
+              { "content": "El premio (450 euros) requiere ser estudiante de nuevo ingreso a tiempo completo en el MSc in Data Science, de cualquier nacionalidad, haber superado las asignaturas obligatorias matriculadas y haber obtenido las mejores calificaciones (media de 10 asignaturas).»", "type": "text" }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "politecnica-cartagena-b-sc-telematics-best-thesis",
+            "title": "2018/19 MEJOR TFG EN INGENIERÍA TELEMÁTICA",
+            "mobileTitle": "PREMIOS MEJOR TFG 2019",
+            "organisation": "Universidad Politécnica de Cartagena",
+            "organisationHasURL": true,
+            "organisationURL": "https://teleco.upct.es/",
+            "organisationAnchorText": "Enlace a UPCT – Escuela de Telecomunicación",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2019-10",
+            "timeFrameEndExists": false,
+            "paragraphs": [
+              { "content": "Mi TFG fue seleccionado por la ETSIT de la Universidad Politécnica de Cartagena (UPCT) como el mejor proyecto fin de grado del curso 2018/19 en Ingeniería Telemática. Fue presentado por la universidad al certamen nacional «Premios COITT Futuro de las Telecomunicaciones», que reconoce los mejores TFG en Telecomunicaciones de España.", "type": "text" }
+            ],
+            "descriptionList": []
+          }
+        ]
+      },
+      {
+        "key": "skills",
+        "path": "/skills",
+        "title": "HABILIDADES TÉCNICAS",
+        "mobileTitle": "HABILIDADES TÉCNICAS",
+        "subtitle": "",
+        "navLinkDescription": "Habilidades",
+        "mobileNavLinkDescription": "Habilidades",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "skills-platforms",
+            "title": "Plataformas y herramientas",
+            "mobileTitle": "Plataformas y herramientas",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [
+              { "content": "Git · PostgreSQL · JSON · AWS (limitado) · Azure (limitado) · Tableau (básico) · Power BI (básico) · Figma (básico)", "type": "text" }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "skills-languages",
+            "title": "Lenguajes de programación",
+            "mobileTitle": "Lenguajes de programación",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [
+              { "content": "JavaScript · Python · SQL · CSS · R · Bash (básico) · Java (básico) · C++ (básico)", "type": "text" }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "skills-frameworks",
+            "title": "Frameworks y librerías",
+            "mobileTitle": "Frameworks y librerías",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [
+              { "content": "Pandas · NumPy · scikit-learn · TensorFlow · R Shiny · Plotly · GeoPandas · rasterio · Matplotlib · OpenCV (básico) · React (básico) · Selenium", "type": "text" }
+            ],
+            "descriptionList": []
+          }
+        ]
+      },
+      {
+        "key": "portfolio",
+        "path": "/portfolio",
+        "title": "PROYECTOS PERSONALES",
+        "mobileTitle": "PROYECTOS PERSONALES",
+        "subtitle": "",
+        "navLinkDescription": "Proyectos",
+        "mobileNavLinkDescription": "Proyectos",
+        "layout": "portfolio-pagination",
+        "sections": [
+          {
+            "key": "cv-app",
+            "title": "App de CV en React",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-08",
+            "timeFrameEndExists": false,
+            "paragraphs": [{ "content": "Próximamente…", "type": "text" }],
+            "descriptionList": []
+          }
+        ]
+      }
+    ]
+  }
+  

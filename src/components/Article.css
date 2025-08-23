@@ -1,0 +1,36 @@
+nav.section-nav ol > li {
+    list-style-type: none;
+}
+
+nav.section-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav.section-nav ol {
+    height: 100%;
+    padding-inline-start: 0;
+}
+
+@media (min-width: 1200px) {
+    nav.section-nav > ol {
+        flex-shrink: 0;
+        flex-basis: 85%;
+    }
+
+    nav.section-nav {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 1199px) {
+    nav.section-nav > ol {
+        flex-shrink: 0;
+        flex-basis: 70%;
+    }
+
+    nav.section-nav {
+        height: 65vh;
+    }
+}

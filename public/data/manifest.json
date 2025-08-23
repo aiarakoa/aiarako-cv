@@ -1,0 +1,39 @@
+{
+    "sectionsPerGroup": 3,
+    "languages": [
+        {
+            "code": "en-GB",
+            "abbreviation": "UK",
+            "description": "English (UK)"
+        },
+        {
+            "code": "en-US",
+            "abbreviation": "US",
+            "description": "English (US)"
+        },
+        {
+            "code": "es-ES",
+            "abbreviation": "ES",
+            "description": "Español (ES)"
+        },
+        {
+            "code": "de-DE",
+            "abbreviation": "DE",
+            "description": "Deutsch (DE)"
+        },
+        {
+            "code": "fr-FR",
+            "abbreviation": "FR",
+            "description": "Français (FR)"
+        }
+    ],
+    "defaultLanguage": "en-GB",
+    "presentDayTags": 
+    {
+        "en-GB": "Present",
+        "en-US": "Present",
+        "es-ES": "Actualidad",
+        "fr-FR": "Présent",
+        "de-DE": "heute"
+    }
+}

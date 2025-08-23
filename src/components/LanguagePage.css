@@ -1,4 +1,4 @@
-h3.languages-heading > strong {
+details.lang-details > summary > span > strong {
     color: #666666;
 }
 

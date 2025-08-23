@@ -11,21 +11,21 @@ function PersonalInfoPage() {
 
         </p>
         <section aria-labelledby = "executive-summary-section">
-          <details className = "my-details">
+          <details open className = "my-details">
             <summary>
               <span role = "heading" aria-level = "3" id = "executive-summary-section-summary" className = "my-details-summary">
                 EXECUTIVE SUMMARY
               </span>
             </summary>
             <p>
-              Data Scientist in training with 5+ years of experience as a Front End Developer for <abbr title="Supervisory Control and Data Acquisition">SCADA</abbr> systems. Skilled in Python, SQL, and JavaScript,
+              Data Scientist in training with 5+ years of experience as a Front End Developer for <abbr title="Supervisory Control and Data Acquisition">SCADA</abbr> systems. Skilled in Python, <abbr title="Structured Query Language">SQL</abbr>, <abbr title="JavaScript">JS</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr>,
               with academic grounding in machine learning, time series, and open data. Currently completing a master’s in Data Science and pursuing
               industry-recognised certificates in <abbr title="Artificial Intelligence">AI</abbr>, Cloud Computing and <abbr title="Business Intelligence">BI</abbr>.
             </p>
           </details>
         </section>
         <section aria-labelledby = "personal-details-section">
-          <details className = "my-details">
+          <details open className = "my-details">
             <summary>
               <span role = "heading" aria-level = "3" id = "personal-details-section-summary" className = "my-details-summary">
                 PERSONAL DETAILS
@@ -61,7 +61,7 @@ function PersonalInfoPage() {
           </details>
         </section>
         <section aria-labelledby = "contact-info-section">
-          <details className = "my-details">
+          <details open className = "my-details">
             <summary>
               <span role = "heading" aria-level = "3" id = "contact-info-section-summary" className = "my-details-summary">
                 CONTACT INFO

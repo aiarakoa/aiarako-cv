@@ -1,0 +1,468 @@
+{
+    "articles": [
+      {
+        "key": "personal-info",
+        "path": "/",
+        "title": "PERSÖNLICHE ANGABEN",
+        "mobileTitle": "PERSÖNLICHE ANGABEN",
+        "subtitle": "",
+        "navLinkDescription": "Persönliche Daten",
+        "mobileNavLinkDescription": "Mein Profil",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "executive-summary",
+            "title": "KURZPROFIL",
+            "mobileTitle": "KURZPROFIL",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [
+              {
+                "content": "Data-Scientist in Ausbildung mit über 5 Jahren Erfahrung als Front-End-Entwickler für SCADA-Systeme. Sicher in Python, SQL, JS und CSS, mit akademischem Fundament in Machine Learning, Zeitreihen und Open Data. Derzeit im Masterstudium Data Science und in Vorbereitung anerkannter Zertifizierungen in KI, Cloud-Computing und BI.",
+                "type": "text"
+              }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "personal-details",
+            "title": "PERSONALIEN",
+            "mobileTitle": "PERSONALIEN",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [],
+            "descriptionList": [
+              { "dt": "Vorname", "dd": [{ "content": "Carlos de la Cruz", "type": "text" }] },
+              { "dt": "Nachname", "dd": [{ "content": "Ayala Vargas", "type": "text" }] },
+              { "dt": "Staatsangehörigkeit", "dd": [{ "content": "Spanisch", "type": "text" }] },
+              {
+                "dt": "Arbeitserlaubnis",
+                "dd": [
+                  { "content": "Bürger der EU/EWR (Spanien); berechtigt zur Arbeit in der gesamten EU/EWR. Schweiz: bis zu 90 Arbeitstage je Kalenderjahr mit vorheriger Online-Meldung.", "type": "text" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "contact-info",
+            "title": "KONTAKT",
+            "mobileTitle": "KONTAKT",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [],
+            "descriptionList": [
+              { "dt": "Telefon", "dd": [{ "content": "Carlos de la Cruz", "type": "phone", "number": "+34689991118" }] },
+              { "dt": "E-Mail", "dd": [{ "content": "carlos.de.la.cruz.ayala.vargas@gmail.com", "type": "mail", "address": "carlos.de.la.cruz.ayala.vargas@gmail.com" }] },
+              { "dt": "LinkedIn", "dd": [{ "content": "Carlos Ayala Vargas", "type": "url", "url": "https://www.linkedin.com/in/carlos-ayala-vargas/" }] }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "professional-xp",
+        "path": "/xp",
+        "title": "BERUFSERFAHRUNG",
+        "mobileTitle": "BERUFSERFAHRUNG",
+        "subtitle": "RELEVANTESTE ERFAHRUNG",
+        "navLinkDescription": "Erfahrung",
+        "mobileNavLinkDescription": "Erfahrung",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "vdx-data-engineer",
+            "title": "DATA ENGINEER (BERUFEINSTEIGER)",
+            "mobileTitle": "DATA ENGINEER (EINST.)",
+            "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
+            "organisationHasURL": true,
+            "organisationURL": "http://vdx.es/",
+            "organisationAnchorText": "Link zu VDX",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": false,
+            "paragraphs": [{ "content": "In Kürze…", "type": "text" }],
+            "descriptionList": []
+          },
+          {
+            "key": "vdx-data-scientist",
+            "title": "DATA SCIENTIST (BERUFEINSTEIGER)",
+            "mobileTitle": "DATA SCIENTIST (EINST.)",
+            "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
+            "organisationHasURL": true,
+            "organisationURL": "http://vdx.es/",
+            "organisationAnchorText": "Link zu VDX",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": false,
+            "paragraphs": [{ "content": "In Kürze…", "type": "text" }],
+            "descriptionList": []
+          },
+          {
+            "key": "vdx-front-end-developer",
+            "title": "FRONT-END-ENTWICKLER",
+            "mobileTitle": "FRONT-END-ENTWICKLER",
+            "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
+            "organisationHasURL": true,
+            "organisationURL": "http://vdx.es/",
+            "organisationAnchorText": "Link zu VDX",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2019-11",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": false,
+            "paragraphs": [
+              { "content": "Entwicklung eines kundenspezifischen JS/CSS-Charting-Tools als erste Aufgabe; nach 5 Jahren weiterhin produktiv im SCADA-Dashboard mit 12+ Ansichten.", "type": "text" },
+              { "content": "Design von SCADA-HMI-Komponenten für 5+ Industriezweige durch Reverse Engineering von Legacy-Java/GWT-Code und über 100.000 undokumentierten XLS-Zeilen.", "type": "text" },
+              { "content": "Aufbau zustandsabhängiger interaktiver Elemente mit SVG, PNG und CSS zur Steigerung von Klarheit und Usability.", "type": "text" },
+              { "content": "Auswertung von Backend-Logs zur Identifikation von Verhaltensanomalien und Unterstützung der Wartung.", "type": "text" }
+            ],
+            "descriptionList": []
+          }
+        ]
+      },
+      {
+        "key": "education",
+        "path": "/education",
+        "title": "AUSBILDUNG",
+        "mobileTitle": "AUSBILDUNG",
+        "subtitle": "",
+        "navLinkDescription": "Ausbildung",
+        "mobileNavLinkDescription": "Ausbildung",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "politecnica-madrid-m-sc-data-science",
+            "title": "M.Sc. in DATA SCIENCE",
+            "mobileTitle": "M.Sc., DATA SCIENCE",
+            "organisation": "Universidad Politécnica de Madrid",
+            "organisationHasURL": true,
+            "organisationURL": "https://fi.upm.es/",
+            "organisationAnchorText": "Link zur UPM – Fakultät für Informatik",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2024-09",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": false,
+            "paragraphs": [
+              { "content": "60/72 ECTS abgeschlossen · Notendurchschnitt: 83 %", "type": "text" }
+            ],
+            "descriptionList": [
+              {
+                "dt": "Kurse",
+                "dd": [
+                  { "content": "Machine Learning · Deep Learning · Cloud Computing · Computer Vision · Datenvisualisierung · Big Data · Python · Open Data · Zeitreihen · Data Mining · Data Governance · Datenprozesse", "type": "text" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "politecnica-cartagena-b-sc-telematics",
+            "title": "B.Sc. in TELEMATIK",
+            "mobileTitle": "B.Sc., TELEMATIK",
+            "organisation": "Universidad Politécnica de Cartagena",
+            "organisationHasURL": true,
+            "organisationURL": "https://teleco.upct.es/",
+            "organisationAnchorText": "Link zur UPCT – Fakultät für Telekommunikation",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": false,
+            "timeFrameStart": "2012-09",
+            "timeFrameEndExists": true,
+            "timeFrameIsOver": true,
+            "timeFrameEnd": "2019-10",
+            "paragraphs": [
+              { "content": "Notendurchschnitt: 73 % · Abschlussarbeit: 100 %", "type": "text" }
+            ],
+            "descriptionList": [
+              {
+                "dt": "Kurse",
+                "dd": [
+                  { "content": "Netzwerke · Datenbanken · Modellierung und Simulation · Statistik · Lineare Systeme · Verteilte Informationssysteme · Projekte · Kommunikationsnetze und -dienste · Protokolltechnik", "type": "text" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "languages",
+        "path": "/languages",
+        "title": "SPRACHEN",
+        "mobileTitle": "SPRACHEN",
+        "subtitle": "",
+        "navLinkDescription": "Sprachen",
+        "mobileNavLinkDescription": "Sprachen",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "languages-english",
+            "title": "ENGLISCH",
+            "mobileTitle": "ENGLISCH",
+            "organisation": "Cambridge English C2",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.cambridgeenglish.org/exams-and-tests/cefr/",
+            "organisationAnchorText": "Link zur Info-Seite Cambridge English C2",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-06",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "languages-spanish",
+            "title": "SPANISCH",
+            "mobileTitle": "SPANISCH",
+            "organisation": "Muttersprache",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "languages-german",
+            "title": "DEUTSCH",
+            "mobileTitle": "DEUTSCH",
+            "organisation": "Goethe-Zertifikat B2",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.goethe.de/ins/es/de/sta/mad/prf/gzb2.cfm",
+            "organisationAnchorText": "Link zur Info-Seite Goethe-Zertifikat B2",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2013-05",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "languages-french",
+            "title": "FRANZÖSISCH",
+            "mobileTitle": "FRANZÖSISCH",
+            "organisation": "Ohne Zertifikat",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          }
+        ]
+      },
+      {
+        "key": "certs",
+        "path": "/certs",
+        "title": "LIZENZEN, ZERTIFIKATE & ZERTIFIZIERUNGEN",
+        "mobileTitle": "ZERTIFIKATE",
+        "subtitle": "",
+        "navLinkDescription": "Zertifikate",
+        "mobileNavLinkDescription": "Zertifikate",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "aws-cloud-consultant",
+            "title": "Berater für AWS Cloud-Technologie",
+            "mobileTitle": "Berater für AWS Cloud-Tech",
+            "organisation": "AWS (über Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/professional-certificates/aws-cloud-technology-consultant/",
+            "organisationAnchorText": "Link zu Berater für AWS Cloud-Technologie (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "aws-cloud-solutions-architect-pre-exam",
+            "title": "AWS Cloud-Lösungsarchitekt",
+            "mobileTitle": "Cloud-Lösungsarchitekt",
+            "organisation": "AWS (über Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect/",
+            "organisationAnchorText": "Link zur Prüfungsvorbereitung Cloud-Lösungsarchitekt (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [
+              { "content": "Dies ist nicht die offizielle AWS-Zertifizierung, sondern ein professionelles AWS-Zertifikat zur Prüfungsvorbereitung.", "type": "text" }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "ms-cloud-apps-azure",
+            "title": "Building AI Cloud Apps with MS Azure",
+            "mobileTitle": "AI Cloud Apps with Azure",
+            "organisation": "Microsoft (über Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/specializations/building-ai-cloud-apps-microsoft-azure/",
+            "organisationAnchorText": "Link zu Building AI Cloud Apps with MS Azure (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": []
+          },
+          {
+            "key": "ms-ai-ml-engineering",
+            "title": "Microsoft AI & ML Engineering",
+            "mobileTitle": "AI & ML Engineering",
+            "organisation": "Microsoft (über Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering/",
+            "organisationAnchorText": "Link zu AI & ML Engineering (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": [
+              { "dt": "Technische Skills", "dd": [{ "content": "Azure · LLM · GenAI · Transfer Learning", "type": "text" }] }
+            ]
+          },
+          {
+            "key": "meta-front-end-developer",
+            "title": "Meta Front-End-Entwickler",
+            "mobileTitle": "Front-End-Entwickler",
+            "organisation": "Meta (über Coursera)",
+            "organisationHasURL": true,
+            "organisationURL": "https://www.coursera.org/professional-certificates/meta-front-end-developer/",
+            "organisationAnchorText": "Link zu Meta Front-End-Entwickler (Coursera)",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2024-06",
+            "timeFrameEndExists": false,
+            "paragraphs": [],
+            "descriptionList": [
+              { "dt": "Technische Skills", "dd": [{ "content": "React · Figma · Git · UX/UI · CSS", "type": "text" }] }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "awards",
+        "path": "/awards",
+        "title": "EHRUNGEN",
+        "mobileTitle": "EHRUNGEN",
+        "subtitle": "",
+        "navLinkDescription": "Ehrungen",
+        "mobileNavLinkDescription": "Ehrungen",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "politecnica-madrid-m-sc-data-science-top-student",
+            "title": "2024/25 BESTE STUDIENLEISTUNGEN – M.Sc. DATA SCIENCE",
+            "mobileTitle": "BESTE M.Sc. NOTE 2025",
+            "organisation": "Universidad Politécnica de Madrid",
+            "organisationHasURL": true,
+            "organisationURL": "https://fi.upm.es/",
+            "organisationAnchorText": "Link zur UPM – Fakultät für Informatik",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-07",
+            "timeFrameEndExists": false,
+            "paragraphs": [
+              { "content": "Aus der Bekanntmachung: „Gerichtet an Studierende (bis max. 4), die im September 2024 den Master Data Science begonnen haben. Die Preise werden von der Universidad Politécnica de Madrid (Ayudas a Máster oficiales) finanziert.", "type": "text" },
+              { "content": "Die Auszeichnung (450 Euro) setzt voraus, dass der/die Studierende neu, in Vollzeit und beliebiger Nationalität im MSc in Data Science eingeschrieben ist, die Pflichtfächer bestanden und die besten Noten (Durchschnitt von 10 Fächern) erzielt hat.“", "type": "text" }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "politecnica-cartagena-b-sc-telematics-best-thesis",
+            "title": "2018/19 BESTE B.Sc.-ABSCHLUSSARBEIT IN TELEMATIK",
+            "mobileTitle": "BESTE B.Sc.-THESIS 2019",
+            "organisation": "Universidad Politécnica de Cartagena",
+            "organisationHasURL": true,
+            "organisationURL": "https://teleco.upct.es/",
+            "organisationAnchorText": "Link zur UPCT – Fakultät für Telekommunikation",
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2019-10",
+            "timeFrameEndExists": false,
+            "paragraphs": [
+              { "content": "Meine Bachelorarbeit wurde von der ETSIT der Universidad Politécnica de Cartagena (UPCT) als beste Abschlussarbeit 2018/19 in Telematik ausgewählt und für den nationalen Wettbewerb „Premios COITT Futuro de las Telecomunicaciones“ nominiert, der die besten Bachelorarbeiten in Telekommunikation in Spanien auszeichnet.", "type": "text" }
+            ],
+            "descriptionList": []
+          }
+        ]
+      },
+      {
+        "key": "skills",
+        "path": "/skills",
+        "title": "TECHNISCHE KENNTNISSE",
+        "mobileTitle": "TECHNISCHE KENNTNISSE",
+        "subtitle": "",
+        "navLinkDescription": "Kenntnisse",
+        "mobileNavLinkDescription": "Kenntnisse",
+        "layout": "section-pagination",
+        "sections": [
+          {
+            "key": "skills-platforms",
+            "title": "Plattformen & Tools",
+            "mobileTitle": "Plattformen & Tools",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [
+              { "content": "Git · PostgreSQL · JSON · AWS (grundlegend) · Azure (grundlegend) · Tableau (Basis) · Power BI (Basis) · Figma (Basis)", "type": "text" }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "skills-languages",
+            "title": "Programmiersprachen",
+            "mobileTitle": "Programmiersprachen",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [
+              { "content": "JavaScript · Python · SQL · CSS · R · Bash (Basis) · Java (Basis) · C++ (Basis)", "type": "text" }
+            ],
+            "descriptionList": []
+          },
+          {
+            "key": "skills-frameworks",
+            "title": "Frameworks & Bibliotheken",
+            "mobileTitle": "Frameworks & Bibliotheken",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": false,
+            "paragraphs": [
+              { "content": "Pandas · NumPy · scikit-learn · TensorFlow · R Shiny · Plotly · GeoPandas · rasterio · Matplotlib · OpenCV (Basis) · React (Basis) · Selenium", "type": "text" }
+            ],
+            "descriptionList": []
+          }
+        ]
+      },
+      {
+        "key": "portfolio",
+        "path": "/portfolio",
+        "title": "EIGENE PROJEKTE",
+        "mobileTitle": "EIGENE PROJEKTE",
+        "subtitle": "",
+        "navLinkDescription": "Portfolio",
+        "mobileNavLinkDescription": "Portfolio",
+        "layout": "portfolio-pagination",
+        "sections": [
+          {
+            "key": "cv-app",
+            "title": "React-CV-App",
+            "organisation": "",
+            "organisationHasURL": false,
+            "timeFrameExists": true,
+            "timeFrameTextualMonth": true,
+            "timeFrameStart": "2025-08",
+            "timeFrameEndExists": false,
+            "paragraphs": [{ "content": "In Kürze…", "type": "text" }],
+            "descriptionList": []
+          }
+        ]
+      }
+    ]
+  }
+  

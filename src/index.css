@@ -156,6 +156,12 @@ details.empty-details:hover > summary > span[aria-level="3"] {
   font-weight: normal;
 }
 
+details.empty-details[open] > summary > span[aria-level="3"] {
+  color: black;
+  font-weight: normal;
+}
+
+
 details:hover {
   cursor: pointer;
 }
@@ -175,6 +181,14 @@ details[open] > summary > span[aria-level="3"] {
   font-weight: bold;
 }
 
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::marker {
+  content: "";
+}
+
 .organisation-subtitle {
   font-weight: 400;
   margin-block-start: 0;
@@ -186,7 +200,15 @@ details[open] > summary > span[aria-level="3"] {
   margin-block-start: 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1200px) {
+  span.mobile-span {
+    display: none;
+  }
+
+  span.laptop-span {
+    display: inline;
+  }
+
   h2 {
     margin-block-start: 0.83em;
     margin-block-end: 0;
@@ -232,6 +254,10 @@ details[open] > summary > span[aria-level="3"] {
     font-size: min(1.05vw, 1.575vh);
   }
 
+  details > summary {
+    pointer-events: none;
+  }
+
   .organisation-subtitle {
     font-size: min(1.2vw, 1.8vh);
   }
@@ -241,7 +267,15 @@ details[open] > summary > span[aria-level="3"] {
   }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 1199px) {
+  span.mobile-span {
+    display: inline;
+  }
+
+  span.laptop-span {
+    display: none;
+  }
+
   h2 {
     margin-block-start: 0.83em;
     margin-block-end: 0;

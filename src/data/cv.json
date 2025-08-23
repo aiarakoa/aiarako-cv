@@ -1,0 +1,81 @@
+{
+    "articles":
+    [
+        {
+            "key": "personal-info",
+            "sections":
+            [
+                {
+                    "organisation": "vdx",
+                    "title": "executive-summary"
+                },
+                {
+                    "organisation": "vdx",
+                    "title": "personal-details"
+                },
+                {
+                    "organisation": "vdx",
+                    "title": "contact-info"
+                }
+            ]
+        },
+        {
+            "key": "professional-xp",
+            "sections":
+            [
+                {
+                    "organisation": "vdx",
+                    "title": "data-engineer"
+                },
+                {
+                    "organisation": "vdx",
+                    "title": "data-engineer"
+                },
+                {
+                    "organisation": "vdx",
+                    "title": "front-end-developer"
+                }
+            ]
+        },
+        {
+            "key": "education",
+            "sections":
+            [
+                {
+                    "organisation": "politecnica-madrid",
+                    "title": "m-sc-data-science"
+                },
+                {
+                    "organisation": "politecnica-cartagena",
+                    "title": "b-sc-telematics"
+                }
+            ]
+        },
+        {
+            "key": "languages",
+            "sections":
+            [
+                {
+                    "organisation": "languages",
+                    "title": "english"
+                },
+                {
+                    "organisation": "languages",
+                    "title": "spanish"
+                },
+                {
+                    "organisation": "languages",
+                    "title": "german"
+                },
+                {
+                    "organisation": "languages",
+                    "title": "french"
+                }
+            ]
+        }
+    ],
+    "utilityBelt":
+    {
+        
+    }
+}

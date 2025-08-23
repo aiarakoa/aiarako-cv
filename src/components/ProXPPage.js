@@ -13,7 +13,7 @@ function ProXPPage() {
           </p>
         </hgroup>
         <section aria-labelledby = "vdx-data-engineer-section">
-          <details className = "xp-details">
+          <details open className = "xp-details">
             <summary>
               <span role = "heading" aria-level = "3" id = "vdx-data-engineer-section" className = "xp-details-summary">
                 GRADUATE DATA ENGINEER
@@ -33,7 +33,7 @@ function ProXPPage() {
           </details>
         </section>
         <section aria-labelledby = "vdx-data-scientist-section">
-          <details className = "xp-details">
+          <details open className = "xp-details">
             <summary>
               <span role = "heading" aria-level = "3" id = "vdx-data-scientist-section" className = "xp-details-summary">
                 GRADUATE DATA SCIENTIST
@@ -53,7 +53,7 @@ function ProXPPage() {
           </details>
         </section>
         <section aria-labelledby = "vdx-front-end-developer-section">
-          <details className = "xp-details">
+          <details open className = "xp-details">
             <summary>
               <span role = "heading" aria-level = "3" id = "vdx-front-end-developer-section" className = "xp-details-summary">
                 FRONT END DEVELOPER
@@ -68,7 +68,7 @@ function ProXPPage() {
               </p>
             </summary>
             <p>
-              Delivered a custom <abbr title="JavaScript">JS</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr> charting tool as initial assignment, still operative after 5 years in a SCADA dashboard
+              Delivered a custom JS/CSS charting tool as initial assignment, still operative after 5 years in a SCADA dashboard
               spanning 12+ production views.
             </p>
             <p>
