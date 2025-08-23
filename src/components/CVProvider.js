@@ -90,6 +90,8 @@ export function CVProvider({ children })
         setStatus("error");
       }
     })();
+  // Intentionally run-once on mount; guarded by hasLoadedRef.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   
   useEffect(() => {
@@ -104,13 +106,9 @@ export function CVProvider({ children })
         setStatus("error");
       }
     })();
+  // Intentionally only when language changes; loadCVForLanguage identity is irrelevant here.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedLanguage]);
-
-  function setLanguage(langCode) {
-    if (langCode && langCode !== selectedLanguage) {
-      setSelectedLanguage(langCode);
-    }
-  }
 
   return (
     <CVContext.Provider value={{ data, articles, sections, presentDayTags, languages, selectedLanguage, setSelectedLanguage, articleIndex, setArticleIndex, sectionsPerGroup, setSectionsPerGroup, activeLink, setActiveLink, presentationMode, setPresentationMode, status, error,

@@ -16,7 +16,7 @@ function Article(props)
 
     function handleNavButtonVisibility(buttonType)
     {
-      if((buttonType === "left" && props.sectionGroupIndex == 0) || (buttonType === "right" && props.sectionGroupIndex == getSectionGroupIndexUpperBound() - 1))
+      if((buttonType === "left" && props.sectionGroupIndex === 0) || (buttonType === "right" && props.sectionGroupIndex === getSectionGroupIndexUpperBound() - 1))
       {
         return `nav-seq-button to-the-${buttonType}-nav-button invisible-nav-button`;
       }

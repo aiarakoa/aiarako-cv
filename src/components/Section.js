@@ -76,7 +76,7 @@ function Section(props)
     return (
         <>
             <section id = {`${props.sectionKey}`} aria-labelledby = {`${props.sectionKey}-article`}>
-                <details open={presentationMode == "laptop"}>
+                <details open={presentationMode === "laptop"}>
                     <summary>
                         <span role = "heading" aria-level = "3" id = {`${props.sectionKey}-section-heading`} className = "details-summary">
                             <span className="laptop-span">

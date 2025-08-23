@@ -2,7 +2,7 @@ import './App.css';
 import MainPage from './components/MainPage';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import {useEffect, useRef} from 'react';
+import {useEffect} from 'react';
 import { useCV } from "./components/CVProvider";
 
 function App()

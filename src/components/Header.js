@@ -18,7 +18,7 @@ function useCenterActive(setArticleIndex, setActiveLink, setPresentationMode) {
     active.parentElement.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
     setArticleIndex(parseInt(active.getAttribute("index"), 10));
     setActiveLink(active);
-  }, [pathname]);
+  }, [pathname, setArticleIndex, setActiveLink]);
 
   useEffect(() => {
     const onResize = () => {
@@ -50,7 +50,7 @@ function useCenterActive(setArticleIndex, setActiveLink, setPresentationMode) {
       window.removeEventListener('resize', onResize);
       window.removeEventListener('orientationchange', onResize);
     };
-  }, []);
+  }, [setPresentationMode]);
 
   return ref;
 }
@@ -74,7 +74,7 @@ function Header()
 
   function handleNavButtonVisibility(buttonType)
   {
-    if((buttonType == "left" && articleIndex == 0) || (buttonType == "right" && (articleIndex + 1) == articles.size))
+    if((buttonType === "left" && articleIndex === 0) || (buttonType === "right" && (articleIndex + 1) === articles.size))
     {
       return `nav-seq-button to-the-${buttonType}-nav-button invisible-nav-button`;
     }

@@ -5,6 +5,7 @@ function PortfolioPage(props)
 {
   const {articles, sections} = useCV();
   const thisArticle = articles.get(props.articleKey);
+  console.log(sections);
 
   return (
     <>
