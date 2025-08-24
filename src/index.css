@@ -139,67 +139,6 @@ a {
   margin-block-start: 0;
 }
 
-details.empty-details > summary {
-  list-style: none;
-}
-
-details.empty-details > summary::-webkit-details-marker {
-  display: none;
-}
-
-details.empty-details:hover {
-  cursor: default;
-}
-
-details.empty-details:hover > summary > span[aria-level="3"] {
-  color: black;
-  font-weight: normal;
-}
-
-details.empty-details[open] > summary > span[aria-level="3"] {
-  color: black;
-  font-weight: normal;
-}
-
-
-details:hover {
-  cursor: pointer;
-}
-
-details:hover > summary > span[aria-level="3"] {
-  color: #666666;
-  font-weight: bold;
-}
-
-details[open]:hover {
-  cursor: default;
-  font-weight: normal;
-}
-
-details[open] > summary > span[aria-level="3"] {
-  color: black;
-  font-weight: bold;
-}
-
-details > summary::-webkit-details-marker {
-  display: none;
-}
-
-details > summary::marker {
-  content: "";
-}
-
-.organisation-subtitle {
-  font-weight: 400;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-.time-frame-subtitle {
-  color: #666666;
-  margin-block-start: 0;
-}
-
 @media (min-width: 1200px) {
   span.mobile-span {
     display: none;
@@ -262,12 +201,7 @@ details > summary::marker {
     font-size: min(2vh, 3vw);
   }
 
-  h3,
-  summary span[aria-level="3"] {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    font-size: min(3.5vh, 5.25vw);
-  }
+  h3
 
   main {
     margin: 0vh 5vw;

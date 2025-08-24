@@ -5,7 +5,7 @@ import { formatYearMonth } from "../lib/Utils";
 
 function Section(props)
 {
-    const {sections, presentationMode, presentDayTags, selectedLanguage} = useCV();
+    const {sections, presentationMode, presentDayTags, selectedLanguage, sectionsPerGroup} = useCV();
     const thisSection = sections.get(props.sectionKey);
     const dateSeparator = " - ";
     let paragraphCount = 1;
@@ -113,7 +113,7 @@ function Section(props)
         <>
             <section id = {`${props.sectionKey}`} aria-labelledby = {`${props.sectionKey}-article`}>
                 <details open={presentationMode === "laptop"}>
-                    <summary>
+                    <summary heightfactor={sectionsPerGroup}>
                         <span role = "heading" aria-level = "3" id = {`${props.sectionKey}-section-heading`} className = "details-summary">
                             <span className="laptop-span">
                                 {thisSection.title}

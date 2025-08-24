@@ -355,7 +355,7 @@ nav.lang-nav.language-selection-layout button.lang-button[languagecode="fr-FR"]:
 
 nav.lang-nav.selected-language-layout button.lang-button:hover {
     background-color: transparent;
-    background-image: linear-gradient(#eeebfa 0%, #FCFBFE 50%, white 100%);
+    background-image: linear-gradient(#eeebfa 0%, #f9f7fd 50%, white 100%);
     color: black;
 }
 
