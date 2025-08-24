@@ -39,7 +39,7 @@ export function CVProvider({ children })
     const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`Fetch ${url} failed: ${response.status} ${response.statusText}`);
     const manifest = await response.json();
-    console.log(`<Manifest> from ${url}/manifest.json`);
+    console.log(`<Manifest> from ${url}`);
     console.log(manifest);
     console.log("</Manifest>");
   

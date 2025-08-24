@@ -1,10 +1,10 @@
 {
-    "presentationMode": 
+    "presentationMode":
     [
         "mobile",
         "laptop"
     ],
-    "sectionsPerGroup": 
+    "sectionsPerGroup":
     [
         {
             "presentationMode": "mobile",
@@ -15,7 +15,8 @@
             "sectionsPerGroup": 3
         }
     ],
-    "languages": [
+    "languages":
+    [
         {
             "code": "en-GB",
             "abbreviation": "UK",
