@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 1200px) {
     footer {
         position: absolute;
         bottom: 0;
@@ -21,7 +21,7 @@
     }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 1199px) {
     footer {
         position: absolute;
         bottom: 0;

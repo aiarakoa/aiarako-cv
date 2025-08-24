@@ -16,26 +16,39 @@ function Article(props)
 
     function handleNavButtonVisibility(buttonType)
     {
-      if((buttonType === "left" && props.sectionGroupIndex === 0) || (buttonType === "right" && props.sectionGroupIndex === getSectionGroupIndexUpperBound() - 1))
-      {
-        return `nav-seq-button to-the-${buttonType}-nav-button invisible-nav-button`;
-      }
-      else
-      {
-        return `nav-seq-button to-the-${buttonType}-nav-button`;
-      }
+        if((buttonType === "far-left" && props.sectionGroupIndex === 0) ||
+            (buttonType === "left" && props.sectionGroupIndex === 0) ||
+            (buttonType === "right" && props.sectionGroupIndex === getSectionGroupIndexUpperBound() - 1) ||
+            (buttonType === "far-right" && props.sectionGroupIndex === getSectionGroupIndexUpperBound() - 1))
+        {
+            return `nav-seq-button to-the-${buttonType}-nav-button invisible-nav-button`;
+        }
+        else
+        {
+            return `nav-seq-button to-the-${buttonType}-nav-button`;
+        }
     }
 
-    function navigateToPreviousArticle()
+    function navigateToFirstSectionGroup()
+    {
+        props.newSectionGroupIndex(props.sectionGroupIndex - 1);
+    }
+
+    function navigateToPreviousSectionGroup()
     {
         props.newSectionGroupIndex(props.sectionGroupIndex - 1);
     }
   
-    function navigateToNextArticle()
+    function navigateToNextSectionGroup()
     {
         props.newSectionGroupIndex(props.sectionGroupIndex + 1);
     }
-  
+
+    function navigateToLastSectionGroup()
+    {
+        props.newSectionGroupIndex(getSectionGroupIndexUpperBound() - 1);
+    }
+
     function sliceIntoSectionGroup()
     {
         return thisArticle.sections.slice(props.sectionGroupIndex * sectionsPerGroup, (props.sectionGroupIndex + 1) * sectionsPerGroup).map((section, index) => {
@@ -52,23 +65,37 @@ function Article(props)
     return (
         <>
             <article className="cert-article plan-4pp" id = {`${props.articleKey}`} aria-labelledby = {`${props.articleKey}-article`}>
-                <h2 className = "cv-article-heading" id = {`${props.articleKey}-article-heading`}>
-                    <span className="laptop-span">
-                        {thisArticle.title}
-                    </span>
-                    <span className="mobile-span">
-                        {thisArticle.mobileTitle}
-                    </span>
-                </h2>
-                <p className = "cv-article-subheading" id = {`${props.articleKey}-article-subheading`}>
-                    {thisArticle.subtitle}
-                </p>
+                <hgroup className = "cv-article-heading-group">
+                    <h2 className = "cv-article-heading" id = {`${props.articleKey}-article-heading`}>
+                        <span className="laptop-span">
+                            {thisArticle.title}
+                        </span>
+                        <span className="mobile-span">
+                            {thisArticle.mobileTitle}
+                        </span>
+                    </h2>
+                    <p className = "cv-article-subheading" id = {`${props.articleKey}-article-subheading`}>
+                        {thisArticle.subtitle}
+                    </p>
+                </hgroup>
                 <nav className="section-nav">
-                <button aria-label = "Navigate to previous article" className={handleNavButtonVisibility("left")} onClick={() => navigateToPreviousArticle()}></button>
                 <ol>
                     {sliceIntoSectionGroup()}
                 </ol>
-                <button aria-label = "Navigate to next article" className={handleNavButtonVisibility("right")} onClick={() => navigateToNextArticle()}></button>
+                <ul>
+                    <li>
+                        <button aria-label = "Navigate to first section group" className={handleNavButtonVisibility("far-left")} onClick={() => navigateToFirstSectionGroup()}></button>
+                    </li>
+                    <li>
+                        <button aria-label = "Navigate to previous section group" className={handleNavButtonVisibility("left")} onClick={() => navigateToPreviousSectionGroup()}></button>
+                    </li>
+                    <li>
+                        <button aria-label = "Navigate to next section group" className={handleNavButtonVisibility("right")} onClick={() => navigateToNextSectionGroup()}></button>
+                    </li>
+                    <li>
+                        <button aria-label = "Navigate to last section group" className={handleNavButtonVisibility("far-right")} onClick={() => navigateToLastSectionGroup()}></button>
+                    </li>
+                </ul>
                 </nav>
             </article>
         </>

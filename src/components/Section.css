@@ -1,0 +1,131 @@
+@media (min-width: 1200px) {
+    details.empty-details > summary {
+        text-indent: min(1.3vw, 2vh);
+    }
+    
+    details > p,
+    details > dl,
+    details > address {
+        margin-block-start: 1vh;
+        margin-block-end: 1vh;
+        margin-inline-start: 2.5vw;
+        margin-inline-end: 2.5vw;
+        font-size: min(1.05vw, 1.575vh);
+    }
+    
+    details > summary {
+        pointer-events: none;
+    }
+    
+    .organisation-subtitle {
+        font-size: min(1.2vw, 1.8vh);
+    }
+    
+    .time-frame-subtitle {
+        font-size: min(1.2vw, 1.8vh);
+    }
+
+    button.section-collapse-button {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .organisation-subtitle {
+        font-size: min(2.4vh, 3.6vw);
+    }
+
+    .time-frame-subtitle {
+        font-size: min(2.4vh, 3.6vw);
+    }    
+
+    details.empty-details > summary {
+        text-indent: 2vw;
+    }
+    
+    details > p,
+    details > dl,
+    details > address {
+        margin-block-start: 0.5vh;
+        margin-block-end: 0.5vh;
+        margin-inline-start: 5vw;
+        margin-inline-end: 5vw;
+        font-size: min(2.4vh, 3.6vw);
+    }
+    
+    section:has(details[open]) {
+        background-color: rgba(0,0,0,0.8);
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+    }
+    
+    details[open] {
+        background-color: white;
+        width: 90vw;
+        height: 90vh;
+        margin: 5vh 5vw;
+    }
+    
+    details[open] span[aria-level="3"] {
+        font-size: min(4.5vh, 6.75vw);
+    }
+    
+    details[open] summary {
+        padding: 1vw 1vh;
+        pointer-events: none;
+    }
+
+    details[open] .organisation-subtitle {
+        font-size: min(3vh, 4.5vw);
+    }
+
+    details[open] .time-frame-subtitle {
+        font-size: min(3vh, 4.5vw);
+    }    
+
+    details[open] > p,
+    details[open] > dl,
+    details[open] > address {
+        margin-block-start: 0.5vh;
+        margin-block-end: 0.5vh;
+        margin-inline-start: 5vw;
+        margin-inline-end: 5vw;
+        font-size: min(3vh, 4.5vw);
+        overflow-wrap: break-word;
+    }
+
+    button.section-collapse-button {
+        border-radius: 50%;
+        border-width: 0;
+        background-color: white;
+        font-family: 'Decalotype';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-weight: 800;
+        color: #5c7ad6;
+        width: 4vh;
+        height: 4vh;
+        position: absolute;
+        top: 0.5vh;
+    }
+
+    button.section-collapse-button:hover {
+        border-radius: 50%;
+        border-width: 0;
+        background-color: #5c7ad6;
+        font-family: 'Decalotype';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-weight: 800;
+        color: white;
+        width: 4vh;
+        height: 4vh;
+    }
+
+    button.section-collapse-button::after {
+        content: "<";
+    }
+}

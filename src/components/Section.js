@@ -104,6 +104,11 @@ function Section(props)
         }
     }
 
+    function collapseSection(event)
+    {
+        event.currentTarget.closest("details").open = false;
+    }
+
     return (
         <>
             <section id = {`${props.sectionKey}`} aria-labelledby = {`${props.sectionKey}-article`}>
@@ -133,6 +138,7 @@ function Section(props)
                             </a>
                         </p>
                     : null}
+                    <button aria-label = "Collapse section" className={"section-collapse-button"} onClick={(event) => collapseSection(event)}></button>
                 </details>
             </section>
         </>

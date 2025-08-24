@@ -1,4 +1,5 @@
-// import './MainPage.css';
+import './MainPage.css';
+
 import {Routes, Route, Navigate} from 'react-router-dom';
 import Article from './Article';
 import PortfolioPage from './PortfolioPage';
