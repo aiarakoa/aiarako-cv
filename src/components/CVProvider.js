@@ -39,6 +39,9 @@ export function CVProvider({ children })
     const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`Fetch ${url} failed: ${response.status} ${response.statusText}`);
     const manifest = await response.json();
+    console.log("<Manifest>");
+    console.log(manifest);
+    console.log("</Manifest>");
   
     setLanguages(manifest.languages || []);
     setPresentDayTags(manifest.presentDayTags || []);
@@ -48,7 +51,7 @@ export function CVProvider({ children })
     const firstLoadPresentationMode = window.matchMedia('(min-width: 1200px)').matches ? 'laptop' : 'mobile';
 //    const secPerGroupByModeIndex = manifest.sectionsPerGroup.findIndex(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode);
     setPresentationMode(firstLoadPresentationMode);
-    setSectionsPerGroup(sectionsPerGroupByPresentationMode.find(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode).sectionsPerGroup);
+    setSectionsPerGroup(manifest.sectionsPerGroup.find(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode).sectionsPerGroup);
 
 //    applyHtmlLang(startLang, manifest.languages);
   }
