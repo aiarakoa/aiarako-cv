@@ -46,9 +46,9 @@ export function CVProvider({ children })
     setSelectedLanguage(manifest.defaultLanguage);
     setPresentationModeList(manifest.presentationMode);
     const firstLoadPresentationMode = window.matchMedia('(min-width: 1200px)').matches ? 'laptop' : 'mobile';
-    const secPerGroupByModeIndex = manifest.sectionsPerGroup.findIndex(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode);
+//    const secPerGroupByModeIndex = manifest.sectionsPerGroup.findIndex(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode);
     setPresentationMode(firstLoadPresentationMode);
-    setSectionsPerGroup(sectionsPerGroupByPresentationMode[secPerGroupByModeIndex].sectionsPerGroup);
+    setSectionsPerGroup(sectionsPerGroupByPresentationMode.find(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode).sectionsPerGroup);
 
 //    applyHtmlLang(startLang, manifest.languages);
   }

@@ -13,18 +13,15 @@ function App()
     if(presentationMode)
     {
       const all = document.querySelectorAll('main details');
-      let secPerGroupByModeIndex = 0;
       if (presentationMode === 'laptop')
       {
         all.forEach(detail => detail.setAttribute('open', ''));
-        secPerGroupByModeIndex = sectionsPerGroupByPresentationMode.findIndex(secPerGroup => secPerGroup.presentationMode === presentationMode);
       }
       else
       {
         all.forEach(detail => detail.removeAttribute('open'));
       }
-      setSectionsPerGroup(sectionsPerGroupByPresentationMode[secPerGroupByModeIndex].sectionsPerGroup);
-      console.log(sectionsPerGroupByPresentationMode[secPerGroupByModeIndex]);  
+      setSectionsPerGroup(sectionsPerGroupByPresentationMode.find(secPerGroup => secPerGroup.presentationMode === presentationMode).sectionsPerGroup);
     }
   }, [presentationMode, setSectionsPerGroup, sectionsPerGroupByPresentationMode]);
 
