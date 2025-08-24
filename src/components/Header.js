@@ -3,7 +3,7 @@ import {NavLink, useLocation} from 'react-router-dom';
 import {useEffect, useRef} from 'react';
 import { useCV } from "./CVProvider";
 
-function useCenterActive(setArticleIndex, setActiveLink, setPresentationMode) {
+function useCenterActive(setArticleIndex, setActiveLink, setPresentationMode, sectionsPerGroupByPresentationMode, setSectionsPerGroup) {
   const ref = useRef(null);
   const { pathname } = useLocation();
 

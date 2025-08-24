@@ -21,8 +21,10 @@ export function CVProvider({ children })
   const [sections, setSections]                   = useState(null);
   const [presentDayTags, setPresentDayTags]       = useState(null);
   const [articleIndex, setArticleIndex]           = useState(0);
+  const [sectionsPerGroupByPresentationMode, setSectionsPerGroupByPresentationMode]   = useState(null);
   const [sectionsPerGroup, setSectionsPerGroup]   = useState(null);
   const [activeLink, setActiveLink]               = useState(null);
+  const [presentationModeList, setPresentationModeList]   = useState(null);
   const [presentationMode, setPresentationMode]   = useState(null);
   const [languages, setLanguages]                 = useState(/** @type {Array<{code:string,label:string,dir?:'ltr'|'rtl'}>|null} */(null));
   const [selectedLanguage, setSelectedLanguage]   = useState(null);
@@ -40,13 +42,17 @@ export function CVProvider({ children })
   
     setLanguages(manifest.languages || []);
     setPresentDayTags(manifest.presentDayTags || []);
-    setSectionsPerGroup(manifest.sectionsPerGroup);  
+    setSectionsPerGroupByPresentationMode(manifest.sectionsPerGroup);
     console.log(`Selected language at first load: ${selectedLanguage} | ${manifest.defaultLanguage}`);
     setSelectedLanguage(manifest.defaultLanguage);
     console.log(`Selected language at first load: ${selectedLanguage} | ${manifest.defaultLanguage}`);
+    setPresentationModeList(manifest.presentationMode);
+    setPresentationMode(manifest.presentationMode[0]);
+    setSectionsPerGroup(sectionsPerGroupByPresentationMode[0].sectionsPerGroup);
+
 //    applyHtmlLang(startLang, manifest.languages);
   }
-
+/*
   function applyHtmlLang(langCode, languages) {
     try {
       const meta = (languages || []).find(language => language.code === langCode);
@@ -54,11 +60,11 @@ export function CVProvider({ children })
       document.documentElement.setAttribute("lang", langCode);
     } catch {}
   }
-
+*/
   async function loadCVForLanguage(langCode) {
     setStatus("loading");
     setError(null);
-  
+    
     const url = `${dataRoot}/cv.${langCode}.json`;
     const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`Fetch ${url} failed: ${response.status} ${response.statusText}`);
@@ -74,7 +80,6 @@ export function CVProvider({ children })
     });
     setArticles(articlesMap);
     setSections(sectionsMap);
-    setPresentationMode(window.matchMedia('(min-width: 1200px)').matches ? 'laptop' : 'mobile');
     setStatus("idle");
   }
 
@@ -97,7 +102,7 @@ export function CVProvider({ children })
   useEffect(() => {
     if (!selectedLanguage) return;
     localStorage.setItem("cvLang", selectedLanguage);
-    applyHtmlLang(selectedLanguage, languages || []);
+//    applyHtmlLang(selectedLanguage, languages || []);
     (async () => {
       try {
         await loadCVForLanguage(selectedLanguage);
@@ -111,7 +116,7 @@ export function CVProvider({ children })
   }, [selectedLanguage]);
 
   return (
-    <CVContext.Provider value={{ data, articles, sections, presentDayTags, languages, selectedLanguage, setSelectedLanguage, articleIndex, setArticleIndex, sectionsPerGroup, setSectionsPerGroup, activeLink, setActiveLink, presentationMode, setPresentationMode, status, error,
+    <CVContext.Provider value={{ data, articles, sections, presentDayTags, languages, selectedLanguage, setSelectedLanguage, articleIndex, setArticleIndex, sectionsPerGroup, setSectionsPerGroup, sectionsPerGroupByPresentationMode, setSectionsPerGroupByPresentationMode, activeLink, setActiveLink, presentationModeList, setPresentationModeList, presentationMode, setPresentationMode, status, error,
       reload: async (newLanguage) => {
         console.log(`CVProvider::reload -- selectedLanguage: ${newLanguage}`)
         if (newLanguage) await loadCVForLanguage(newLanguage);

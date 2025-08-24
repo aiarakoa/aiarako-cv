@@ -7,20 +7,38 @@ import { useCV } from "./components/CVProvider";
 
 function App()
 {
-  const { presentationMode } = useCV();
+  const { status, error, presentationMode, setSectionsPerGroup, sectionsPerGroupByPresentationMode } = useCV();
 
   useEffect(() => {
-    const all = document.querySelectorAll('main details');
-    if (presentationMode === 'laptop')
+    if(presentationMode)
     {
-      all.forEach(detail => detail.setAttribute('open', ''));
+      const all = document.querySelectorAll('main details');
+      let secPerGroupByModeIndex = 0;
+      if (presentationMode === 'laptop')
+      {
+        all.forEach(detail => detail.setAttribute('open', ''));
+        secPerGroupByModeIndex = sectionsPerGroupByPresentationMode.findIndex(secPerGroup => secPerGroup.presentationMode === presentationMode);
+      }
+      else
+      {
+        all.forEach(detail => detail.removeAttribute('open'));
+      }
+      setSectionsPerGroup(sectionsPerGroupByPresentationMode[secPerGroupByModeIndex].sectionsPerGroup);
+      console.log(sectionsPerGroupByPresentationMode[secPerGroupByModeIndex]);  
     }
-    else
-    {
-      all.forEach(detail => detail.removeAttribute('open'));
-    }
-  }, [presentationMode]);
+  }, [presentationMode, setSectionsPerGroup, sectionsPerGroupByPresentationMode]);
 
+  if (status === "loading")
+  {
+      return <p role="status">Loading...</p>;
+  }
+
+  if (error)
+  {
+      console.log(error);
+      return <p role="alert">Failed to load CV data.</p>;
+  }
+  
   return (
     <>
       <Header />

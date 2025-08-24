@@ -27,23 +27,25 @@ h1.cv-header {
         margin-block-end: 0;
         margin-block-start: 0;
         text-align: center;
-        font-size: min(2.4vw, 3.6vh);
+        font-size: 3.6vh;
+        height: calc(24vh / 5);
     }
 
     nav.top-nav ul {
         width: 12vw;
         margin-inline-start: 1vw;
         margin-inline-end: 1vw;
+        height: calc(16vh / 5);
     }
 
     nav.top-nav a {
-        font-size: min(1.2vw, 1.8vh);
-        padding: 0.5vh 0.5vw;
+        font-size: 1.8vh;
+        padding: 0.5vh 0.5vh;
         width: 100%;
     }    
 
     nav.top-nav ul > li {
-        padding: 0.1vh 0vw 0.1vh 0vw;
+        padding: 0.1vh 0vh 0.1vh 0vh;
         width: 8vw;
     }
 
@@ -53,20 +55,25 @@ h1.cv-header {
     }
     
     button.lang-button {
-        width: 2.25vw;
-        height: 2.25vw;
+        width: 4vh;
+        height: 4vh;
     }
 
     button.nav-seq-button {
-        width: 1.5vw;
-        height: 1.5vw;
+        width: 2.5vh;
+        height: 2.5vh;
+    }
+
+    nav.section-nav button.nav-seq-button {
+        width: 4vh;
+        height: 4vh;
     }
 
     nav.lang-nav.selected-language-layout ul {
-        width: 2.25vw;
+        width: 4vh;
         text-wrap: nowrap;
         overflow: hidden;
-        margin: 0vh 1vw 0vh 0vw;
+        margin: 0vh 1vh 0vh 0vh;
     }
 
     nav.lang-nav.language-selection-layout ul {
@@ -78,18 +85,18 @@ h1.cv-header {
     nav.lang-nav.language-selection-layout button.lang-button {
         width: 5vw;
         height: 5vw;
-        font-size: min(2.5vw, 4.5vh);
+        font-size: 4.5vh;
     }
 
     span.cv-header-balance-left-span {
         width: 5vw;
-        margin: 0vh 0vw 0vh 1vw;
+        margin: 0vh 0vh 0vh 1vh;
     }
 }
 
 @media (max-width: 1199px) {
     header {
-        height: 8vh;
+        height: 10vh;
     }
 
     h1 {
@@ -97,23 +104,31 @@ h1.cv-header {
         margin-block-end: 0;
         margin-block-start: 0;
         text-align: center;
-        font-size: min(6vh, 9vw);
+        font-size: min(5vh, 11vw);
     }
 
+    h1.cv-header {
+        height: 6vh;
+    }
+
+    nav.top-nav {
+        height: 4vh;
+    }
+    
     nav.top-nav ul {
         width: 50vw;
+        height: 100%;
         margin-inline-start: 2.5vw;
         margin-inline-end: 2.5vw;
     }
 
     nav.top-nav a {
-        font-size: min(4vh, 6vw);
-        padding: 0.5vw 0.5vh;
+        font-size: min(3vh, 4.5vw);
     }    
 
     nav.top-nav ul > li {
-        padding: 0.5vw 0vh 0.5vw 0vh;
         width: 33vw;
+        height: 100%;
     }
 
     nav.top-nav.nav-dropdown-layout ul {
@@ -122,8 +137,8 @@ h1.cv-header {
     }
 
     button.nav-seq-button {
-        width: 4vh;
-        height: 4vh;
+        width: 3vh;
+        height: 3vh;
     }
 
     button.lang-button {
@@ -135,6 +150,7 @@ h1.cv-header {
         width: 4vh;
         text-wrap: nowrap;
         overflow: hidden;
+        margin: 0vh 1vw 0vh 0vw;
     }
 
     nav.lang-nav.language-selection-layout ul {
@@ -151,7 +167,7 @@ h1.cv-header {
     }
 
     span.cv-header-balance-left-span {
-        width: max(5vh, 8vw);
+        width: 4vh;
     }
 }
 
@@ -223,6 +239,7 @@ nav.top-nav ul {
 
 nav.top-nav ul > li {
     display: inline-flex;
+    align-items: center;
 }
 
 nav.top-nav.nav-dropdown-layout ul > li {

@@ -9,7 +9,6 @@ import { useState } from "react";
 function MainPage() {
   const {articles, status, error} = useCV();
   const [sectionGroupIndexByArticle, setSectionGroupIndexByArticle] = useState(new Map());
-  console.log(sectionGroupIndexByArticle)
 
   if (status === "loading" && !articles)
   {

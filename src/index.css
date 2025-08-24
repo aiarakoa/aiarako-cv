@@ -148,25 +148,6 @@ a {
     display: inline;
   }
 
-  h2 {
-    margin-block-start: 0.83em;
-    margin-block-end: 0;
-    font-weight: 400;
-    color: #5c7ad6;
-    font-size: min(2vw, 3vh);
-  }
-
-  p.cv-article-subheading {
-    font-size: min(1vw, 1.5vh);
-  }
-
-  h3,
-  summary span[aria-level="3"] {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    font-size: min(1.5vw, 2.25vh);
-  }
-
   main {
     margin: 0vh 15vw;
   }
@@ -189,20 +170,6 @@ a {
     display: none;
   }
 
-  h2 {
-    margin-block-start: 0.83em;
-    margin-block-end: 0;
-    font-weight: 400;
-    color: #5c7ad6;
-    font-size: min(4vh, 6vw);
-  }
-
-  p.cv-article-subheading {
-    font-size: min(2vh, 3vw);
-  }
-
-  h3
-
   main {
     margin: 0vh 5vw;
   }
@@ -213,5 +180,6 @@ a {
 
   body {
     font-size: min(1.2vh, 1.8vw);
+    min-width: 330px;
   }
 }

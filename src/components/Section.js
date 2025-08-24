@@ -111,7 +111,7 @@ function Section(props)
 
     return (
         <>
-            <section id = {`${props.sectionKey}`} aria-labelledby = {`${props.sectionKey}-article`}>
+            <section id = {`${props.sectionKey}`} aria-labelledby = {`${props.sectionKey}-article`}  heightfactor={sectionsPerGroup}>
                 <details open={presentationMode === "laptop"}>
                     <summary heightfactor={sectionsPerGroup}>
                         <span role = "heading" aria-level = "3" id = {`${props.sectionKey}-section-heading`} className = "details-summary">

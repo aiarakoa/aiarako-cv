@@ -1,5 +1,20 @@
 {
-    "sectionsPerGroup": 5,
+    "presentationMode": 
+    [
+        "mobile",
+        "laptop"
+    ],
+    "sectionsPerGroup": 
+    [
+        {
+            "presentationMode": "mobile",
+            "sectionsPerGroup": 5
+        },
+        {
+            "presentationMode": "laptop",
+            "sectionsPerGroup": 3
+        }
+    ],
     "languages": [
         {
             "code": "en-GB",
