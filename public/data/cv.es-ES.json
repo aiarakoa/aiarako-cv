@@ -367,7 +367,8 @@
             "timeFrameStart": "2025-07",
             "timeFrameEndExists": false,
             "paragraphs": [
-              { "content": "Del anuncio del premio: «Dirigido a estudiantes (hasta un máximo de 4) que iniciaron el Máster en Ciencia de Datos en septiembre de 2024. Los premios están financiados por la Universidad Politécnica de Madrid (Ayudas a Máster oficiales).", "type": "text" },
+              { "content": "Del anuncio del premio:", "type": "text" },
+              { "content": "«Dirigido a estudiantes (hasta un máximo de 4) que iniciaron el Máster en Ciencia de Datos en septiembre de 2024. Los premios están financiados por la Universidad Politécnica de Madrid (Ayudas a Máster oficiales).", "type": "text" },
               { "content": "El premio (450 euros) requiere ser estudiante de nuevo ingreso a tiempo completo en el MSc in Data Science, de cualquier nacionalidad, haber superado las asignaturas obligatorias matriculadas y haber obtenido las mejores calificaciones (media de 10 asignaturas).»", "type": "text" }
             ],
             "descriptionList": []

@@ -3,7 +3,7 @@ import {NavLink, useLocation} from 'react-router-dom';
 import {useEffect, useRef} from 'react';
 import { useCV } from "./CVProvider";
 
-function useCenterActive(setArticleIndex, setActiveLink, setPresentationMode, sectionsPerGroupByPresentationMode, setSectionsPerGroup) {
+function useTopNavCenterActive(setArticleIndex, setActiveLink, setPresentationMode) {
   const ref = useRef(null);
   const { pathname } = useLocation();
 
@@ -14,6 +14,8 @@ function useCenterActive(setArticleIndex, setActiveLink, setPresentationMode, se
     const active = scroller.querySelector('a[aria-current="page"]');
     if (!active) return;
 
+    console.log("top-nav scroller");
+    console.log(scroller);
     console.log(active);
     active.parentElement.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
     setArticleIndex(parseInt(active.getAttribute("index"), 10));
@@ -55,11 +57,31 @@ function useCenterActive(setArticleIndex, setActiveLink, setPresentationMode, se
   return ref;
 }
 
+function useLangNavCenterActive() {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const scroller = ref.current;
+    if (!scroller) return;
+
+    const active = scroller.querySelector('button[activelocale="true"]');
+    if (!active) return;
+
+    console.log("lang-nav scroller");
+    console.log(scroller);
+    console.log(active);
+    active.parentElement.scrollIntoView({ behavior: 'instant', inline: 'center', block: 'nearest' });
+  }, []);
+
+  return ref;
+}
+
 function Header()
 {
   const {articles, articleIndex, setArticleIndex, languages, selectedLanguage, setSelectedLanguage, activeLink, setActiveLink, setPresentationMode, status, error, reload} = useCV();
 
-  const navRef = useCenterActive(setArticleIndex, setActiveLink, setPresentationMode);
+  const topNavRef = useTopNavCenterActive(setArticleIndex, setActiveLink, setPresentationMode);
+  const langNavRef = useLangNavCenterActive();
 
   if (status === "loading" && !articles)
   {
@@ -138,21 +160,27 @@ function Header()
 
   function updateLanguage(event)
   {
-    console.log("updateLanguage");
-    console.log(event.currentTarget);
-    console.log(selectedLanguage);
-    console.log(event.currentTarget.getAttribute("languagecode"));
-    setSelectedLanguage(event.currentTarget.getAttribute("languagecode"));
-    reload(selectedLanguage);
+    console.log(`updateLanguage::${event.currentTarget.getAttribute('aria-label')}`);
+//    console.log(event.currentTarget);
+//    console.log(selectedLanguage);
+//    console.log(event.currentTarget.getAttribute("languagecode"));
+    if(event.currentTarget.getAttribute('activelocale') !== "true")
+    {
+      setSelectedLanguage(event.currentTarget.getAttribute("languagecode"));
+      reload(selectedLanguage);  
+    }
     handleLangLayoutToggler(event);
   }
 
   function setupLanguageNavigation()
   {
     const languagesCopy = structuredClone(languages);
+    console.log(languagesCopy);
     const indexOfSelectedLanguage = languagesCopy.findIndex(lang => lang.code === selectedLanguage);
     const selectedLangObject = languagesCopy.splice(indexOfSelectedLanguage,1)[0];
+    console.log(selectedLangObject);
     languagesCopy.push(selectedLangObject);
+    console.log(languagesCopy);
     return languagesCopy.map(language => {
       return (
         <li>
@@ -191,7 +219,7 @@ function Header()
           <span className = "cv-header-balance-left-span"></span>
           <span className = "mobile-span">CARLOS AYALA</span>
           <span className = "laptop-span">CARLOS DE LA CRUZ AYALA VARGAS</span>
-          <nav className = "lang-nav selected-language-layout" aria-label = "navigation" onClick={event => handleLangLayoutToggler(event)}>
+          <nav className = "lang-nav selected-language-layout" ref = {langNavRef} aria-label = "localisation" onClick={event => handleLangLayoutToggler(event)}>
             <ul>
               {
                 setupLanguageNavigation()
@@ -199,7 +227,7 @@ function Header()
             </ul>
         </nav>
         </h1>
-        <nav className = "top-nav nav-sliding-layout" ref = {navRef} aria-label = "navigation" onClick={(event) => handleNavLayoutToggler(event)}>
+        <nav className = "top-nav nav-sliding-layout" ref = {topNavRef} aria-label = "navigation" onClick={(event) => handleNavLayoutToggler(event)}>
           <button aria-label = "Navigate to previous article" className={handleNavButtonVisibility("left")} onClick={() => navigateToPreviousArticle()}></button>
           <ul>
             {

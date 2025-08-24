@@ -43,12 +43,12 @@ export function CVProvider({ children })
     setLanguages(manifest.languages || []);
     setPresentDayTags(manifest.presentDayTags || []);
     setSectionsPerGroupByPresentationMode(manifest.sectionsPerGroup);
-    console.log(`Selected language at first load: ${selectedLanguage} | ${manifest.defaultLanguage}`);
     setSelectedLanguage(manifest.defaultLanguage);
-    console.log(`Selected language at first load: ${selectedLanguage} | ${manifest.defaultLanguage}`);
     setPresentationModeList(manifest.presentationMode);
-    setPresentationMode(manifest.presentationMode[0]);
-    setSectionsPerGroup(sectionsPerGroupByPresentationMode[0].sectionsPerGroup);
+    const firstLoadPresentationMode = window.matchMedia('(min-width: 1200px)').matches ? 'laptop' : 'mobile';
+    const secPerGroupByModeIndex = manifest.sectionsPerGroup.findIndex(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode);
+    setPresentationMode(firstLoadPresentationMode);
+    setSectionsPerGroup(sectionsPerGroupByPresentationMode[secPerGroupByModeIndex].sectionsPerGroup);
 
 //    applyHtmlLang(startLang, manifest.languages);
   }

@@ -373,7 +373,8 @@
             "timeFrameStart": "2025-07",
             "timeFrameEndExists": false,
             "paragraphs": [
-              { "content": "Extrait de l’annonce : « Destiné aux étudiants (jusqu’à 4) ayant commencé le master en Data Science en septembre 2024. Les prix sont financés par l’Universidad Politécnica de Madrid (Ayudas a Máster oficiales).", "type": "text" },
+              { "content": "Extrait de l’annonce :", "type": "text" },
+              { "content": "« Destiné aux étudiants (jusqu’à 4) ayant commencé le master en Data Science en septembre 2024. Les prix sont financés par l’Universidad Politécnica de Madrid (Ayudas a Máster oficiales).", "type": "text" },
               { "content": "Le prix (450 euros) exige d’être nouvel étudiant à temps plein en MSc in Data Science, quelle que soit la nationalité, d’avoir validé les matières obligatoires inscrites et obtenu les meilleures notes (moyenne des 10 matières). »", "type": "text" }
             ],
             "descriptionList": []

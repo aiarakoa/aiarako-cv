@@ -527,7 +527,11 @@
                     "timeFrameEndExists": false,
                     "paragraphs": [
                         {
-                            "content": "From the award's announcement: «Aimed at students (up to a maximum of 4) who have started their studies on the Master’s programme in Data Science in September, 2024. The awards are funded by the Universidad Politécnica de Madrid (Ayudas a Máster oficiales).",
+                            "content": "From the award's announcement:",
+                            "type": "text"
+                        },
+                        {
+                            "content": "«Aimed at students (up to a maximum of 4) who have started their studies on the Master’s programme in Data Science in September, 2024. The awards are funded by the Universidad Politécnica de Madrid (Ayudas a Máster oficiales).",
                             "type": "text"
                         },
                         {

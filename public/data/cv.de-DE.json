@@ -367,7 +367,8 @@
             "timeFrameStart": "2025-07",
             "timeFrameEndExists": false,
             "paragraphs": [
-              { "content": "Aus der Bekanntmachung: „Gerichtet an Studierende (bis max. 4), die im September 2024 den Master Data Science begonnen haben. Die Preise werden von der Universidad Politécnica de Madrid (Ayudas a Máster oficiales) finanziert.", "type": "text" },
+              { "content": "Aus der Bekanntmachung:", "type": "text" },
+              { "content": "„Gerichtet an Studierende (bis max. 4), die im September 2024 den Master Data Science begonnen haben. Die Preise werden von der Universidad Politécnica de Madrid (Ayudas a Máster oficiales) finanziert.", "type": "text" },
               { "content": "Die Auszeichnung (450 Euro) setzt voraus, dass der/die Studierende neu, in Vollzeit und beliebiger Nationalität im MSc in Data Science eingeschrieben ist, die Pflichtfächer bestanden und die besten Noten (Durchschnitt von 10 Fächern) erzielt hat.“", "type": "text" }
             ],
             "descriptionList": []

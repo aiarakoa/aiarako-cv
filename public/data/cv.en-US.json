@@ -403,7 +403,8 @@
             "timeFrameStart": "2025-07",
             "timeFrameEndExists": false,
             "paragraphs": [
-              { "content": "From the award announcement: “Aimed at students (up to a maximum of 4) who started the Master’s in Data Science in September 2024. The awards are funded by Universidad Politécnica de Madrid (Ayudas a Máster oficiales).", "type": "text" },
+              { "content": "From the award announcement:", "type": "text" },
+              { "content": "“Aimed at students (up to a maximum of 4) who started the Master’s in Data Science in September 2024. The awards are funded by Universidad Politécnica de Madrid (Ayudas a Máster oficiales).", "type": "text" },
               { "content": "The award (450 Euros) requires the student to be a new full-time student in the MSc in Data Science of any nationality and to have passed the enrolled mandatory subjects and obtained the highest grades (average of the 10 subjects).”", "type": "text" }
             ],
             "descriptionList": []
