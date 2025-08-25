@@ -12,8 +12,8 @@
         "sections": [
           {
             "key": "executive-summary",
-            "title": "RÉSUMÉ EXÉCUTIF",
-            "mobileTitle": "RÉSUMÉ EXÉCUTIF",
+            "title": "Résumé exécutif",
+            "mobileTitle": "Résumé exécutif",
             "organisation": "",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -27,8 +27,8 @@
           },
           {
             "key": "personal-details",
-            "title": "COORDONNÉES",
-            "mobileTitle": "COORDONNÉES",
+            "title": "Coordonnées",
+            "mobileTitle": "Coordonnées",
             "organisation": "",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -47,8 +47,8 @@
           },
           {
             "key": "contact-info",
-            "title": "CONTACT",
-            "mobileTitle": "CONTACT",
+            "title": "Contact",
+            "mobileTitle": "Contact",
             "organisation": "",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -73,8 +73,8 @@
         "sections": [
           {
             "key": "vdx-data-engineer",
-            "title": "INGENIEUR DES DONNÉES (JEUNE DIPLOMÉ)",
-            "mobileTitle": "ING. DONN. (J. DIPLOMÉ)",
+            "title": "Ingenieur des données (jeune diplomé)",
+            "mobileTitle": "Ing. Donn. (J. Diplomé)",
             "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
             "organisationHasURL": true,
             "organisationURL": "http://vdx.es/",
@@ -89,8 +89,8 @@
           },
           {
             "key": "vdx-data-scientist",
-            "title": "SCIENTIFIQUE DES DONNÉES (JEUNE DIPLOMÉ)",
-            "mobileTitle": "SCIENT. DONN. (J. DIPLOMÉ)",
+            "title": "Scientifique des données (jeune diplomé)",
+            "mobileTitle": "Scient. Donn. (J. diplomé)",
             "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
             "organisationHasURL": true,
             "organisationURL": "http://vdx.es/",
@@ -105,8 +105,8 @@
           },
           {
             "key": "vdx-front-end-developer",
-            "title": "DÉVELOPPEUR FRONT-END",
-            "mobileTitle": "DÉVELOPPEUR FRONT-END",
+            "title": "Développeur Front-End",
+            "mobileTitle": "Développeur Front-End",
             "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
             "organisationHasURL": true,
             "organisationURL": "http://vdx.es/",
@@ -138,8 +138,8 @@
         "sections": [
           {
             "key": "politecnica-madrid-m-sc-data-science",
-            "title": "M.Sc. in DATA SCIENCE",
-            "mobileTitle": "M.Sc., DATA SCIENCE",
+            "title": "M.Sc. in Data Science",
+            "mobileTitle": "M.Sc., Data Science",
             "organisation": "Universidad Politécnica de Madrid",
             "organisationHasURL": true,
             "organisationURL": "https://fi.upm.es/",
@@ -163,8 +163,8 @@
           },
           {
             "key": "politecnica-cartagena-b-sc-telematics",
-            "title": "B.Sc. en INGÉNIERIE TÉLÉMATIQUE",
-            "mobileTitle": "B.Sc., TÉLÉMATIQUE",
+            "title": "B.Sc. en Ingénierie Télématique",
+            "mobileTitle": "B.Sc., Télématique",
             "organisation": "Universidad Politécnica de Cartagena",
             "organisationHasURL": true,
             "organisationURL": "https://teleco.upct.es/",
@@ -201,8 +201,8 @@
         "sections": [
           {
             "key": "languages-english",
-            "title": "ANGLAIS",
-            "mobileTitle": "ANGLAIS",
+            "title": "Anglais",
+            "mobileTitle": "Anglais",
             "organisation": "Cambridge English C2",
             "organisationHasURL": true,
             "organisationURL": "https://www.cambridgeenglish.org/exams-and-tests/cefr/",
@@ -216,8 +216,8 @@
           },
           {
             "key": "languages-spanish",
-            "title": "ESPAGNOL",
-            "mobileTitle": "ESPAGNOL",
+            "title": "Espagnol",
+            "mobileTitle": "Espagnol",
             "organisation": "Langue maternelle",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -226,8 +226,8 @@
           },
           {
             "key": "languages-german",
-            "title": "ALLEMAND",
-            "mobileTitle": "ALLEMAND",
+            "title": "Allemand",
+            "mobileTitle": "Allemand",
             "organisation": "Goethe-Zertifikat B2",
             "organisationHasURL": true,
             "organisationURL": "https://www.goethe.de/ins/es/de/sta/mad/prf/gzb2.cfm",
@@ -241,8 +241,8 @@
           },
           {
             "key": "languages-french",
-            "title": "FRANÇAIS",
-            "mobileTitle": "FRANÇAIS",
+            "title": "Français",
+            "mobileTitle": "Français",
             "organisation": "Non certifié",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -362,8 +362,8 @@
         "sections": [
           {
             "key": "politecnica-madrid-m-sc-data-science-top-student",
-            "title": "2024/25 MEILLEUR DOSSIER – M.Sc. en DATA SCIENCE",
-            "mobileTitle": "MEILLEUR DOSSIER 2025",
+            "title": "2024/25 Meilleur Dossier – M.Sc. en Data Science",
+            "mobileTitle": "Meilleur Dossier 2025",
             "organisation": "Universidad Politécnica de Madrid",
             "organisationHasURL": true,
             "organisationURL": "https://fi.upm.es/",
@@ -381,8 +381,8 @@
           },
           {
             "key": "politecnica-cartagena-b-sc-telematics-best-thesis",
-            "title": "2018/19 MEILLEUR MÉMOIRE DE B.Sc. EN INGÉNIERIE TÉLÉMATIQUE",
-            "mobileTitle": "MEILLEUR MÉMOIRE 2019",
+            "title": "2018/19 Meilleur Mémoire de B.Sc. en Ingénierie Télématique",
+            "mobileTitle": "Meilleur Mémoire 2019",
             "organisation": "Universidad Politécnica de Cartagena",
             "organisationHasURL": true,
             "organisationURL": "https://teleco.upct.es/",

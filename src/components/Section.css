@@ -135,13 +135,13 @@ details > summary::marker {
     details[open] {
         background-color: white;
         width: 90vw;
-        height: 90vh;
+        height: 77.5vh;
         margin: 5vh 5vw;
         border-radius: 2vh 2vh;
     }
     
     details[open] span[aria-level="3"] {
-        font-size: min(4.2vh, 9.3vw);
+        font-size: min(4.2vh, 7.3vw);
     }
     
     details[open] summary {
@@ -150,11 +150,11 @@ details > summary::marker {
     }
 
     details[open] .organisation-subtitle {
-        font-size: min(3vh, 6.5vw);
+        font-size: min(3vh, 5vw);
     }
 
     details[open] .time-frame-subtitle {
-        font-size: min(3vh, 6.5vw);
+        font-size: min(3vh, 5vw);
     }    
 
     details[open] > p,

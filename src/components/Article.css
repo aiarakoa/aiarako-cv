@@ -69,7 +69,7 @@ nav.section-nav ul {
 
 @media (max-width: 1199px) {
     article {
-        height: 90vh;
+        height: 84.5vh;
     }
 
     h2 {
@@ -83,7 +83,7 @@ nav.section-nav ul {
     }
 
     nav.section-nav > ol {
-        height: 80vh;
+        height: 77.5vh;
         margin-block-start: 0;
         margin-block-end: 0;
         padding-inline-start: 0;
@@ -94,7 +94,7 @@ nav.section-nav ul {
     }
 
     nav.section-nav {
-        height: 82vh;
+        height: 77.5vh;
     }
 
     hgroup.cv-article-heading-group {

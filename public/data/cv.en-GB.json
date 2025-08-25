@@ -14,8 +14,8 @@
             [
                 {
                     "key": "executive-summary",
-                    "title": "EXECUTIVE SUMMARY",
-                    "mobileTitle": "EXECUTIVE SUMMARY",
+                    "title": "Executive Summary",
+                    "mobileTitle": "Executive Summary",
                     "organisation": "",
                     "organisationHasURL": false,
                     "timeFrameExists": false,
@@ -31,8 +31,8 @@
                 },
                 {
                     "key": "personal-details",
-                    "title": "PERSONAL DETAILS",
-                    "mobileTitle": "PERSONAL DETAILS",
+                    "title": "Personal Details",
+                    "mobileTitle": "Personal Details",
                     "organisation": "",
                     "organisationHasURL": false,
                     "timeFrameExists": false,
@@ -80,8 +80,8 @@
                 },
                 {
                     "key": "contact-info",
-                    "title": "CONTACT INFO",
-                    "mobileTitle": "CONTACT INFO",
+                    "title": "Contact Info",
+                    "mobileTitle": "Contact Info",
                     "organisation": "",
                     "organisationHasURL": false,
                     "timeFrameExists": false,
@@ -136,8 +136,8 @@
             [
                 {
                     "key": "vdx-data-engineer",
-                    "title": "GRADUATE DATA ENGINEER",
-                    "mobileTitle": "GRADUATE DATA ENGINEER",
+                    "title": "Graduate Data Engineer",
+                    "mobileTitle": "Graduate Data Engineer",
                     "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
                     "organisationHasURL": true,
                     "organisationURL": "http://vdx.es/",
@@ -159,8 +159,8 @@
                 },
                 {
                     "key": "vdx-data-scientist",
-                    "title": "GRADUATE DATA SCIENTIST",
-                    "mobileTitle": "GRADUATE DATA SCIENTIST",
+                    "title": "Graduate Data Scientist",
+                    "mobileTitle": "Graduate Data Scientist",
                     "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
                     "organisationHasURL": true,
                     "organisationURL": "http://vdx.es/",
@@ -182,8 +182,8 @@
                 },
                 {
                     "key": "vdx-front-end-developer",
-                    "title": "FRONT END DEVELOPER",
-                    "mobileTitle": "FRONT END DEVELOPER",
+                    "title": "Front-End Developer",
+                    "mobileTitle": "Front-End Developer",
                     "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
                     "organisationHasURL": true,
                     "organisationURL": "http://vdx.es/",
@@ -230,8 +230,8 @@
             [
                 {
                     "key": "politecnica-madrid-m-sc-data-science",
-                    "title": "M.Sc. in DATA SCIENCE",
-                    "mobileTitle": "M.Sc., DATA SCIENCE",
+                    "title": "M.Sc. in Data Science",
+                    "mobileTitle": "M.Sc., Data Science",
                     "organisation": "Universidad Politécnica de Madrid",
                     "organisationHasURL": true,
                     "organisationURL": "https://fi.upm.es/",
@@ -261,8 +261,8 @@
                 },
                 {
                     "key": "politecnica-cartagena-b-sc-telematics",
-                    "title": "B.Sc. in TELEMATICS ENGINEERING",
-                    "mobileTitle": "B.Sc., TELEMATICS",
+                    "title": "B.Sc. in Telematics Engineering",
+                    "mobileTitle": "B.Sc., Telematics",
                     "organisation": "Universidad Politécnica de Cartagena",
                     "organisationHasURL": true,
                     "organisationURL": "https://teleco.upct.es/",
@@ -306,8 +306,8 @@
             [
                 {
                     "key": "languages-english",
-                    "title": "ENGLISH",
-                    "mobileTitle": "ENGLISH",
+                    "title": "English",
+                    "mobileTitle": "English",
                     "organisation": "Cambridge English C2",
                     "organisationHasURL": true,
                     "organisationURL": "https://www.cambridgeenglish.org/exams-and-tests/cefr/",
@@ -325,8 +325,8 @@
                 },
                 {
                     "key": "languages-spanish",
-                    "title": "SPANISH",
-                    "mobileTitle": "SPANISH",
+                    "title": "Spanish",
+                    "mobileTitle": "Spanish",
                     "organisation": "Native",
                     "organisationHasURL": false,
                     "timeFrameExists": false
@@ -340,8 +340,8 @@
                 },
                 {
                     "key": "languages-german",
-                    "title": "GERMAN",
-                    "mobileTitle": "GERMAN",
+                    "title": "German",
+                    "mobileTitle": "German",
                     "organisation": "Goethe-Zertifikat B2",
                     "organisationHasURL": true,
                     "organisationURL": "https://www.goethe.de/ins/es/de/sta/mad/prf/gzb2.cfm",
@@ -360,8 +360,8 @@
                 },
                 {
                     "key": "languages-french",
-                    "title": "FRENCH",
-                    "mobileTitle": "FRENCH",
+                    "title": "French",
+                    "mobileTitle": "French",
                     "organisation": "Non certified",
                     "organisationHasURL": false,
                     "timeFrameExists": false
@@ -515,8 +515,8 @@
             [
                 {
                     "key": "politecnica-madrid-m-sc-data-science-top-student",
-                    "title": "2024/25 BEST ACADEMIC RECORDS AWARD - M.Sc. in DATA SCIENCE",
-                    "mobileTitle": "2025 BEST GPA AWARDS",
+                    "title": "2024/25 Best Academic Records Awards - M.Sc. in Data Science",
+                    "mobileTitle": "2025 Best GPA Awards",
                     "organisation": "Universidad Politécnica de Madrid",
                     "organisationHasURL": true,
                     "organisationURL": "https://fi.upm.es/",
@@ -545,8 +545,8 @@
                 },
                 {
                     "key": "politecnica-cartagena-b-sc-telematics-best-thesis",
-                    "title": "2018/19 BEST B.Sc. THESIS IN TELEMATICS ENGINEERING",
-                    "mobileTitle": "2019 BEST THESIS AWARDS",
+                    "title": "2018/19 Best B.Sc. Thesis in Telematics Engineering",
+                    "mobileTitle": "2019 Best Thesis Awards",
                     "organisation": "Universidad Politécnica de Cartagena",
                     "organisationHasURL": true,
                     "organisationURL": "https://teleco.upct.es/",

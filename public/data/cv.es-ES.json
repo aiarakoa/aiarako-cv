@@ -12,8 +12,8 @@
         "sections": [
           {
             "key": "executive-summary",
-            "title": "RESUMEN EJECUTIVO",
-            "mobileTitle": "RESUMEN EJECUTIVO",
+            "title": "Resumen ejecutivo",
+            "mobileTitle": "Resumen ejecutivo",
             "organisation": "",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -27,8 +27,8 @@
           },
           {
             "key": "personal-details",
-            "title": "DATOS PERSONALES",
-            "mobileTitle": "DATOS PERSONALES",
+            "title": "Datos personales",
+            "mobileTitle": "Datos personales",
             "organisation": "",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -47,8 +47,8 @@
           },
           {
             "key": "contact-info",
-            "title": "CONTACTO",
-            "mobileTitle": "CONTACTO",
+            "title": "Contacto",
+            "mobileTitle": "Contacto",
             "organisation": "",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -73,8 +73,8 @@
         "sections": [
           {
             "key": "vdx-data-engineer",
-            "title": "INGENIERO DE DATOS RECIÉN TITULADO",
-            "mobileTitle": "ING. DATOS (RECIÉN TIT.)",
+            "title": "Ingeniero de datos recién titulado",
+            "mobileTitle": "Ing. Datos (recién tit.)",
             "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
             "organisationHasURL": true,
             "organisationURL": "http://vdx.es/",
@@ -89,8 +89,8 @@
           },
           {
             "key": "vdx-data-scientist",
-            "title": "CIENTÍFICO DE DATOS RECIÉN TITULADO",
-            "mobileTitle": "CIENT. DATOS (RECIÉN TIT.)",
+            "title": "Científico de datos recién titulado",
+            "mobileTitle": "Cient. datos (recién tit.)",
             "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
             "organisationHasURL": true,
             "organisationURL": "http://vdx.es/",
@@ -105,8 +105,8 @@
           },
           {
             "key": "vdx-front-end-developer",
-            "title": "DESARROLLADOR FRONT-END",
-            "mobileTitle": "DESARR. FRONT-END",
+            "title": "Desarrollador Front-End",
+            "mobileTitle": "Desarr. Front-End",
             "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
             "organisationHasURL": true,
             "organisationURL": "http://vdx.es/",
@@ -138,8 +138,8 @@
         "sections": [
           {
             "key": "politecnica-madrid-m-sc-data-science",
-            "title": "M.Sc. in DATA SCIENCE",
-            "mobileTitle": "M.Sc., DATA SCIENCE",
+            "title": "M.Sc. in Data Science",
+            "mobileTitle": "M.Sc., Data Science",
             "organisation": "Universidad Politécnica de Madrid",
             "organisationHasURL": true,
             "organisationURL": "https://fi.upm.es/",
@@ -163,8 +163,8 @@
           },
           {
             "key": "politecnica-cartagena-b-sc-telematics",
-            "title": "B.Sc. en INGENIERÍA TELEMÁTICA",
-            "mobileTitle": "B.Sc., TELEMATICS",
+            "title": "B.Sc. en Ingeniería Telemática",
+            "mobileTitle": "B.Sc., Telemática",
             "organisation": "Universidad Politécnica de Cartagena",
             "organisationHasURL": true,
             "organisationURL": "https://teleco.upct.es/",
@@ -201,8 +201,8 @@
         "sections": [
           {
             "key": "languages-english",
-            "title": "INGLÉS",
-            "mobileTitle": "INGLÉS",
+            "title": "Inglés",
+            "mobileTitle": "Inglés",
             "organisation": "Cambridge English C2",
             "organisationHasURL": true,
             "organisationURL": "https://www.cambridgeenglish.org/exams-and-tests/cefr/",
@@ -216,8 +216,8 @@
           },
           {
             "key": "languages-spanish",
-            "title": "ESPAÑOL",
-            "mobileTitle": "ESPAÑOL",
+            "title": "Español",
+            "mobileTitle": "Español",
             "organisation": "Lengua materna",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -226,8 +226,8 @@
           },
           {
             "key": "languages-german",
-            "title": "ALEMÁN",
-            "mobileTitle": "ALEMÁN",
+            "title": "Alemán",
+            "mobileTitle": "Alemán",
             "organisation": "Goethe-Zertifikat B2",
             "organisationHasURL": true,
             "organisationURL": "https://www.goethe.de/ins/es/de/sta/mad/prf/gzb2.cfm",
@@ -241,8 +241,8 @@
           },
           {
             "key": "languages-french",
-            "title": "FRANCÉS",
-            "mobileTitle": "FRANCÉS",
+            "title": "Francés",
+            "mobileTitle": "Francés",
             "organisation": "Sin certificación",
             "organisationHasURL": false,
             "timeFrameExists": false,
@@ -356,8 +356,8 @@
         "sections": [
           {
             "key": "politecnica-madrid-m-sc-data-science-top-student",
-            "title": "2024/25 MEJOR EXPEDIENTE — M.Sc. en DATA SCIENCE",
-            "mobileTitle": "MEJOR EXPEDIENTE 2024/25",
+            "title": "2024/25 Mejor expediente — M.Sc. in Data Science",
+            "mobileTitle": "Mejor expediente 2024/25",
             "organisation": "Universidad Politécnica de Madrid",
             "organisationHasURL": true,
             "organisationURL": "https://fi.upm.es/",
@@ -375,8 +375,8 @@
           },
           {
             "key": "politecnica-cartagena-b-sc-telematics-best-thesis",
-            "title": "2018/19 MEJOR TFG EN INGENIERÍA TELEMÁTICA",
-            "mobileTitle": "MEJOR TFG 2018/19",
+            "title": "2018/19 Mejor TFG en Ingeniería Telemática",
+            "mobileTitle": "Mejor TFG 2018/19",
             "organisation": "Universidad Politécnica de Cartagena",
             "organisationHasURL": true,
             "organisationURL": "https://teleco.upct.es/",
