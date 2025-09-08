@@ -7,7 +7,21 @@ import { useCV } from "./components/CVProvider";
 
 function App()
 {
-  const { status, error, presentationMode, setSectionsPerGroup, sectionsPerGroupByPresentationMode } = useCV();
+  const { status, error, presentationMode, setResizeTick, setPresentationMode, setSectionsPerGroup, sectionsPerGroupByPresentationMode } = useCV();
+
+  useEffect(() => {
+    const onResize = () => {
+      setPresentationMode(window.matchMedia('(min-width: 1200px)').matches ? 'laptop' : 'mobile');
+      setResizeTick(oldTick => oldTick + 1);
+    };
+
+    window.addEventListener('resize', onResize);
+    window.addEventListener('orientationchange', onResize);
+    return () => {
+        window.removeEventListener('resize', onResize);
+        window.removeEventListener('orientationchange', onResize);
+    };
+  }, [setPresentationMode]);
 
   useEffect(() => {
     if(presentationMode)

@@ -20,8 +20,60 @@ details > summary::-webkit-details-marker {
     display: none;
 }
 
+details > summary {
+    display: flex;
+    flex-direction: row;
+}
+
 details > summary::marker {
     content: "";
+}
+
+.details-summary-span {
+    flex-basis: 100%;
+}
+
+.cert-image-span > button {
+    height: 100%;
+    width: 100%;
+    border-width: 0;
+    background-color: transparent;
+}
+
+.cert-image-span > button > img {
+    height: 100%;
+    width: 100%;
+}
+
+.cert-image-span:not(.cert-viewer-on) > .cert-viewer-container {
+    display: none;
+}
+
+.cert-image-span.cert-viewer-on > .cert-viewer-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    pointer-events: none;
+}
+
+.cert-image-span.cert-viewer-on > .cert-viewer-container > .cert-viewer {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #888;
+    border-radius: 2vh 2vh;
+    pointer-events: all;
+}
+
+.cert-image-enlarge-button {
+    cursor: pointer;
 }
 
 .organisation-subtitle {
@@ -46,6 +98,54 @@ details > summary::marker {
 
     details.empty-details > summary {
         text-indent: 2vh;
+    }
+
+    .details-summary-with-cert-image-span {
+        flex-basis: 85%;
+    }
+
+    .cert-image-span {
+        flex-basis: 35%;
+        min-width: 0;
+        max-width: 10vh;
+    }
+
+    .cert-image-span.cert-viewer-on > .cert-viewer-container > .cert-viewer {
+        top: 5vh;
+        left: 7.5vw;
+        width: 85vw;
+        height: 90vh;
+        display: flex;
+    }
+
+    .cert-image {
+        width: 40%;
+        position: inherit;
+        left: 5%;
+    }
+
+    .cert-image.cert-image-zoomed {
+        width: 120%;
+    }
+
+    .cert-image-span {
+        flex-basis: 7.5%;
+        pointer-events: all;
+    }
+
+    .cert-image-span.cert-viewer-on > .cert-viewer {
+        top: 0vh;
+        left: 0vw;
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .cert-image-span.cert-viewer-on > .cert-viewer-container > .cert-viewer > .cert-viewer-controls {
+        flex-basis: 20%;
+    }
+
+    .cert-image-span.cert-viewer-on > .cert-viewer-container > .cert-viewer > .cert-viewer-viewport {
+        flex-basis: 80%;
     }
 
     section {
@@ -83,21 +183,44 @@ details > summary::marker {
     button.section-collapse-button {
         display: none;
     }
+
+    button.cert-viewer-collapse-button {
+        border-radius: 50%;
+        border-width: 0;
+        background-color: white;
+        font-family: 'Decalotype';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-weight: 800;
+        width: 4vh;
+        height: 4vh;
+        position: absolute;
+        top: 1vh;
+        background-position: center;
+        background-size: 60% 60%;
+        background-repeat: no-repeat;
+        background-image: url(/public/images/prevarrowbluetintdark.svg);
+    }
+
+    button.cert-viewer-collapse-button:hover {
+        background-color: #5c7ad6;
+        background-image: url(/public/images/prevarrowbluetintbright.svg);
+    }
 }
 
 @media (max-width: 1199px) {
     .organisation-subtitle {
-        font-size: min(2.4vh, 5vw);
+        font-size: min(2.4vh, 3.65vw);
     }
 
     .time-frame-subtitle {
-        font-size: min(2.4vh, 5vw);
+        font-size: min(2.4vh, 3.65vw);
     }
 
     summary span[aria-level="3"] {
         margin-block-start: 0em;
         margin-block-end: 0em;
-        font-size: min(3.5vh, 7vw);
+        font-size: min(3.15vh, 4.8vw);
     }
 
     details:not([open]) > summary {
@@ -111,6 +234,35 @@ details > summary::marker {
 
     details.empty-details > summary {
         text-indent: 2vw;
+    }
+
+    .details-summary-with-cert-image-span {
+        flex-basis: 85%;
+    }
+
+    .cert-image-span {
+        flex-basis: 35%;
+        min-width: 0;
+        max-width: 10vh;
+    }
+
+    .cert-image-span.cert-viewer-on > .cert-viewer-container > .cert-viewer {
+        top: 5vh;
+        left: 7.5vw;
+        width: 85vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cert-image {
+        width: 90%;
+        position: inherit;
+        left: 5%;
+    }
+
+    .cert-image.cert-image-zoomed {
+        width: 270%;
     }
     
     details > p,
@@ -136,12 +288,12 @@ details > summary::marker {
         background-color: white;
         width: 90vw;
         height: 77.5vh;
-        margin: 5vh 5vw;
+        margin: 6vh 5vw 4vh 5vw;
         border-radius: 2vh 2vh;
     }
     
     details[open] span[aria-level="3"] {
-        font-size: min(4.2vh, 7.3vw);
+        font-size: min(3.8vh, 6.6vw);
     }
     
     details[open] summary {
@@ -168,7 +320,16 @@ details > summary::marker {
         overflow-wrap: break-word;
     }
 
-    button.section-collapse-button {
+    details[open] .details-summary-with-cert-image-span {
+        flex-basis: 100%;
+    }
+    
+    details[open] .cert-image-span {
+        display: none;
+    }
+
+    button.section-collapse-button,
+    button.cert-viewer-collapse-button {
         border-radius: 50%;
         border-width: 0;
         background-color: white;
@@ -176,27 +337,19 @@ details > summary::marker {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-weight: 800;
-        color: #5c7ad6;
         width: 4vh;
         height: 4vh;
         position: absolute;
-        top: 0.5vh;
+        top: 1vh;
+        background-position: center;
+        background-size: 60% 60%;
+        background-repeat: no-repeat;
+        background-image: url(/public/images/prevarrowbluetintdark.svg);
     }
 
+    button.cert-viewer-collapse-button:hover,
     button.section-collapse-button:hover {
-        border-radius: 50%;
-        border-width: 0;
         background-color: #5c7ad6;
-        font-family: 'Decalotype';
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        font-weight: 800;
-        color: white;
-        width: 4vh;
-        height: 4vh;
-    }
-
-    button.section-collapse-button::after {
-        content: "<";
+        background-image: url(/public/images/prevarrowbluetintbright.svg);
     }
 }

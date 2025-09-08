@@ -83,9 +83,9 @@ h1.cv-header {
     }
 
     nav.lang-nav.language-selection-layout button.lang-button {
-        width: 5vw;
-        height: 5vw;
-        font-size: 4.5vh;
+        width: max(8vh, 5vw);
+        height: max(8vh, 5vw);
+        font-size: max(3.2vh, 2vw);
     }
 
     span.cv-header-balance-left-span {
@@ -158,16 +158,17 @@ h1.cv-header {
     }
 
     nav.lang-nav.language-selection-layout ul {
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 6vh;
         width: 80vw;
-        margin-left: 10vw;
         justify-content: space-between;
     }
 
     nav.lang-nav.language-selection-layout button.lang-button {
-        width: max(5vh, 8vw);
-        height: max(5vh, 8vw);
-        font-size: min(4vh, 6vw);
+        width: max(5.1vh, 3.2vw);
+        height: max(5.1vh, 3.2vw);
+        font-size: max(2.4vh, 1.5vw);
     }
 
     span.cv-header-balance-left-span {
@@ -227,7 +228,10 @@ nav.top-nav .label-hover {
     display: none;
 }
 
-/* only when active AND hovered: swap */
+span.label-default {
+    pointer-events: none;
+}
+
 nav.top-nav.nav-sliding-layout a.active-nav-link:hover .label-default {
     display: none;
 }
@@ -250,7 +254,8 @@ nav.top-nav.nav-dropdown-layout ul > li {
     width: 100%;
 }
 
-button.invisible-nav-button,
+button.nav-seq-button:disabled,
+button.nav-seq-button[disabled],
 nav.top-nav.nav-dropdown-layout > button {
     visibility: hidden;
 }
@@ -284,28 +289,45 @@ button.nav-seq-button {
     -moz-osx-font-smoothing: grayscale;
     font-weight: 800;
     color: #eeebfa;
+    background-position: center;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
 }
 
-button.to-the-far-left-nav-button::after {
-    content: "≪";
+button.to-the-first-nav-button {
+    background-image: url(/public/images/firstarrowbluetintbright.svg);
 }
 
-button.to-the-left-nav-button::after {
-    content: "<";
+button.to-the-previous-nav-button {
+    background-image: url(/public/images/prevarrowbluetintbright.svg);
 }
 
-button.to-the-right-nav-button::after {
-    content: ">";
+button.to-the-next-nav-button {
+    background-image: url(/public/images/nextarrowbluetintbright.svg);
 }
 
-button.to-the-far-right-nav-button::after {
-    content: "≫";
+button.to-the-last-nav-button {
+    background-image: url(/public/images/lastarrowbluetintbright.svg);
 }
 
 button.nav-seq-button:hover {
-    background-color: transparent;
-    background-image: linear-gradient(#eeebfa 0%, #FCFBFE 50%, white 100%);
-    color: black;
+    background-color: #FCFBFE;
+}
+
+button.to-the-first-nav-button:hover {
+    background-image: url(/public/images/firstarrowbluetintdark.svg);
+}
+
+button.to-the-previous-nav-button:hover {
+    background-image: url(/public/images/prevarrowbluetintdark.svg);
+}
+
+button.to-the-next-nav-button:hover {
+    background-image: url(/public/images/nextarrowbluetintdark.svg);
+}
+
+button.to-the-last-nav-button:hover {
+    background-image: url(/public/images/lastarrowbluetintdark.svg);
 }
 
 button.lang-button {

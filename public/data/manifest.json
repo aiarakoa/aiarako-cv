@@ -51,5 +51,46 @@
         "es-ES": "Actualidad",
         "fr-FR": "Présent",
         "de-DE": "heute"
-    }
+    },
+    "navComponents":
+    [
+        {
+            "root": "top-nav",
+            "layoutToggling": true,
+            "reCenterMode": "smooth",
+            "standardLayout": "nav-sliding-layout",
+            "modalLayout": "nav-dropdown-layout",
+            "activeSelectorType": "a",
+            "activeSelectorAttribute": "aria-current",
+            "activeSelectorValue": "page",
+            "exclusionClauses":
+            [
+                {
+                    "target": "target",
+                    "selector": true,
+                    "active": true,
+                    "has": false
+                },
+                {
+                    "target": "nav",
+                    "layout": "standardLayout",
+                    "has": true
+                }
+            ]
+        },
+        {
+            "root": "lang-nav",
+            "layoutToggling": true,
+            "reCenterMode": "instant",
+            "standardLayout": "selected-language-layout",
+            "modalLayout": "language-selection-layout",
+            "activeSelectorType": "button",
+            "activeSelectorAttribute": "activelocale",
+            "activeSelectorValue": "true",
+            "exclusionClauses":
+            [
+
+            ]
+        }
+    ]
 }

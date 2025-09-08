@@ -11,7 +11,6 @@ function Footer()
         <a target = "_blank" rel = "noopener noreferrer" href="http://aws.amazon.com/what-is-cloud-computing">
           <img src={`${process.env.PUBLIC_URL}/images/poweredbyaws.png`} alt="Powered by AWS Cloud Computing" />
         </a>
-
       </footer>
     </>
   );

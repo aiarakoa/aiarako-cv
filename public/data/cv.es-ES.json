@@ -1,469 +1,3161 @@
 {
-    "articles": [
+  "tags":
+  [
+    {
+      "uri": null,
+      "slug": "de",
+      "label":
       {
-        "key": "personal-info",
-        "path": "/",
-        "title": "INFORMACIÓN PERSONAL",
-        "mobileTitle": "INFORMACIÓN PERSONAL",
-        "subtitle": "",
-        "navLinkDescription": "Info personal",
-        "mobileNavLinkDescription": "Mis datos",
-        "layout": "section-pagination",
-        "sections": [
-          {
-            "key": "executive-summary",
-            "title": "Resumen ejecutivo",
-            "mobileTitle": "Resumen ejecutivo",
-            "organisation": "",
-            "organisationHasURL": false,
-            "timeFrameExists": false,
-            "paragraphs": [
-              {
-                "content": "Data Scientist en formación con más de 5 años de experiencia como desarrollador Front-End para sistemas SCADA. Dominio de Python, SQL, JS y CSS, con base académica en aprendizaje automático, series temporales y datos abiertos. Actualmente cursando un máster en Ciencia de Datos y realizando certificaciones reconocidas en IA, computación en la nube y BI.",
-                "type": "text"
-              }
-            ],
-            "descriptionList": []
-          },
-          {
-            "key": "personal-details",
-            "title": "Datos personales",
-            "mobileTitle": "Datos personales",
-            "organisation": "",
-            "organisationHasURL": false,
-            "timeFrameExists": false,
-            "paragraphs": [],
-            "descriptionList": [
-              { "dt": "Nombre", "dd": [{ "content": "Carlos de la Cruz", "type": "text" }] },
-              { "dt": "Apellidos", "dd": [{ "content": "Ayala Vargas", "type": "text" }] },
-              { "dt": "Nacionalidad", "dd": [{ "content": "Española", "type": "text" }] },
-              {
-                "dt": "Autorización para trabajar",
-                "dd": [
-                  { "content": "Ciudadano de la UE/EEE (España); con derecho a trabajar en toda la UE/EEE. Suiza: hasta 90 días laborables por año natural con notificación previa en línea.", "type": "text" }
-                ]
-              }
-            ]
-          },
-          {
-            "key": "contact-info",
-            "title": "Contacto",
-            "mobileTitle": "Contacto",
-            "organisation": "",
-            "organisationHasURL": false,
-            "timeFrameExists": false,
-            "paragraphs": [],
-            "descriptionList": [
-              { "dt": "Teléfono", "dd": [{ "content": "+34689991118", "type": "phone", "number": "+34689991118" }] },
-              { "dt": "Correo electrónico", "dd": [{ "content": "carlos.de.la.cruz.ayala.vargas@gmail.com", "type": "mail", "address": "carlos.de.la.cruz.ayala.vargas@gmail.com" }] },
-              { "dt": "LinkedIn", "dd": [{ "content": "Carlos Ayala Vargas", "type": "url", "url": "https://www.linkedin.com/in/carlos-ayala-vargas/" }] }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "professional-xp",
-        "path": "/xp",
-        "title": "EXPERIENCIA PROFESIONAL",
-        "mobileTitle": "EXPERIENCIA PROFESIONAL",
-        "subtitle": "EXPERIENCIA MÁS RELEVANTE",
-        "navLinkDescription": "Experiencia",
-        "mobileNavLinkDescription": "Experiencia",
-        "layout": "section-pagination",
-        "sections": [
-          {
-            "key": "vdx-data-engineer",
-            "title": "Ingeniero de datos recién titulado",
-            "mobileTitle": "Ing. Datos (recién tit.)",
-            "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
-            "organisationHasURL": true,
-            "organisationURL": "http://vdx.es/",
-            "organisationAnchorText": "Enlace a VDX",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": false,
-            "timeFrameStart": "2025-07",
-            "timeFrameEndExists": true,
-            "timeFrameIsOver": false,
-            "paragraphs": [{ "content": "Próximamente…", "type": "text" }],
-            "descriptionList": []
-          },
-          {
-            "key": "vdx-data-scientist",
-            "title": "Científico de datos recién titulado",
-            "mobileTitle": "Cient. datos (recién tit.)",
-            "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
-            "organisationHasURL": true,
-            "organisationURL": "http://vdx.es/",
-            "organisationAnchorText": "Enlace a VDX",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": false,
-            "timeFrameStart": "2025-07",
-            "timeFrameEndExists": true,
-            "timeFrameIsOver": false,
-            "paragraphs": [{ "content": "Próximamente…", "type": "text" }],
-            "descriptionList": []
-          },
-          {
-            "key": "vdx-front-end-developer",
-            "title": "Desarrollador Front-End",
-            "mobileTitle": "Desarr. Front-End",
-            "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
-            "organisationHasURL": true,
-            "organisationURL": "http://vdx.es/",
-            "organisationAnchorText": "Enlace a VDX",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": false,
-            "timeFrameStart": "2019-11",
-            "timeFrameEndExists": true,
-            "timeFrameIsOver": false,
-            "paragraphs": [
-              { "content": "Entrega de una herramienta de gráficas en JS/CSS como tarea inicial, aún operativa tras 5 años en un dashboard SCADA con más de 12 vistas de producción.", "type": "text" },
-              { "content": "Diseño de componentes HMI para SCADA en 5+ sectores industriales mediante ingeniería inversa de código Java/GWT legado y más de 100.000 filas XLS sin documentar.", "type": "text" },
-              { "content": "Creación de elementos interactivos sensibles al estado usando SVG, PNG y CSS, mejorando la claridad y la usabilidad del sistema.", "type": "text" },
-              { "content": "Diagnóstico a partir de logs de backend para identificar anomalías de comportamiento y apoyar el mantenimiento.", "type": "text" }
-            ],
-            "descriptionList": []
-          }
-        ]
-      },
-      {
-        "key": "education",
-        "path": "/education",
-        "title": "FORMACIÓN ACADÉMICA",
-        "mobileTitle": "FORMACIÓN ACADÉMICA",
-        "subtitle": "",
-        "navLinkDescription": "Formación",
-        "mobileNavLinkDescription": "Formación",
-        "layout": "section-pagination",
-        "sections": [
-          {
-            "key": "politecnica-madrid-m-sc-data-science",
-            "title": "M.Sc. in Data Science",
-            "mobileTitle": "M.Sc., Data Science",
-            "organisation": "Universidad Politécnica de Madrid",
-            "organisationHasURL": true,
-            "organisationURL": "https://fi.upm.es/",
-            "organisationAnchorText": "Enlace a UPM – Escuela de Informática",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": false,
-            "timeFrameStart": "2024-09",
-            "timeFrameEndExists": true,
-            "timeFrameIsOver": false,
-            "paragraphs": [
-              { "content": "60/72 ECTS superados · Nota media: 83 %", "type": "text" }
-            ],
-            "descriptionList": [
-              {
-                "dt": "Asignaturas",
-                "dd": [
-                  { "content": "Machine Learning · Deep Learning · Cloud Computing · Computer Vision · Visualización de datos · Big Data · Python · Open Data · Series temporales · Data Mining · Gobierno del dato · Procesos de datos", "type": "text" }
-                ]
-              }
-            ]
-          },
-          {
-            "key": "politecnica-cartagena-b-sc-telematics",
-            "title": "B.Sc. en Ingeniería Telemática",
-            "mobileTitle": "B.Sc., Telemática",
-            "organisation": "Universidad Politécnica de Cartagena",
-            "organisationHasURL": true,
-            "organisationURL": "https://teleco.upct.es/",
-            "organisationAnchorText": "Enlace a UPCT – Escuela de Telecomunicación",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": false,
-            "timeFrameStart": "2012-09",
-            "timeFrameEndExists": true,
-            "timeFrameIsOver": true,
-            "timeFrameEnd": "2019-10",
-            "paragraphs": [
-              { "content": "Nota media: 73 % · TFG: 100 %", "type": "text" }
-            ],
-            "descriptionList": [
-              {
-                "dt": "Asignaturas",
-                "dd": [
-                  { "content": "Redes · Bases de datos · Modelado y simulación · Estadística · Sistemas lineales · Sistemas de información distribuidos · Proyectos · Redes y servicios de comunicaciones · Ingeniería de protocolos", "type": "text" }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "languages",
-        "path": "/languages",
-        "title": "IDIOMAS",
-        "mobileTitle": "IDIOMAS",
-        "subtitle": "",
-        "navLinkDescription": "Idiomas",
-        "mobileNavLinkDescription": "Idiomas",
-        "layout": "section-pagination",
-        "sections": [
-          {
-            "key": "languages-english",
-            "title": "Inglés",
-            "mobileTitle": "Inglés",
-            "organisation": "Cambridge English C2",
-            "organisationHasURL": true,
-            "organisationURL": "https://www.cambridgeenglish.org/exams-and-tests/cefr/",
-            "organisationAnchorText": "Enlace a información sobre Cambridge English C2",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2025-06",
-            "timeFrameEndExists": false,
-            "paragraphs": [],
-            "descriptionList": []
-          },
-          {
-            "key": "languages-spanish",
-            "title": "Español",
-            "mobileTitle": "Español",
-            "organisation": "Lengua materna",
-            "organisationHasURL": false,
-            "timeFrameExists": false,
-            "paragraphs": [],
-            "descriptionList": []
-          },
-          {
-            "key": "languages-german",
-            "title": "Alemán",
-            "mobileTitle": "Alemán",
-            "organisation": "Goethe-Zertifikat B2",
-            "organisationHasURL": true,
-            "organisationURL": "https://www.goethe.de/ins/es/de/sta/mad/prf/gzb2.cfm",
-            "organisationAnchorText": "Enlace a información sobre Goethe-Zertifikat B2",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2013-05",
-            "timeFrameEndExists": false,
-            "paragraphs": [],
-            "descriptionList": []
-          },
-          {
-            "key": "languages-french",
-            "title": "Francés",
-            "mobileTitle": "Francés",
-            "organisation": "Sin certificación",
-            "organisationHasURL": false,
-            "timeFrameExists": false,
-            "paragraphs": [],
-            "descriptionList": []
-          }
-        ]
-      },
-      {
-        "key": "certs",
-        "path": "/certs",
-        "title": "LICENCIAS, CERTIFICADOS Y CERTIFICACIONES",
-        "mobileTitle": "CERTIFICADOS",
-        "subtitle": "",
-        "navLinkDescription": "Certificados",
-        "mobileNavLinkDescription": "Certificados",
-        "layout": "section-pagination",
-        "sections": [
-          {
-            "key": "aws-cloud-consultant",
-            "title": "Consultor de tecnología en la nube de AWS",
-            "mobileTitle": "Consultor Tech en la nube",
-            "organisation": "AWS (a través de Coursera)",
-            "organisationHasURL": true,
-            "organisationURL": "https://www.coursera.org/professional-certificates/aws-cloud-technology-consultant/",
-            "organisationAnchorText": "Enlace a Consultor de tecnología en la nube de AWS (Coursera)",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2025-07",
-            "timeFrameEndExists": false,
-            "paragraphs": [],
-            "descriptionList": []
-          },
-          {
-            "key": "aws-cloud-solutions-architect-pre-exam",
-            "title": "AWS Cloud Solutions Architect",
-            "mobileTitle": "Cloud Solutions Architect",
-            "organisation": "AWS (a través de Coursera)",
-            "organisationHasURL": true,
-            "organisationURL": "https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect/",
-            "organisationAnchorText": "Enlace a preparación de examen Cloud Solutions Architect (Coursera)",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2025-07",
-            "timeFrameEndExists": false,
-            "paragraphs": [
-              { "content": "No es la certificación oficial de AWS, sino un certificado profesional de AWS orientado a preparar el examen.", "type": "text" }
-            ],
-            "descriptionList": []
-          },
-          {
-            "key": "ms-cloud-apps-azure",
-            "title": "Creación de apps de IA en la nube con MS Azure",
-            "mobileTitle": "Apps de IA con Azure",
-            "organisation": "Microsoft (a través de Coursera)",
-            "organisationHasURL": true,
-            "organisationURL": "https://www.coursera.org/specializations/building-ai-cloud-apps-microsoft-azure/",
-            "organisationAnchorText": "Enlace a Building AI Cloud Apps with MS Azure (Coursera)",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2025-07",
-            "timeFrameEndExists": false,
-            "paragraphs": [],
-            "descriptionList": []
-          },
-          {
-            "key": "ms-ai-ml-engineering",
-            "title": "Ingeniería de IA y ML",
-            "mobileTitle": "Ingeniería de IA y ML",
-            "organisation": "Microsoft (a través de Coursera)",
-            "organisationHasURL": true,
-            "organisationURL": "https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering/",
-            "organisationAnchorText": "Enlace a AI and ML Engineering (Coursera)",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2025-07",
-            "timeFrameEndExists": false,
-            "paragraphs": [],
-            "descriptionList": [
-              { "dt": "Tecnologías", "dd": [{ "content": "Azure · LLM · GenAI · Transfer Learning", "type": "text" }] }
-            ]
-          },
-          {
-            "key": "meta-front-end-developer",
-            "title": "Meta Front-End Developer",
-            "mobileTitle": "Meta Front-End Developer",
-            "organisation": "Meta (a través de Coursera)",
-            "organisationHasURL": true,
-            "organisationURL": "https://www.coursera.org/professional-certificates/meta-front-end-developer/",
-            "organisationAnchorText": "Enlace a Meta Front-End Developer (Coursera)",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2024-06",
-            "timeFrameEndExists": false,
-            "paragraphs": [],
-            "descriptionList": [
-              { "dt": "Tecnologías", "dd": [{ "content": "React · Figma · Git · UX/UI · CSS", "type": "text" }] }
-            ]
-          }
-        ]
-      },
-      {
-        "key": "awards",
-        "path": "/awards",
-        "title": "PREMIOS",
-        "mobileTitle": "PREMIOS",
-        "subtitle": "",
-        "navLinkDescription": "Premios",
-        "mobileNavLinkDescription": "Premios",
-        "layout": "section-pagination",
-        "sections": [
-          {
-            "key": "politecnica-madrid-m-sc-data-science-top-student",
-            "title": "2024/25 Mejor expediente — M.Sc. in Data Science",
-            "mobileTitle": "Mejor expediente 2024/25",
-            "organisation": "Universidad Politécnica de Madrid",
-            "organisationHasURL": true,
-            "organisationURL": "https://fi.upm.es/",
-            "organisationAnchorText": "Enlace a UPM – Escuela de Informática",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2025-07",
-            "timeFrameEndExists": false,
-            "paragraphs": [
-              { "content": "Del anuncio del premio:", "type": "text" },
-              { "content": "«Dirigido a estudiantes (hasta un máximo de 4) que iniciaron el Máster en Ciencia de Datos en septiembre de 2024. Los premios están financiados por la Universidad Politécnica de Madrid (Ayudas a Máster oficiales).", "type": "text" },
-              { "content": "El premio (450 euros) requiere ser estudiante de nuevo ingreso a tiempo completo en el MSc in Data Science, de cualquier nacionalidad, haber superado las asignaturas obligatorias matriculadas y haber obtenido las mejores calificaciones (media de 10 asignaturas).»", "type": "text" }
-            ],
-            "descriptionList": []
-          },
-          {
-            "key": "politecnica-cartagena-b-sc-telematics-best-thesis",
-            "title": "2018/19 Mejor TFG en Ingeniería Telemática",
-            "mobileTitle": "Mejor TFG 2018/19",
-            "organisation": "Universidad Politécnica de Cartagena",
-            "organisationHasURL": true,
-            "organisationURL": "https://teleco.upct.es/",
-            "organisationAnchorText": "Enlace a UPCT – Escuela de Telecomunicación",
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2019-10",
-            "timeFrameEndExists": false,
-            "paragraphs": [
-              { "content": "Mi TFG fue seleccionado por la ETSIT de la Universidad Politécnica de Cartagena (UPCT) como el mejor proyecto fin de grado del curso 2018/19 en Ingeniería Telemática. Fue presentado por la universidad al certamen nacional «Premios COITT Futuro de las Telecomunicaciones», que reconoce los mejores TFG en Telecomunicaciones de España.", "type": "text" }
-            ],
-            "descriptionList": []
-          }
-        ]
-      },
-      {
-        "key": "skills",
-        "path": "/skills",
-        "title": "HABILIDADES TÉCNICAS",
-        "mobileTitle": "HABILIDADES TÉCNICAS",
-        "subtitle": "",
-        "navLinkDescription": "Habilidades",
-        "mobileNavLinkDescription": "Habilidades",
-        "layout": "section-pagination",
-        "sections": [
-          {
-            "key": "skills-platforms",
-            "title": "Plataformas y herramientas",
-            "mobileTitle": "Plataformas y herramientas",
-            "organisation": "",
-            "organisationHasURL": false,
-            "timeFrameExists": false,
-            "paragraphs": [
-              { "content": "Git · PostgreSQL · JSON · AWS (limitado) · Azure (limitado) · Tableau (básico) · Power BI (básico) · Figma (básico)", "type": "text" }
-            ],
-            "descriptionList": []
-          },
-          {
-            "key": "skills-languages",
-            "title": "Lenguajes de programación",
-            "mobileTitle": "Lenguajes de programación",
-            "organisation": "",
-            "organisationHasURL": false,
-            "timeFrameExists": false,
-            "paragraphs": [
-              { "content": "JavaScript · Python · SQL · CSS · R · Bash (básico) · Java (básico) · C++ (básico)", "type": "text" }
-            ],
-            "descriptionList": []
-          },
-          {
-            "key": "skills-frameworks",
-            "title": "Frameworks y librerías",
-            "mobileTitle": "Frameworks y librerías",
-            "organisation": "",
-            "organisationHasURL": false,
-            "timeFrameExists": false,
-            "paragraphs": [
-              { "content": "Pandas · NumPy · scikit-learn · TensorFlow · R Shiny · Plotly · GeoPandas · rasterio · Matplotlib · OpenCV (básico) · React (básico) · Selenium", "type": "text" }
-            ],
-            "descriptionList": []
-          }
-        ]
-      },
-      {
-        "key": "portfolio",
-        "path": "/portfolio",
-        "title": "PROYECTOS PERSONALES",
-        "mobileTitle": "PROYECTOS PERSONALES",
-        "subtitle": "",
-        "navLinkDescription": "Proyectos",
-        "mobileNavLinkDescription": "Proyectos",
-        "layout": "portfolio-pagination",
-        "sections": [
-          {
-            "key": "cv-app",
-            "title": "App de CV en React",
-            "organisation": "",
-            "organisationHasURL": false,
-            "timeFrameExists": true,
-            "timeFrameTextualMonth": true,
-            "timeFrameStart": "2025-08",
-            "timeFrameEndExists": false,
-            "paragraphs": [{ "content": "Próximamente…", "type": "text" }],
-            "descriptionList": []
-          }
-        ]
+        "localised": true,
+        "localisation": "ingénierie des données",
+        "wildcard": "Data Engineering",
+        "abbreviated": true,
+        "abbreviation": "DE"
       }
-    ]
-  }
-  
+    },
+    {
+      "uri": null,
+      "slug": "ai",
+      "label":
+      {
+        "localised": true,
+        "localisation": "intelligence artificielle",
+        "wildcard": "Artificial Intelligence",
+        "abbreviated": true,
+        "abbreviation": "AI"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "datascraping",
+      "label":
+      {
+        "localised": true,
+        "localisation": "capture de données d'écran",
+        "wildcard": "data scraping",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "distributed",
+      "label":
+      {
+        "localised": true,
+        "localisation": "calcul distribué",
+        "wildcard": "Distributed Computing",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "realtime",
+      "label":
+      {
+        "localised": true,
+        "localisation": "systémes temps réel",
+        "wildcard": "real-time computing",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "threads",
+      "label":
+      {
+        "localised": true,
+        "localisation": "fils",
+        "wildcard": "threads",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "cplus",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "C++",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "python",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Python",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "linux",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Linux",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "https",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "HTTPS",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "tls",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "TLS",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "mlops",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "MLOps",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "elt",
+      "label":
+      {
+        "localised": true,
+        "localisation": "extraction, chargement et transformation",
+        "wildcard": "Extract-Load-Transform",
+        "abbreviated": true,
+        "abbreviation": "ELT"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "etl",
+      "label":
+      {
+        "localised": true,
+        "localisation": "extraction, transformation et chargement",
+        "wildcard": "Extract-Transform-Load",
+        "abbreviated": true,
+        "abbreviation": "ETL"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ds",
+      "label":
+      {
+        "localised": true,
+        "localisation": "science des données",
+        "wildcard": "Data Science",
+        "abbreviated": true,
+        "abbreviation": "DS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "png",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "PNG",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ux",
+      "label":
+      {
+        "localised": true,
+        "localisation": "expérience utilisateur",
+        "wildcard": "User eXperience",
+        "abbreviated": true,
+        "abbreviation": "UX"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ui",
+      "label":
+      {
+        "localised": true,
+        "localisation": "interface utilisateur",
+        "wildcard": "User Interface",
+        "abbreviated": true,
+        "abbreviation": "UI"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "js",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "JavaScript",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "css",
+      "label":
+      {
+        "localised": true,
+        "localisation": "feuilles de style en cascade",
+        "wildcard": "Cascading Style Sheets",
+        "abbreviated": true,
+        "abbreviation": "CSS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "scada",
+      "label":
+      {
+        "localised": true,
+        "localisation": "système de contrôle et d’acquisition de données en temps réel",
+        "wildcard": "supervisory control and data acquisition",
+        "abbreviated": true,
+        "abbreviation": "SCADA"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "postgres",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "PostgreSQL",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "svg",
+      "label":
+      {
+        "localised": true,
+        "localisation": "graphique vectoriel adaptable",
+        "wildcard": "Scalable Vector Graphics",
+        "abbreviated": true,
+        "abbreviation": "SVG"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "xls",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Microsoft Excel",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "frontend",
+      "label":
+      {
+        "localised": true,
+        "localisation": "développement web frontal",
+        "wildcard": "Front-end web development",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ml",
+      "label":
+      {
+        "localised": true,
+        "localisation": "apprentisage automatique",
+        "wildcard": "Machine Learning",
+        "abbreviated": true,
+        "abbreviation": "ML"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "dl",
+      "label":
+      {
+        "localised": true,
+        "localisation": "apprentisage profond",
+        "wildcard": "Deep Learning",
+        "abbreviated": true,
+        "abbreviation": "DL"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "cloud",
+      "label":
+      {
+        "localised": true,
+        "localisation": "informatique en nuage",
+        "wildcard": "Cloud Computing",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "cv",
+      "label":
+      {
+        "localised": true,
+        "localisation": "vision par ordinateur",
+        "wildcard": "Computer Vision",
+        "abbreviated": true,
+        "abbreviation": "CV"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "dv",
+      "label":
+      {
+        "localised": true,
+        "localisation": "visualisation des données",
+        "wildcard": "Data Visualization",
+        "abbreviated": true,
+        "abbreviation": "CV"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "bigdata",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Big Data",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "od",
+      "label":
+      {
+        "localised": true,
+        "localisation": "données ouvertes",
+        "wildcard": "Open Data",
+        "abbreviated": true,
+        "abbreviation": "OD"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "kg",
+      "label":
+      {
+        "localised": true,
+        "localisation": "graphes de connaissances",
+        "wildcard": "knowledge graphs",
+        "abbreviated": true,
+        "abbreviation": "KG"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "datagov",
+      "label":
+      {
+        "localised": true,
+        "localisation": "gouvernance des données",
+        "wildcard": "Data Governance",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ts",
+      "label":
+      {
+        "localised": true,
+        "localisation": "séries temporelles",
+        "wildcard": "time series",
+        "abbreviated": true,
+        "abbreviation": "TS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "datamining",
+      "label":
+      {
+        "localised": true,
+        "localisation": "fouille de données",
+        "wildcard": "data mining",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "dtmc",
+      "label":
+      {
+        "localised": true,
+        "localisation": "chaïnes de Markov à temps discret",
+        "wildcard": "discrete-time Markov chain",
+        "abbreviated": true,
+        "abbreviation": "DTMC"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "mdp",
+      "label":
+      {
+        "localised": true,
+        "localisation": "processus de décision Markovien",
+        "wildcard": "Markov decision process",
+        "abbreviated": true,
+        "abbreviation": "MDP"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "fsm",
+      "label":
+      {
+        "localised": true,
+        "localisation": "automate fini",
+        "wildcard": "finite-state machine",
+        "abbreviated": true,
+        "abbreviation": "FSM"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "edac",
+      "label":
+      {
+        "localised": true,
+        "localisation": "détection et correction d'erreurs",
+        "wildcard": "error detection and correction",
+        "abbreviated": true,
+        "abbreviation": "EDAC"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "crc",
+      "label":
+      {
+        "localised": true,
+        "localisation": "contrôle de redondance cyclique",
+        "wildcard": "cyclic redundancy check",
+        "abbreviated": true,
+        "abbreviation": "CRC"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "acl",
+      "label":
+      {
+        "localised": true,
+        "localisation": "liste de contrôle d'accès",
+        "wildcard": "access-control list",
+        "abbreviated": true,
+        "abbreviation": "ACL"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "stp",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "spanning tree protocol",
+        "abbreviated": true,
+        "abbreviation": "STP"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "kkt",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Karush-Kuhn-Tucker",
+        "abbreviated": true,
+        "abbreviation": "KKT"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "netoptim",
+      "label":
+      {
+        "localised": true,
+        "localisation": "optimisation des réseaux",
+        "wildcard": "network optimization",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "aws",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Amazon Web Services",
+        "abbreviated": true,
+        "abbreviation": "AWS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "http",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Hypertext Transfer Protocol",
+        "abbreviated": true,
+        "abbreviation": "HTTP"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "rdp",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Remote Desktop Protocol",
+        "abbreviated": true,
+        "abbreviation": "RDP"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ssh",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Secure Shell",
+        "abbreviated": true,
+        "abbreviation": "SSH"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "vpc",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseau privé virtuel",
+        "wildcard": "Virtual Private Network",
+        "abbreviated": true,
+        "abbreviation": "VPN"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsvpc",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Virtual Private Cloud",
+        "abbreviated": true,
+        "abbreviation": "AWS VPC"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "semantic",
+      "label":
+      {
+        "localised": true,
+        "localisation": "web sémantique",
+        "wildcard": "semantic web",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "react",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "React",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "github",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "GitHub",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "git",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Git",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "dns",
+      "label":
+      {
+        "localised": true,
+        "localisation": "système de nom de domaine",
+        "wildcard": "Domain Name Server",
+        "abbreviated": true,
+        "abbreviation": "DNS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "tcp",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Transmission Control Protocol",
+        "abbreviated": true,
+        "abbreviation": "TCP"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "udp",
+      "label":
+      {
+        "localised": true,
+        "localisation": "protocole de datagramme utilisateur",
+        "wildcard": "User Datagram Protocol",
+        "abbreviated": true,
+        "abbreviation": "UDP"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "r",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "R",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "snmp",
+      "label":
+      {
+        "localised": true,
+        "localisation": "protocole simple de gestion de réseau",
+        "wildcard": "Simple Network Management Protocol",
+        "abbreviated": true,
+        "abbreviation": "SNMP"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ip",
+      "label":
+      {
+        "localised": true,
+        "localisation": "protocole internet",
+        "wildcard": "Internet Protocol",
+        "abbreviated": true,
+        "abbreviation": "IP"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "mpls",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "multiprotocol label switching",
+        "abbreviated": true,
+        "abbreviation": "MPLS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "rmon",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "remote network monitoring",
+        "abbreviated": true,
+        "abbreviation": "RMON"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "vm",
+      "label":
+      {
+        "localised": true,
+        "localisation": "machine virtuelle",
+        "wildcard": "virtual machine",
+        "abbreviated": true,
+        "abbreviation": "VM"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "vbox",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Oracle VM VirtualBox",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "vmware",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "VMware",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "wimax",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "worldwide interoperability for microwave access",
+        "abbreviated": true,
+        "abbreviation": "WiMAX"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "wifi",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Wi-Fi",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "linearprog",
+      "label":
+      {
+        "localised": true,
+        "localisation": "optimisation linéaire",
+        "wildcard": "linear programming",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "nonlinearprog",
+      "label":
+      {
+        "localised": true,
+        "localisation": "optimisation non linéaire",
+        "wildcard": "nonlinear programming",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "intlinearprog",
+      "label":
+      {
+        "localised": true,
+        "localisation": "optimisation linéaire en nombres entiers",
+        "wildcard": "integer linear programming",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "intlinearprog",
+      "label":
+      {
+        "localised": true,
+        "localisation": "optimisation linéaire en nombres entiers",
+        "wildcard": "integer linear programming",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "mixlinearprog",
+      "label":
+      {
+        "localised": true,
+        "localisation": "optimisation linéaire en nombres entiers mixtes",
+        "wildcard": "mixed-integer linear programming",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "nosql",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "NoSQL",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "sklearn",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "scikit-learn",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "nosql",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "NoSQL",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "shiny",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Shiny",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "bluetooth",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Bluetooth",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "wireless",
+      "label":
+      {
+        "localised": true,
+        "localisation": "transmission sans fil",
+        "wildcard": "wireless communication",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "unittest",
+      "label":
+      {
+        "localised": true,
+        "localisation": "test unitaire",
+        "wildcard": "unit testing",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "pyspark",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "PySpark",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "semistructdata",
+      "label":
+      {
+        "localised": true,
+        "localisation": "données semi-structurées",
+        "wildcard": "semi-structured data",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "structdata",
+      "label":
+      {
+        "localised": true,
+        "localisation": "données structurées",
+        "wildcard": "structured data",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "unstructdata",
+      "label":
+      {
+        "localised": true,
+        "localisation": "données non structurées",
+        "wildcard": "unstructured data",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "autoencoder",
+      "label":
+      {
+        "localised": true,
+        "localisation": "auto-encodeur",
+        "wildcard": "autoencoder",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "agentic",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "agentic AI",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "gan",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseaux antagonistes génératifs",
+        "wildcard": "generative adversarial network",
+        "abbreviated": true,
+        "abbreviation": "GAN"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "mac",
+      "label":
+      {
+        "localised": true,
+        "localisation": "contrôle d'accès au support",
+        "wildcard": "medium access control",
+        "abbreviated": true,
+        "abbreviation": "MAC"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "opencv",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "OpenCV",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "cnn",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseaux de neurones convolutifs",
+        "wildcard": "convolutional neural network",
+        "abbreviated": true,
+        "abbreviation": "CNN"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "tl",
+      "label":
+      {
+        "localised": true,
+        "localisation": "apprentissage par transfert",
+        "wildcard": "transfer learning",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "supervl",
+      "label":
+      {
+        "localised": true,
+        "localisation": "apprentissage supervisé",
+        "wildcard": "supervised learning",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "unsupervl",
+      "label":
+      {
+        "localised": true,
+        "localisation": "apprentissage non supervisé",
+        "wildcard": "unsupervised learning",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "genai",
+      "label":
+      {
+        "localised": true,
+        "localisation": "IA générative",
+        "wildcard": "generative AI",
+        "abbreviated": true,
+        "abbreviation": "GenAI"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "xai",
+      "label":
+      {
+        "localised": true,
+        "localisation": "IA explicable",
+        "wildcard": "explainable AI",
+        "abbreviated": true,
+        "abbreviation": "XAI"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ci",
+      "label":
+      {
+        "localised": true,
+        "localisation": "intégration continue",
+        "wildcard": "continuous integration",
+        "abbreviated": true,
+        "abbreviation": "CI"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "cd",
+      "label":
+      {
+        "localised": true,
+        "localisation": "livraison continue",
+        "wildcard": "continuous delivery",
+        "abbreviated": true,
+        "abbreviation": "CD"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "nlp",
+      "label":
+      {
+        "localised": true,
+        "localisation": "traitement automatique des langues",
+        "wildcard": "natural language processing",
+        "abbreviated": true,
+        "abbreviation": "NLP"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "reinforcel",
+      "label":
+      {
+        "localised": true,
+        "localisation": "apprentissage par renforcement",
+        "wildcard": "reinforcement learning",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "dtmc",
+      "label":
+      {
+        "localised": true,
+        "localisation": "chaînes de Markov à temps discret",
+        "wildcard": "discrete-time Markov chains",
+        "abbreviated": true,
+        "abbreviation": "DTMC"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "bayesnet",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseaux bayésiens",
+        "wildcard": "bayesian networks",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "sparql",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "SPARQL Protocol and RDF Query Language",
+        "abbreviated": true,
+        "abbreviation": "SPARQL"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "rdf",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Resource Description Framework",
+        "abbreviated": true,
+        "abbreviation": "RDF"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "owl",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Web Ontology Language",
+        "abbreviated": true,
+        "abbreviation": "OWL"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "rml",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "RDF Mapping Language",
+        "abbreviated": true,
+        "abbreviation": "RML"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ld",
+      "label":
+      {
+        "localised": true,
+        "localisation": "données liées",
+        "wildcard": "linked data",
+        "abbreviated": true,
+        "abbreviation": "LD"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "db",
+      "label":
+      {
+        "localised": true,
+        "localisation": "bases de données",
+        "wildcard": "databases",
+        "abbreviated": true,
+        "abbreviation": "DB"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "sql",
+      "label":
+      {
+        "localised": true,
+        "localisation": "langage de requêtes structurées",
+        "wildcard": "structured query language",
+        "abbreviated": true,
+        "abbreviation": "SQL"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "linearsys",
+      "label":
+      {
+        "localised": true,
+        "localisation": "systèmes linéaires",
+        "wildcard": "linear systems",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "stats",
+      "label":
+      {
+        "localised": true,
+        "localisation": "statistique",
+        "wildcard": "statistics",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "net",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseautage",
+        "wildcard": "networking",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "VPN",
+      "label":
+      {
+        "localised": true,
+        "localisation": "modélisation et simulation",
+        "wildcard": "modeling and simulation",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "java",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Java",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "vhdl",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "VHSIC Hardware Description Language",
+        "abbreviated": true,
+        "abbreviation": "VHDL"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "fpga",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseau des portes programmables in situ",
+        "wildcard": "field-programmable gate array",
+        "abbreviated": true,
+        "abbreviation": "FPGA"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "csharp",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "C#",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "cipher",
+      "label":
+      {
+        "localised": true,
+        "localisation": "chiffrement",
+        "wildcard": "encryption",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ethernet",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Ethernet",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "lan",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseau local",
+        "wildcard": "Local Area Network",
+        "abbreviated": true,
+        "abbreviation": "LAN"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "wan",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseau étendu",
+        "wildcard": "Wide Area Network",
+        "abbreviated": true,
+        "abbreviation": "WAN"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "man",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseau métropolitain",
+        "wildcard": "metropolitan area network",
+        "abbreviated": true,
+        "abbreviation": "MAN"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "switching",
+      "label":
+      {
+        "localised": true,
+        "localisation": "switching",
+        "wildcard": "commutation",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "routing",
+      "label":
+      {
+        "localised": true,
+        "localisation": "routage",
+        "wildcard": "routing",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "nat",
+      "label":
+      {
+        "localised": true,
+        "localisation": "traduction d'adresse réseau",
+        "wildcard": "network address translation",
+        "abbreviated": true,
+        "abbreviation": "NAT"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "ensembleml",
+      "label":
+      {
+        "localised": true,
+        "localisation": "apprentissage ensembliste",
+        "wildcard": "ensemble learning",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "vlan",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseau local virtuel",
+        "wildcard": "Virtual Local Area Network",
+        "abbreviated": true,
+        "abbreviation": "VLAN"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "eclipse",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Eclipse",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "rstudio",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "RStudio",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "vscode",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Visual Studio Code",
+        "abbreviated": true,
+        "abbreviation": "VSCode"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "numpy",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "NumPy",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "pandas",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Pandas",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "matplotlib",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Matplotlib",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "plotly",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Plotly",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "tensorflow",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "TensorFlow",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "selenium",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Selenium",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "cidr",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Classless Inter-Domain Routing",
+        "abbreviated": true,
+        "abbreviation": "CIDR"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "llm",
+      "label":
+      {
+        "localised": true,
+        "localisation": "grande modèle de langage",
+        "wildcard": "Large Language Models",
+        "abbreviated": true,
+        "abbreviation": "LLM"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "pytorch",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "PyTorch",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "api",
+      "label":
+      {
+        "localised": true,
+        "localisation": "interface de programmation",
+        "wildcard": "Application Programming Interface",
+        "abbreviated": true,
+        "abbreviation": "API"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awskms",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Key Management Service",
+        "abbreviated": true,
+        "abbreviation": "AWS KMS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsec2",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Elastic Compute Cloud",
+        "abbreviated": true,
+        "abbreviation": "AWS EC2"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsroute53",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Route 53",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsaz",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Availability Zone",
+        "abbreviated": true,
+        "abbreviation": "AWS AZ"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsalb",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Application Load Balancer",
+        "abbreviated": true,
+        "abbreviation": "AWS ALB"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsnlb",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Network Load Balancer",
+        "abbreviated": true,
+        "abbreviation": "AWS NLB"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsautoscale",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS EC2 Auto Scaling",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsregion",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Region",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsrds",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Relational Database Services",
+        "abbreviated": true,
+        "abbreviation": "AWS RDS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awselb",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Elastic Load Balancing",
+        "abbreviated": true,
+        "abbreviation": "AWS ELB"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsiam",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Identity and Access Management",
+        "abbreviated": true,
+        "abbreviation": "AWS IAM"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awslambda",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Lambda",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "serverless",
+      "label":
+      {
+        "localised": true,
+        "localisation": "informatique sans serveur",
+        "wildcard": "serverless computing",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awss3",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Simple Storage Service",
+        "abbreviated": true,
+        "abbreviation": "AWS S3"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsdynamo",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS DynamoDB",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsapigateway",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS API Gateway",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awssdk",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Software Development Kits",
+        "abbreviated": true,
+        "abbreviation": "AWS SDK"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awssns",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Simple Notification Service",
+        "abbreviated": true,
+        "abbreviation": "AWS SNS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awssqs",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Simple Queue Service",
+        "abbreviated": true,
+        "abbreviation": "AWS SQS"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awseventbridge",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS EventBridge",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awscodebuild",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS CodeBuild",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awscodepipeline",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS CodePipeline",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awscli",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Command Line Interface",
+        "abbreviated": true,
+        "abbreviation": "AWS CLI"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awscloudform",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS CloudFormation",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awssysmanager",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS System Manager",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsconfig",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Config",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awsquicksight",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Quicksight",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awseducate",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Educate",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "cambridge",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "Cambridge English",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "goethe",
+      "label":
+      {
+        "localised": true,
+        "localisation": "Institut Goethe",
+        "wildcard": "Goethe-Institut",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "nativespeak",
+      "label":
+      {
+        "localised": true,
+        "localisation": "langue maternelle",
+        "wildcard": "mother tongue",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "enc2",
+      "label":
+      {
+        "localised": true,
+        "localisation": "anglais - C2",
+        "wildcard": "English language - C2",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "deb2",
+      "label":
+      {
+        "localised": true,
+        "localisation": "allemand - B2",
+        "wildcard": "German language - B2",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "esnative",
+      "label":
+      {
+        "localised": true,
+        "localisation": "espagnol - langue maternelle",
+        "wildcard": "Spanish language - mother tongue",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "linearnetcoding",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "linear network coding",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "exor",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "extremely opportunistic routing",
+        "abbreviated": true,
+        "abbreviation": "ExOR"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "manet",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseau mobile ad hoc",
+        "wildcard": "mobile ad hoc network",
+        "abbreviated": true,
+        "abbreviation": "MANET"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "thesis",
+      "label":
+      {
+        "localised": true,
+        "localisation": "thèse",
+        "wildcard": "thesis",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "wlan",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseau sans fil",
+        "wildcard": "wireless LAN",
+        "abbreviated": true,
+        "abbreviation": "WLAN"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "i18n",
+      "label":
+      {
+        "localised": true,
+        "localisation": "internationalisation",
+        "wildcard": "internationalization",
+        "abbreviated": true,
+        "abbreviation": "i18n"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "l10n",
+      "label":
+      {
+        "localised": true,
+        "localisation": "régionalisation",
+        "wildcard": "localization",
+        "abbreviated": true,
+        "abbreviation": "l10n"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awscm",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Certificate Manager",
+        "abbreviated": true,
+        "abbreviation": "AWS CM"
+      }
+    },
+    {
+      "uri": null,
+      "slug": "awscloudfront",
+      "label":
+      {
+        "localised": false,
+        "wildcard": "AWS Cloudfront",
+        "abbreviated": false
+      }
+    },
+    {
+      "uri": null,
+      "slug": "cdn",
+      "label":
+      {
+        "localised": true,
+        "localisation": "réseau de diffusion de contenu",
+        "wildcard": "content delivery network",
+        "abbreviated": true,
+        "abbreviation": "CDN"
+      }
+    }
+  ],
+  "articles":
+  [
+    {
+      "key": "personal-info",
+      "path": "/",
+      "title": "INFORMACIÓN PERSONAL",
+      "mobileTitle": "INFORMACIÓN PERSONAL",
+      "subtitle": "",
+      "navLinkDescription": "Info personal",
+      "mobileNavLinkDescription": "Mis datos",
+      "layout": "n-section",
+      "sections": [
+        {
+          "key": "executive-summary",
+          "title": "Resumen ejecutivo",
+          "mobileTitle": "Resumen ejecutivo",
+          "organisation": "",
+          "organisationHasURL": false,
+          "timeFrameExists": false,
+          "paragraphs": [
+            {
+              "content": "Data Scientist en formación con más de 5 años de experiencia como desarrollador Front-End para sistemas SCADA. Dominio de Python, SQL, JS y CSS, con base académica en aprendizaje automático, series temporales y datos abiertos. Actualmente cursando un máster en Ciencia de Datos y realizando certificaciones reconocidas en IA, computación en la nube y BI.",
+              "type": "text"
+            }
+          ],
+          "descriptionList": [],
+          "iFrame": false
+        },
+        {
+          "key": "personal-details",
+          "title": "Datos personales",
+          "mobileTitle": "Datos personales",
+          "organisation": "",
+          "organisationHasURL": false,
+          "timeFrameExists": false,
+          "paragraphs": [],
+          "descriptionList": [
+            { "dt": "Nombre", "dd": [{ "content": "Carlos de la Cruz", "type": "text" }] },
+            { "dt": "Apellidos", "dd": [{ "content": "Ayala Vargas", "type": "text" }] },
+            { "dt": "Nacionalidad", "dd": [{ "content": "Española", "type": "text" }] },
+            {
+              "dt": "Autorización para trabajar",
+              "dd": [
+                { "content": "Ciudadano de la UE/EEE (España); con derecho a trabajar en toda la UE/EEE. Suiza: hasta 90 días laborables por año natural con notificación previa en línea.", "type": "text" }
+              ]
+            }
+          ],
+          "iFrame": false
+        },
+        {
+          "key": "contact-info",
+          "title": "Contacto",
+          "mobileTitle": "Contacto",
+          "organisation": "",
+          "organisationHasURL": false,
+          "timeFrameExists": false,
+          "paragraphs": [],
+          "descriptionList": [
+            { "dt": "Teléfono", "dd": [{ "content": "+34689991118", "type": "phone", "number": "+34689991118" }] },
+            { "dt": "Correo electrónico", "dd": [{ "content": "carlos.de.la.cruz.ayala.vargas@gmail.com", "type": "mail", "address": "carlos.de.la.cruz.ayala.vargas@gmail.com" }] },
+            { "dt": "LinkedIn", "dd": [{ "content": "Carlos Ayala Vargas", "type": "url", "url": "https://www.linkedin.com/in/carlos-ayala-vargas/" }] }
+          ],
+          "iFrame": false
+        }    
+      ]
+    },
+    {
+      "key": "professional-xp",
+      "path": "/xp",
+      "title": "EXPERIENCIA PROFESIONAL",
+      "mobileTitle": "EXPERIENCIA PROFESIONAL",
+      "subtitle": "EXPERIENCIA MÁS RELEVANTE",
+      "navLinkDescription": "Experiencia",
+      "mobileNavLinkDescription": "Experiencia",
+      "layout": "n-section",
+      "sections": [
+        {
+          "key": "vdx-data-engineer",
+          "title": "Ingeniero de datos recién titulado",
+          "mobileTitle": "Ing. Datos (recién tit.)",
+          "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
+          "organisationHasURL": true,
+          "organisationURL": "http://vdx.es/",
+          "organisationAnchorText": "Enlace a VDX",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": false,
+          "timeFrameStart": "2025-07",
+          "timeFrameEndExists": true,
+          "timeFrameIsOver": false,
+          "paragraphs":
+          [
+            {
+              "content": "Desarrollando una infraestructura MLOps en Linux con TLS, Python y C++98 para sistemas distribuidos de Machine Learning y Deep Learning.",
+              "type": "text"
+            },
+            {
+              "content": "Actualmente trabajando en gestión de hilos y eliminación de cuellos de botella para reducir la latencia de k-NN de 500–700 ms a 150–200 ms en un flujo de vídeo de 5 FPS.",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            "cplus",
+            "de",
+            "mlops",
+            "linux",
+            "python",
+            "distributed",
+            "tls",
+            "https",
+            "threads",
+            "realtime",
+            "ssh",
+            "vpn"
+          ]
+        },
+        {
+          "key": "vdx-data-scientist",
+          "title": "Científico de datos recién titulado",
+          "mobileTitle": "Cient. datos (recién tit.)",
+          "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
+          "organisationHasURL": true,
+          "organisationURL": "http://vdx.es/",
+          "organisationAnchorText": "Enlace a VDX",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": false,
+          "timeFrameStart": "2025-07",
+          "timeFrameEndExists": true,
+          "timeFrameIsOver": false,
+          "paragraphs":
+          [
+            {
+              "content": "Apoyo a Lead Data Scientist en procesos de ELT y entrenamiento de modelos.",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            "elt",
+            "etl",
+            "ds",
+            "ssh",
+            "vpn"
+          ]
+        },
+        {
+          "key": "vdx-front-end-developer",
+          "title": "Desarrollador Front-End",
+          "mobileTitle": "Desarr. Front-End",
+          "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
+          "organisationHasURL": true,
+          "organisationURL": "http://vdx.es/",
+          "organisationAnchorText": "Enlace a VDX",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": false,
+          "timeFrameStart": "2019-11",
+          "timeFrameEndExists": true,
+          "timeFrameIsOver": false,
+          "paragraphs": [
+            { "content": "Entrega de una herramienta de gráficas en JS/CSS como tarea inicial, aún operativa tras 5 años en un dashboard SCADA con más de 12 vistas de producción.", "type": "text" },
+            { "content": "Diseño de componentes HMI para SCADA en 5+ sectores industriales mediante ingeniería inversa de código Java/GWT legado y más de 100.000 filas XLS sin documentar.", "type": "text" },
+            { "content": "Creación de elementos interactivos sensibles al estado usando SVG, PNG y CSS, mejorando la claridad y la usabilidad del sistema.", "type": "text" },
+            { "content": "Diagnóstico a partir de logs de backend para identificar anomalías de comportamiento y apoyar el mantenimiento.", "type": "text" }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            "png",
+            "ux",
+            "ui",
+            "js",
+            "css",
+            "scada",
+            "postgres",
+            "svg",
+            "xls",
+            "frontend",
+            "rdp",
+            "ssh",
+            "vpn"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "education",
+      "path": "/education",
+      "title": "FORMACIÓN ACADÉMICA",
+      "mobileTitle": "FORMACIÓN ACADÉMICA",
+      "subtitle": "",
+      "navLinkDescription": "Formación",
+      "mobileNavLinkDescription": "Formación",
+      "layout": "n-section",
+      "sections":
+      [
+        {
+          "key": "politecnica-madrid-m-sc-data-science",
+          "title": "M.Sc. in Data Science",
+          "mobileTitle": "M.Sc., Data Science",
+          "organisation": "Universidad Politécnica de Madrid",
+          "organisationHasURL": true,
+          "organisationURL": "https://fi.upm.es/",
+          "organisationAnchorText": "Enlace a UPM – Escuela de Informática",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": false,
+          "timeFrameStart": "2024-09",
+          "timeFrameEndExists": true,
+          "timeFrameIsOver": false,
+          "paragraphs":
+          [
+            {
+              "content": "60/72 ECTS superados · Nota media: 83 %",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+            {
+              "dt": "Asignaturas",
+              "dd":
+              [
+                {
+                  "content": "Machine Learning · Deep Learning · Cloud Computing · Computer Vision · Visualización de datos · Big Data · Python · Open Data · Series temporales · Data Mining · Gobierno del dato · Procesos de datos",
+                  "type": "text"
+                }
+              ]
+            }
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            "ml",
+            "dl",
+            "ds",
+            "ai",
+            "cloud",
+            "cv",
+            "dv",
+            "bigdata",
+            "python",
+            "od",
+            "ts",
+            "datagov",
+            "kg",
+            "nosql",
+            "semistructdata",
+            "structdata",
+            "unstructdata",
+            "datamining",
+            "datascraping",
+            "unittest",
+            "pyspark",
+            "sklearn",
+            "shiny",
+            "api",
+            "r",
+            "opencv",
+            "cnn",
+            "tl",
+            "ensembleml",
+            "supervl",
+            "unsupervl",
+            "xai",
+            "dtmc",
+            "bayesnet",
+            "sparql",
+            "rdf",
+            "owl",
+            "rml",
+            "ld",
+            "vm",
+            "vbox",
+            "vmware",
+            "eclipse",
+            "rstudio",
+            "vscode",
+            "numpy",
+            "pandas",
+            "matplotlib",
+            "plotly",
+            "tensorflow",
+            "selenium",
+            "git",
+            "github",
+            "ssh"
+          ]
+        },
+        {
+          "key": "politecnica-cartagena-b-sc-telematics",
+          "title": "B.Sc. en Ingeniería Telemática",
+          "mobileTitle": "B.Sc., Telemática",
+          "organisation": "Universidad Politécnica de Cartagena",
+          "organisationHasURL": true,
+          "organisationURL": "https://teleco.upct.es/",
+          "organisationAnchorText": "Enlace a UPCT – Escuela de Telecomunicación",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": false,
+          "timeFrameStart": "2012-09",
+          "timeFrameEndExists": true,
+          "timeFrameIsOver": true,
+          "timeFrameEnd": "2019-10",
+          "paragraphs":
+          [
+            {
+              "content": "Nota media: 73 % · TFG: 100 %",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+            {
+              "dt": "Asignaturas",
+              "dd":
+              [
+                {
+                  "content": "Redes · Bases de datos · Modelado y simulación · Estadística · Sistemas lineales · Sistemas de información distribuidos · Proyectos · Redes y servicios de comunicaciones · Ingeniería de protocolos",
+                  "type": "text"
+                }
+              ]
+            }
+          ],
+          "iFrame": false,
+          "hasCertImage": true,
+          "tags":
+          [
+            "distributed",
+            "db",
+            "sql",
+            "linearsys",
+            "stats",
+            "net",
+            "modelsim",
+            "java",
+            "vhdl",
+            "fpga",
+            "csharp",
+            "cipher",
+            "tls",
+            "https",
+            "wimax",
+            "wifi",
+            "bluetooth",
+            "wireless",
+            "mac",
+            "dtmc",
+            "mdp",
+            "dns",
+            "snmp",
+            "ip",
+            "mpls",
+            "rmon",
+            "api",
+            "edac",
+            "crc",
+            "fsm",
+            "vm",
+            "vbox",
+            "vmware",
+            "ethernet",
+            "lan",
+            "wan",
+            "man",
+            "switching",
+            "routing",
+            "stp",
+            "nat",
+            "http",
+            "acl",
+            "vlan",
+            "eclipse",
+            "bash",
+            "tcp",
+            "udp",
+            "linearprog",
+            "nonlinearprog",
+            "intlinearprog",
+            "mixlinearprog",
+            "kkt",
+            "netoptim",
+            "ssh",
+            "cidr"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "languages",
+      "path": "/languages",
+      "title": "IDIOMAS",
+      "mobileTitle": "IDIOMAS",
+      "subtitle": "",
+      "navLinkDescription": "Idiomas",
+      "mobileNavLinkDescription": "Idiomas",
+      "layout": "n-section",
+      "sections":
+      [
+        {
+          "key": "languages-english",
+          "title": "Inglés",
+          "mobileTitle": "Inglés",
+          "organisation": "Cambridge English C2",
+          "organisationHasURL": true,
+          "organisationURL": "https://www.cambridgeenglish.org/exams-and-tests/cefr/",
+          "organisationAnchorText": "Enlace a información sobre Cambridge English C2",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2025-06",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": true,
+          "tags":
+          [
+            "cambridge",
+            "enc2"
+          ]
+        },
+        {
+          "key": "languages-spanish",
+          "title": "Español",
+          "mobileTitle": "Español",
+          "organisation": "Lengua materna",
+          "organisationHasURL": false,
+          "timeFrameExists": false,
+          "paragraphs":
+          [
+
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            "nativespeak",
+            "esnative"
+          ]
+        },
+        {
+          "key": "languages-german",
+          "title": "Alemán",
+          "mobileTitle": "Alemán",
+          "organisation": "Goethe-Zertifikat B2",
+          "organisationHasURL": true,
+          "organisationURL": "https://www.goethe.de/ins/es/de/sta/mad/prf/gzb2.cfm",
+          "organisationAnchorText": "Enlace a información sobre Goethe-Zertifikat B2",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2013-05",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": true,
+          "tags":
+          [
+            "goethe",
+            "deb2"
+          ]
+        },
+        {
+          "key": "languages-french",
+          "title": "Francés",
+          "mobileTitle": "Francés",
+          "organisation": "Sin certificación",
+          "organisationHasURL": false,
+          "timeFrameExists": false,
+          "paragraphs":
+          [
+
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+
+          ]
+        }
+      ]
+    },
+    {
+      "key": "certs",
+      "path": "/certs",
+      "title": "LICENCIAS, CERTIFICADOS Y CERTIFICACIONES",
+      "mobileTitle": "CERTIFICADOS",
+      "subtitle": "",
+      "navLinkDescription": "Certificados",
+      "mobileNavLinkDescription": "Certificados",
+      "layout": "n-section",
+      "sections": [
+        {
+          "key": "aws-cloud-consultant",
+          "title": "Consultor de tecnología en la nube de AWS",
+          "mobileTitle": "Consultor Tech en la nube",
+          "organisation": "AWS (a través de Coursera)",
+          "organisationHasURL": true,
+          "organisationURL": "https://www.coursera.org/professional-certificates/aws-cloud-technology-consultant/",
+          "organisationAnchorText": "Enlace a Consultor de tecnología en la nube de AWS (Coursera)",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2025-07",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": true,
+          "tags":
+          [
+            "http",
+            "etl",
+            "elt",
+            "vpn",
+            "vm",
+            "dns",
+            "cloud",
+            "aws",
+            "awsvpc",
+            "cidr",
+            "api",
+            "sql",
+            "nosql",
+            "awsec2",
+            "awsroute53",
+            "awsaz",
+            "awsautoscale",
+            "awsregion",
+            "awsrds",
+            "awselb",
+            "awsiam",
+            "awslambda",
+            "serverless",
+            "awss3",
+            "awsdynamo",
+            "awsapigateway",
+            "awssdk",
+            "awssns",
+            "awsalb",
+            "awssqs",
+            "awseventbridge",
+            "awscloudfront",
+            "awscodebuild",
+            "awscodepipeline",
+            "awscli",
+            "awscloudform",
+            "awssysmanager",
+            "awsconfig",
+            "awsquicksight",
+            "awseducate",
+            "cdn"
+          ]
+        },
+        {
+          "key": "aws-cloud-solutions-architect-pre-exam",
+          "title": "AWS Cloud Solutions Architect",
+          "mobileTitle": "Cloud Solutions Architect",
+          "organisation": "AWS (a través de Coursera)",
+          "organisationHasURL": true,
+          "organisationURL": "https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect/",
+          "organisationAnchorText": "Enlace a preparación de examen Cloud Solutions Architect (Coursera)",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2025-07",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+            {
+              "content": "No es la certificación oficial de AWS, sino un certificado profesional de AWS orientado a preparar el examen.",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": true,
+          "tags":
+          [
+            "aws",
+            "cloud",
+            "acl",
+            "awsec2",
+            "awsvpc",
+            "awskms",
+            "awsiam",
+            "ssl",
+            "api",
+            "awssqs",
+            "awssns",
+            "awsalb",
+            "awsaz",
+            "awsnlb",
+            "awsautoscale",
+            "awss3",
+            "awscli",
+            "awslambda",
+            "awsdynamo",
+            "awsroute53",
+            "awsregion",
+            "awsapigateway",
+            "awscloudfront",
+            "awssysmanager",
+            "serverless",
+            "awsrds",
+            "awselb",
+            "cdn"
+          ]
+        },
+        {
+          "key": "ms-cloud-apps-azure",
+          "title": "Creación de apps de IA en la nube con MS Azure",
+          "mobileTitle": "Apps de IA con Azure",
+          "organisation": "Microsoft (a través de Coursera)",
+          "organisationHasURL": true,
+          "organisationURL": "https://www.coursera.org/specializations/building-ai-cloud-apps-microsoft-azure/",
+          "organisationAnchorText": "Enlace a Building AI Cloud Apps with MS Azure (Coursera)",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2025-07",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": true,
+          "tags":
+          [
+            "http",
+            "etl",
+            "azure",
+            "ml",
+            "rdp",
+            "ssh",
+            "nosql",
+            "semistructdata",
+            "structdata",
+            "unstructdata",
+            "github",
+            "cloud",
+            "azurefunc",
+            "saas",
+            "iaas",
+            "serverless",
+            "azuretrigger",
+            "azurebind",
+            "azurecore",
+            "signalr",
+            "azureevtgrid",
+            "azureevthub",
+            "azureservbus",
+            "azurestorage",
+            "azurecli",
+            "azureblob",
+            "azuredatalake",
+            "azurevm",
+            "azureappservice",
+            "azurecontainer",
+            "azureml",
+            "azuremldesigner",
+            "githubcopilot",
+            "cdn"
+          ]
+        },
+        {
+          "key": "ms-ai-ml-engineering",
+          "title": "Ingeniería de IA y ML",
+          "mobileTitle": "Ingeniería de IA y ML",
+          "organisation": "Microsoft (a través de Coursera)",
+          "organisationHasURL": true,
+          "organisationURL": "https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering/",
+          "organisationAnchorText": "Enlace a AI and ML Engineering (Coursera)",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2025-07",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+
+          ],
+          "descriptionList":
+          [
+            {
+              "dt": "Tecnologías",
+              "dd":
+              [
+                {
+                  "content": "Azure · LLM · GenAI · Transfer Learning",
+                  "type": "text"
+                }
+              ]
+            }
+          ],
+          "iFrame": false,
+          "hasCertImage": true,
+          "tags":
+          [
+            "ml",
+            "dl",
+            "cnn",
+            "autoencoder",
+            "ds",
+            "ai",
+            "cloud",
+            "azure",
+            "azureml",
+            "azurestorage",
+            "python",
+            "pytorch",
+            "tensorflow",
+            "datascraping",
+            "sql",
+            "llm",
+            "git",
+            "github",
+            "supervl",
+            "distributed",
+            "unsupervl",
+            "elt",
+            "elt",
+            "nlp",
+            "reinforcel",
+            "tl",
+            "ensembleml",
+            "gan",
+            "agentic",
+            "ci",
+            "cd",
+            "genai",
+            "xai"
+          ]
+        },
+        {
+          "key": "meta-front-end-developer",
+          "title": "Meta Front-End Developer",
+          "mobileTitle": "Meta Front-End Developer",
+          "organisation": "Meta (a través de Coursera)",
+          "organisationHasURL": true,
+          "organisationURL": "https://www.coursera.org/professional-certificates/meta-front-end-developer/",
+          "organisationAnchorText": "Enlace a Meta Front-End Developer (Coursera)",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2024-06",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+
+          ],
+          "descriptionList":
+          [
+            {
+              "dt": "Tecnologías",
+              "dd":
+              [
+                {
+                  "content": "React · Figma · Git · UX/UI · CSS",
+                  "type": "text"
+                }
+              ]
+            }
+          ],
+          "iFrame": false,
+          "hasCertImage": true,
+          "tags":
+          [
+            "react",
+            "github",
+            "git",
+            "vscode",
+            "js",
+            "css",
+            "html",
+            "unittest",
+            "ux",
+            "ui",
+            "frontend",
+            "semantic",
+            "ci",
+            "cd"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "awards",
+      "path": "/awards",
+      "title": "PREMIOS",
+      "mobileTitle": "PREMIOS",
+      "subtitle": "",
+      "navLinkDescription": "Premios",
+      "mobileNavLinkDescription": "Premios",
+      "layout": "n-section",
+      "sections":
+      [
+        {
+          "key": "politecnica-madrid-m-sc-data-science-top-student",
+          "title": "2024/25 Mejor expediente — M.Sc. in Data Science",
+          "mobileTitle": "Mejor expediente 2024/25",
+          "organisation": "Universidad Politécnica de Madrid",
+          "organisationHasURL": true,
+          "organisationURL": "https://fi.upm.es/",
+          "organisationAnchorText": "Enlace a UPM – Escuela de Informática",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2025-07",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+            {
+              "content": "Del anuncio del premio:",
+              "type": "text"
+            },
+            {
+              "content": "«Dirigido a estudiantes (hasta un máximo de 4) que iniciaron el Máster en Ciencia de Datos en septiembre de 2024. Los premios están financiados por la Universidad Politécnica de Madrid (Ayudas a Máster oficiales).",
+              "type": "text"
+            },
+            {
+              "content": "El premio (450 euros) requiere ser estudiante de nuevo ingreso a tiempo completo en el MSc in Data Science, de cualquier nacionalidad, haber superado las asignaturas obligatorias matriculadas y haber obtenido las mejores calificaciones (media de 10 asignaturas).»",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            "ml",
+            "dl",
+            "ds",
+            "ai",
+            "cloud",
+            "cv",
+            "dv",
+            "bigdata",
+            "python",
+            "od",
+            "ts",
+            "datagov",
+            "kg",
+            "nosql",
+            "semistructdata",
+            "structdata",
+            "unstructdata",
+            "datamining",
+            "datascraping",
+            "unittest",
+            "pyspark",
+            "sklearn",
+            "shiny",
+            "api",
+            "r",
+            "opencv",
+            "cnn",
+            "tl",
+            "ensembleml",
+            "supervl",
+            "unsupervl",
+            "xai",
+            "dtmc",
+            "bayesnet",
+            "sparql",
+            "rdf",
+            "owl",
+            "rml",
+            "ld",
+            "vm",
+            "vbox",
+            "vmware",
+            "eclipse",
+            "rstudio",
+            "vscode",
+            "numpy",
+            "pandas",
+            "matplotlib",
+            "plotly",
+            "tensorflow",
+            "selenium",
+            "git",
+            "github",
+            "ssh"
+          ]
+        },
+        {
+          "key": "politecnica-cartagena-b-sc-telematics-best-thesis",
+          "title": "2018/19 Mejor TFG en Ingeniería Telemática",
+          "mobileTitle": "Mejor TFG 2018/19",
+          "organisation": "Universidad Politécnica de Cartagena",
+          "organisationHasURL": true,
+          "organisationURL": "https://teleco.upct.es/",
+          "organisationAnchorText": "Enlace a UPCT – Escuela de Telecomunicación",
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2019-10",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+            {
+              "content": "Mi TFG fue seleccionado por la ETSIT de la Universidad Politécnica de Cartagena (UPCT) como el mejor proyecto fin de grado del curso 2018/19 en Ingeniería Telemática. Fue presentado por la universidad al certamen nacional «Premios COITT Futuro de las Telecomunicaciones», que reconoce los mejores TFG en Telecomunicaciones de España.",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            "cplus",
+            "wireless",
+            "udp",
+            "stats",
+            "routing",
+            "omnetplus",
+            "netoptim",
+            "modelsim",
+            "net",
+            "mac",
+            "vm",
+            "linearnetcoding",
+            "exor",
+            "joker",
+            "manet",
+            "opprouting",
+            "thesis",
+            "wlan"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "skills",
+      "path": "/skills",
+      "title": "HABILIDADES TÉCNICAS",
+      "mobileTitle": "HABILIDADES TÉCNICAS",
+      "subtitle": "",
+      "navLinkDescription": "Habilidades",
+      "mobileNavLinkDescription": "Habilidades",
+      "layout": "n-section",
+      "sections":
+      [
+        {
+          "key": "skills-platforms",
+          "title": "Plataformas y herramientas",
+          "mobileTitle": "Plataformas y herramientas",
+          "organisation": "",
+          "organisationHasURL": false,
+          "timeFrameExists": false,
+          "paragraphs":
+          [
+            {
+              "content": "Git · PostgreSQL · JSON · AWS (limitado) · Azure (limitado) · Tableau (básico) · Power BI (básico) · Figma (básico)",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            
+          ]
+        },
+        {
+          "key": "skills-languages",
+          "title": "Lenguajes de programación",
+          "mobileTitle": "Lenguajes de programación",
+          "organisation": "",
+          "organisationHasURL": false,
+          "timeFrameExists": false,
+          "paragraphs":
+          [
+            {
+              "content": "JavaScript · Python · SQL · CSS · R · Bash (básico) · Java (básico) · C++ (básico)",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            
+          ]
+        },
+        {
+          "key": "skills-frameworks",
+          "title": "Frameworks y librerías",
+          "mobileTitle": "Frameworks y librerías",
+          "organisation": "",
+          "organisationHasURL": false,
+          "timeFrameExists": false,
+          "paragraphs":
+          [
+            {
+              "content": "Pandas · NumPy · scikit-learn · TensorFlow · R Shiny · Plotly · GeoPandas · rasterio · Matplotlib · OpenCV (básico) · React (básico) · Selenium",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": false,
+          "hasCertImage": false,
+          "tags":
+          [
+            
+          ]
+        }
+      ]
+    },
+    {
+      "key": "portfolio",
+      "path": "/portfolio",
+      "title": "PROYECTOS PERSONALES",
+      "mobileTitle": "PROYECTOS PERSONALES",
+      "subtitle": "",
+      "navLinkDescription": "Proyectos",
+      "mobileNavLinkDescription": "Proyectos",
+      "layout": "portfolio",
+      "sections":
+      [
+        {
+          "key": "cv-app",
+          "title": "App de CV en React",
+          "mobileTitle": "App de CV en React",
+          "organisation": "",
+          "organisationHasURL": false,
+          "timeFrameExists": true,
+          "timeFrameTextualMonth": true,
+          "timeFrameStart": "2025-09",
+          "timeFrameEndExists": false,
+          "paragraphs":
+          [
+            {
+              "content": "Aplicación de CV en React con internacionalización, navegación por secciones y paginación dentro de sección.",
+              "type": "text"
+            },
+            {
+              "content": "Encabezado con lista/modal con recentrado; Portfolio con carrusel.",
+              "type": "text"
+            },
+            {
+              "content": "Despliegue en AWS (S3, CloudFront, API Gateway, Route 53, ACM) e integración / despliegue continuos con GitHub Actions e IAM.",
+              "type": "text"
+            },
+            {
+              "content": "Próximo: RDS, filtros por etiquetas y pruebas en CI.",
+              "type": "text"
+            }
+          ],
+          "descriptionList":
+          [
+
+          ],
+          "iFrame": true,
+          "hasCertImage": false,
+          "iFrameURL": "/images/cv",
+          "tags":
+          [
+            "react",
+            "awss3",
+            "awsroute53",
+            "ci",
+            "cd",
+            "css",
+            "https",
+            "tls",
+            "github",
+            "git",
+            "js",
+            "awsiam",
+            "awsrds",
+            "semantic",
+            "i18n",
+            "l10n",
+            "ld",
+            "awsapigateway",
+            "awscm",
+            "awscloudfront",
+            "cdn"
+          ]
+        }
+      ]
+    }
+  ]
+}

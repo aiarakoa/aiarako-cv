@@ -19,19 +19,20 @@ export function CVProvider({ children })
   const [data, setData]                           = useState(/** @type {CVData|null} */(null));
   const [articles, setArticles]                   = useState(null);
   const [sections, setSections]                   = useState(null);
+  const [resizeTick, setResizeTick]               = useState(0);
   const [presentDayTags, setPresentDayTags]       = useState(null);
-  const [articleIndex, setArticleIndex]           = useState(0);
   const [sectionsPerGroupByPresentationMode, setSectionsPerGroupByPresentationMode]   = useState(null);
   const [sectionsPerGroup, setSectionsPerGroup]   = useState(null);
+  const [sectionGroupIndexByArticle, setSectionGroupIndexByArticle] = useState(new Map());
   const [activeLink, setActiveLink]               = useState(null);
   const [presentationModeList, setPresentationModeList]   = useState(null);
   const [presentationMode, setPresentationMode]   = useState(null);
   const [languages, setLanguages]                 = useState(/** @type {Array<{code:string,label:string,dir?:'ltr'|'rtl'}>|null} */(null));
+  const [navComponents, setNavComponents]         = useState(null);
   const [selectedLanguage, setSelectedLanguage]   = useState(null);
   const [status, setStatus]                       = useState(/** @type {"idle"|"loading"|"error"} */("loading"));
   const [error, setError]                         = useState(/** @type {Error|null} */(null));
 
-  // Guard against React 18 StrictMode double-effect in dev
   const hasLoadedRef = useRef(false);
 
   async function loadManifestOnce() {
@@ -39,31 +40,18 @@ export function CVProvider({ children })
     const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`Fetch ${url} failed: ${response.status} ${response.statusText}`);
     const manifest = await response.json();
-    console.log(`<Manifest> from ${url}`);
-    console.log(manifest);
-    console.log("</Manifest>");
   
     setLanguages(manifest.languages || []);
     setPresentDayTags(manifest.presentDayTags || []);
     setSectionsPerGroupByPresentationMode(manifest.sectionsPerGroup);
+    setNavComponents(manifest.navComponents);
     setSelectedLanguage(manifest.defaultLanguage);
     setPresentationModeList(manifest.presentationMode);
     const firstLoadPresentationMode = window.matchMedia('(min-width: 1200px)').matches ? 'laptop' : 'mobile';
-//    const secPerGroupByModeIndex = manifest.sectionsPerGroup.findIndex(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode);
     setPresentationMode(firstLoadPresentationMode);
     setSectionsPerGroup(manifest.sectionsPerGroup.find(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode).sectionsPerGroup);
+  }
 
-//    applyHtmlLang(startLang, manifest.languages);
-  }
-/*
-  function applyHtmlLang(langCode, languages) {
-    try {
-      const meta = (languages || []).find(language => language.code === langCode);
-      document.documentElement.setAttribute("dir", meta && meta.dir ? meta.dir : "ltr");
-      document.documentElement.setAttribute("lang", langCode);
-    } catch {}
-  }
-*/
   async function loadCVForLanguage(langCode) {
     setStatus("loading");
     setError(null);
@@ -104,8 +92,6 @@ export function CVProvider({ children })
   
   useEffect(() => {
     if (!selectedLanguage) return;
-    localStorage.setItem("cvLang", selectedLanguage);
-//    applyHtmlLang(selectedLanguage, languages || []);
     (async () => {
       try {
         await loadCVForLanguage(selectedLanguage);
@@ -119,17 +105,15 @@ export function CVProvider({ children })
   }, [selectedLanguage]);
 
   return (
-    <CVContext.Provider value={{ data, articles, sections, presentDayTags, languages, selectedLanguage, setSelectedLanguage, articleIndex, setArticleIndex, sectionsPerGroup, setSectionsPerGroup, sectionsPerGroupByPresentationMode, setSectionsPerGroupByPresentationMode, activeLink, setActiveLink, presentationModeList, setPresentationModeList, presentationMode, setPresentationMode, status, error,
-      reload: async (newLanguage) => {
-        console.log(`CVProvider::reload -- selectedLanguage: ${newLanguage}`)
-        if (newLanguage) await loadCVForLanguage(newLanguage);
-      }}}>
+    <CVContext.Provider value={{ data, articles, sections, presentDayTags, languages,
+        selectedLanguage, setSelectedLanguage, sectionsPerGroup, setSectionsPerGroup, sectionGroupIndexByArticle, setSectionGroupIndexByArticle,
+        sectionsPerGroupByPresentationMode, setSectionsPerGroupByPresentationMode, activeLink, setActiveLink, presentationModeList, setPresentationModeList,
+        presentationMode, setPresentationMode, navComponents, resizeTick, setResizeTick, status, error}}>
       {children}
     </CVContext.Provider>
   );
 }
 
-/** Read CV data anywhere under <CVProvider>. */
 export function useCV()
 {
   const ctx = useContext(CVContext);
