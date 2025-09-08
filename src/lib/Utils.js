@@ -12,7 +12,7 @@ function formatDateNumericMonth(year, month)
 {
     return month + "/" + year;
 }
-
+/*
 function toggleNavLayout(topNav, reCenterSlider)
 {
   console.log(`toggleNavLayout -- top nav ${topNav.className}, re-center slider ${reCenterSlider}`);
@@ -31,7 +31,7 @@ function toggleNavLayout(topNav, reCenterSlider)
     }
   }
 }
-
+*/
 export function formatYearMonth(yearAndMonthString, yearMonthSeparator, textualMonth, localeCode)
 {
     const [year, month] = yearAndMonthString.split(yearMonthSeparator);

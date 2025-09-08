@@ -15,7 +15,7 @@ export function useReCenterActive(selector, reCenterBehaviour, trigger) {
 //        console.log(`${selector} - ${reCenterBehaviour} - ${trigger}`);
 
         active.parentElement.scrollIntoView({ behavior: reCenterBehaviour, inline: 'center', block: 'nearest' });
-    }, [trigger]);
+    }, [trigger, selector, reCenterBehaviour]);
 
     return ref;
 }

@@ -1,9 +1,9 @@
 import './Section.css';
-import { Fragment } from "react";
+//import { Fragment } from "react";
 import { useCV } from "./CVProvider";
 import { useSection } from "./SectionProvider";
-import { formatYearMonth } from "../lib/Utils";
-import { useEffect, useState } from "react";
+//import { formatYearMonth } from "../lib/Utils";
+//import { useEffect, useState } from "react";
 import GenDetails from './GenDetails';
 
 function GenSection(props)

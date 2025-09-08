@@ -18,8 +18,8 @@ export function TopNavProvider({ children })
     const articleEntries = Array.from(articles.entries());
     const index = articleEntries.findIndex(([,article]) => article.path === pathname);
     const count = articleEntries.length;
-    const isFirst = index == 0;
-    const isLast = index == count - 1;
+    const isFirst = index === 0;
+    const isLast = index === count - 1;
     const prevPath = isFirst ? "/falsepath" : articleEntries[index - 1][1].path;
     const theNextPath = isLast ? "/falsepath" : articleEntries[index + 1][1].path;
     setArticleIndex(index);

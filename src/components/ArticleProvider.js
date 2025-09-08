@@ -1,4 +1,5 @@
-import { createContext, useContext, useEffect, useState, useMemo } from "react";
+//import { createContext, useContext, useEffect, useState, useMemo } from "react";
+import { createContext, useContext, useState } from "react";
 import { useCV } from "./CVProvider";
 
 const ArticleContext = createContext((null));
@@ -33,7 +34,7 @@ export function ArticleProvider({ articleKey, children })
 
   return (
     <ArticleContext.Provider value={{articleKey, activeArticle, sectionGroupIndex, newSectionGroupIndex, sectionsCount,
-      carouseledSectionKeys, mappedSections, carouseledSectionKeys, setCarouseledSectionKeys}}>
+      mappedSections, carouseledSectionKeys, setCarouseledSectionKeys}}>
       {children}
     </ArticleContext.Provider>
   );

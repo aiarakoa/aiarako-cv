@@ -1,6 +1,7 @@
-import { createContext, useContext, useEffect, useState, useMemo } from "react";
+// import { createContext, useContext, useEffect, useState, useMemo } from "react";
+import { createContext, useContext } from "react";
 import { useCV } from "./CVProvider";
-import { useArticle } from "./ArticleProvider";
+// import { useArticle } from "./ArticleProvider";
 
 const SectionContext = createContext((null));
 

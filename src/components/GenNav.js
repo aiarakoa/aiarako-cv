@@ -13,7 +13,7 @@ function GenNav(props)
 
   useEffect(() => {
     bumpReCenter(document.querySelector(activeSelectorQuery));
-  }, [resizeTick]);
+  }, [resizeTick, activeSelectorQuery]);
 
   function bumpReCenter(activeSelector)
   {

@@ -1,14 +1,14 @@
 import './Article.css';
 import PortfolioSection from './PortfolioSection';
 import GenArticle from './GenArticle';
-import { useCV } from './CVProvider';
+//import { useCV } from './CVProvider';
 import { useArticle } from './ArticleProvider';
 import { SectionProvider } from './SectionProvider';
 import { useState, useLayoutEffect } from "react";
 
 function PortfolioArticle(props)
 {
-    const name = "portfolio";
+//    const name = "portfolio";
     const { activeArticle, sectionsCount, carouseledSectionKeys, setCarouseledSectionKeys } = useArticle();
     const [ activeSectionKey, setActiveSectionKey ] = useState(activeArticle.sections[0].key); 
     const [ previouslyActiveSectionKey, setPreviouslyActiveSectionKey ] = useState(activeArticle.sections[0].key);

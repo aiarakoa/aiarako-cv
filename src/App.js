@@ -21,7 +21,7 @@ function App()
         window.removeEventListener('resize', onResize);
         window.removeEventListener('orientationchange', onResize);
     };
-  }, [setPresentationMode]);
+  }, [setPresentationMode, setResizeTick]);
 
   useEffect(() => {
     if(presentationMode)
