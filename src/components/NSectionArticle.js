@@ -1,11 +1,11 @@
 import './Article.css';
-import NSection from './NSection';
-import GenArticle from './GenArticle';
-import { useCV } from './CVProvider';
 import { useArticle } from './ArticleProvider';
+import { useCV } from './CVProvider';
+import GenArticle from './GenArticle';
+import NSection from './NSection';
 import { SectionProvider } from './SectionProvider';
 
-function NSectionArticle(props)
+function NSectionArticle()
 {
     const { sectionsPerGroup } = useCV();
     const { activeArticle, sectionGroupIndex, newSectionGroupIndex, sectionsCount } = useArticle();

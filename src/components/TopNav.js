@@ -1,11 +1,12 @@
 import './TopNav.css';
+import { useNavigate } from 'react-router';
+
+import GenNav from './GenNav.js';
 import NavButton from './NavButton';
 import TopNavList from './TopNavList';
-import { useNavigate } from 'react-router';
 import { useTopNav } from "./TopNavProvider";
-import GenNav from './GenNav.js';
 
-function TopNav(props)
+function TopNav()
 {
   const { isFirstArticle, isLastArticle, previousPath, nextPath } = useTopNav();
   const navigate = useNavigate();

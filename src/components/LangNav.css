@@ -1,0 +1,29 @@
+.lang-nav-dialog::backdrop {
+    background-color: rgba(0,0,0,0.8);
+}
+
+dialog.lang-nav-dialog {
+    border: 0;
+    overflow: hidden;
+    padding: 0;
+    background-color: transparent;
+}
+
+@media (min-width: 1200px) {
+    dialog.lang-nav-dialog {
+        width: 90vh;
+        height: 8vh;
+        border: 0;
+        overflow: hidden;
+    }    
+}
+
+@media (max-width: 1199px) {
+    dialog.lang-nav-dialog {
+        width: min(100vw,80vh);
+        height: min(15vw,8vh);
+        border: 0;
+        overflow: hidden;
+        margin: 10vh auto;
+    }    
+}

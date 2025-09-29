@@ -1,13 +1,13 @@
 import './LangNav.css';
-import LangNavList from './LangNavList.js';
-import GenNav from './GenNav.js';
 import { useCV } from "./CVProvider";
+import GenNav from './GenNav.js';
+import LangNavList from './LangNavList.js';
 
-function LangNav(props)
+function LangNav()
 {
   const { selectedLanguage } = useCV();
 
-  function checkExclusionClauses(originalTarget, navElement)
+  function checkExclusionClauses()
   {
     return false;
   }

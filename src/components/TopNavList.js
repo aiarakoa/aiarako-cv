@@ -2,7 +2,7 @@ import './TopNavList.css';
 import CVNavLink from './CVNavLink';
 import { useCV } from "./CVProvider";
 
-function TopNavList(props)
+function TopNavList()
 {
     const {articles} = useCV();
     return (

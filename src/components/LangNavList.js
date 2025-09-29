@@ -4,25 +4,28 @@ import LangButton from './LangButton';
 
 function LangNavList()
 {
-  const {languages, selectedLanguage, setSelectedLanguage} = useCV();
-
-  function updateLanguage(event)
-  {
-    if(event.currentTarget.getAttribute('activelocale') !== "true")
+  const {selectedLanguage, languages} = useCV();
+  const sortedLanguages = languages.sort((langOne, langTwo) => {
+    if(langOne.code === selectedLanguage)
     {
-      setSelectedLanguage(event.currentTarget.getAttribute("languagecode"));
+      return -1;
     }
-  }
+    else if(langTwo.code === selectedLanguage)
+    {
+      return 1;
+    }
+    else
+    {
+      return 0;
+    }
+  })
 
   return (
     <ul>
       {
-        languages.map(language => 
+        sortedLanguages.map(language => 
           <li key={language.code}>
-            <LangButton className={"lang-button"}
-              language={language}
-              isActiveLocale={language.code === selectedLanguage ? "true" : "false"}
-              handleLanguageUpdate={updateLanguage}/>
+            <LangButton language={language}/>
           </li>
         )
       }

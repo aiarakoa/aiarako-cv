@@ -1,6 +1,6 @@
 import './Header.css';
 import LevelOneHeading from './LevelOneHeading';
-import TopNav from './TopNav';
+import NewTopNav from './NewTopNav';
 import { TopNavProvider } from "./TopNavProvider"
 
 function Header()
@@ -11,7 +11,7 @@ function Header()
       <header>
         <LevelOneHeading />
         <TopNavProvider>
-          <TopNav />
+          <NewTopNav />
         </TopNavProvider>
       </header>
     </>

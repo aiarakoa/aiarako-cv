@@ -1,5 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
+
 import { useLocation } from 'react-router-dom';
+
 import { useCV } from "./CVProvider";
 
 const TopNavContext = createContext((null));
@@ -13,6 +15,7 @@ export function TopNavProvider({ children })
   const [isLastArticle, setIsLastArticle]         = useState(false);
   const [previousPath, setPreviousPath]           = useState("/falsepath");
   const [nextPath, setNextPath]                   = useState("/falsepath");
+  const [openDialog, setOpenDialog]               = useState(false);
 
   useEffect(() => {
     const articleEntries = Array.from(articles.entries());
@@ -27,13 +30,14 @@ export function TopNavProvider({ children })
     setIsLastArticle(isLast);
     setPreviousPath(prevPath);
     setNextPath(theNextPath);
+    setOpenDialog(false);
     
   // Intentionally run-once on mount; guarded by hasLoadedRef.
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pathname, setArticleIndex, setIsFirstArticle, setIsLastArticle, setPreviousPath, setNextPath]);
+  }, [pathname, setArticleIndex, setIsFirstArticle, setIsLastArticle, setPreviousPath, setNextPath, setOpenDialog]);
 
   return (
-    <TopNavContext.Provider value={{articleIndex, isFirstArticle, isLastArticle, previousPath, nextPath}}>
+    <TopNavContext.Provider value={{articleIndex, isFirstArticle, isLastArticle, previousPath, nextPath, openDialog, setOpenDialog}}>
       {children}
     </TopNavContext.Provider>
   );

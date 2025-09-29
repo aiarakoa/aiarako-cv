@@ -1,11 +1,13 @@
 import './Section.css';
 import { Fragment } from "react";
-import { useCV } from "./CVProvider";
+
 import { formatYearMonth } from "../lib/Utils";
+
+import { useCV } from "./CVProvider";
 
 function Section(props)
 {
-    const {sections, presentationMode, presentDayTags, selectedLanguage, sectionsPerGroup} = useCV();
+    const {sections, presentationMode, presentDayTags, selectedLanguage} = useCV();
     const thisSection = sections.get(props.sectionKey);
     const dateSeparator = " - ";
     let paragraphCount = 1;
@@ -111,9 +113,9 @@ function Section(props)
 
     return (
         <>
-            <section id = {`${props.sectionKey}`} aria-labelledby = {`${props.sectionKey}-article`}  heightfactor={sectionsPerGroup}>
+            <section id = {`${props.sectionKey}`} aria-labelledby = {`${props.sectionKey}-article`}>
                 <details open={presentationMode === "laptop"}>
-                    <summary heightfactor={sectionsPerGroup}>
+                    <summary>
                         <span role = "heading" aria-level = "3" id = {`${props.sectionKey}-section-heading`} className = "details-summary">
                             <span className="laptop-span">
                                 {thisSection.title}

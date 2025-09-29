@@ -1,6 +1,6 @@
 import GenSection from './GenSection';
 
-function PortfolioSection(props)
+function PortfolioSection()
 {
     function mapIFrame(activeSection)
     {

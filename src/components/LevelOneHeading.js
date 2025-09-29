@@ -1,5 +1,5 @@
 import './LevelOneHeading.css';
-import LangNav from './LangNav';
+import NewLangNav from './NewLangNav';
 
 function LevelOneHeading()
 {
@@ -8,7 +8,7 @@ function LevelOneHeading()
             <span className = "cv-header-balance-left-span"></span>
             <span className = "mobile-span">CARLOS AYALA</span>
             <span className = "laptop-span">CARLOS DE LA CRUZ AYALA VARGAS</span>
-            <LangNav />
+            <NewLangNav />
         </h1>
     );
 }

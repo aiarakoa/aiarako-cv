@@ -1,16 +1,17 @@
 import './GenDetails.css';
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
+
+import { formatYearMonth } from "../lib/Utils";
+
 import { useCV } from "./CVProvider";
 import { useSection } from "./SectionProvider";
-import { formatYearMonth } from "../lib/Utils";
-import { useState } from "react";
 
 function GenDetails(props)
 {
-    const { presentationMode, presentDayTags, selectedLanguage, sectionsPerGroup } = useCV();
+    const { presentationMode, presentDayTags, selectedLanguage } = useCV();
 //    const [ testVal ] = useState(Math.floor(Math.random() * 10000));
     const { sectionKey, activeSection } = useSection();
-    const [ certViewerActive, setCertViewerActive ] = useState(false);
+    const [ isThisCertViewerActive, setIsThisCertViewerActive ] = useState(false);
     const [ certViewerZoom, setCertViewerZoom ] = useState(false);
     const dateSeparator = " - ";
 //    console.log(`${sectionKey}::${testVal}`);
@@ -123,17 +124,31 @@ function GenDetails(props)
     function showCert()
     {
         return (
-            <span className = {`cert-image-span ${certViewerActive ? "cert-viewer-on" : ""}`} onClick={(event) => event.stopPropagation()}>
-                <button aria-label = {`Show ${activeSection.title} - ${activeSection.organisation}`} className = {"cert-image-enlarge-button"} onClick={(event) => {event.stopPropagation(); setCertViewerActive(true);}}>
+            <span className = {`cert-image-span ${isThisCertViewerActive ? "cert-viewer-on" : ""}`}>
+                <button aria-label = {`Show ${activeSection.title} - ${activeSection.organisation}`}
+                    className = {"cert-image-enlarge-button"}
+                    onClick={(event) => {
+                        event.stopPropagation();
+                        setIsThisCertViewerActive(true);
+                    }}>
                     <img className={`cert-thumbnail`} src={`${process.env.PUBLIC_URL}/certs/${sectionKey}-tn.png`} alt={`${activeSection.title} - ${activeSection.organisation} (thumbnail)`}/>
                 </button>
                 <span className = {"cert-viewer-container"}>
-                    <span className = {"cert-viewer"}>
-                        <button aria-label = "Collapse certificate viewer" className={"cert-viewer-collapse-button"} onClick={(event) => {event.stopPropagation(); setCertViewerActive(false);}}></button>
-                        <img className={`cert-image ${certViewerZoom ? "cert-image-zoomed" : ""}`}
-                            src={`${process.env.PUBLIC_URL}/certs/${sectionKey}.jpg`}
-                            alt={`${activeSection.title} - ${activeSection.organisation}`}
-                            onClick={() => setCertViewerZoom(zoomStatus => !zoomStatus)}/>
+                    <button aria-label = "Collapse certificate viewer" className={"cert-viewer-collapse-button"} onClick={(event) => {
+                        event.stopPropagation();
+                        setIsThisCertViewerActive(false);
+                        }}>
+                    </button>
+                    <span className = {`cert-viewer`}>
+                        <button className = {`cert-image-zoom-button ${certViewerZoom ? "cert-image-zoomed" : ""}`} onClick={(event) => {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                    setCertViewerZoom(zoomStatus => !zoomStatus);
+                                }}>
+                            <img className={`cert-image`}
+                                src={`${process.env.PUBLIC_URL}/certs/${sectionKey}.jpg`}
+                                alt={`${activeSection.title} - ${activeSection.organisation}`}/>
+                        </button>
                     </span>
                 </span>
             </span>
@@ -143,7 +158,7 @@ function GenDetails(props)
     return (
         <>
             <details open={presentationMode === "laptop"}>
-                <summary heightfactor={sectionsPerGroup}>
+                <summary>
                     <span className = {`details-summary${activeSection.hasCertImage ? "-with-cert-image" : ""}-span`}>
                         <span role = "heading" aria-level = "3" id = {`${sectionKey}-section-heading`} className = "details-summary">
                             <span className="laptop-span">

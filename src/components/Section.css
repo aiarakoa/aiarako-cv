@@ -45,6 +45,16 @@ details > summary::marker {
     width: 100%;
 }
 
+.cert-image-zoom-button {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0;
+}
+  
 .cert-image-span:not(.cert-viewer-on) > .cert-viewer-container {
     display: none;
 }
@@ -124,7 +134,7 @@ details > summary::marker {
         left: 5%;
     }
 
-    .cert-image.cert-image-zoomed {
+    .cert-image-zoomed > .cert-image {
         width: 120%;
     }
 
@@ -195,7 +205,9 @@ details > summary::marker {
         width: 4vh;
         height: 4vh;
         position: absolute;
+        pointer-events: all;
         top: 1vh;
+        left: 7.5vw;
         background-position: center;
         background-size: 60% 60%;
         background-repeat: no-repeat;
@@ -221,6 +233,10 @@ details > summary::marker {
         margin-block-start: 0em;
         margin-block-end: 0em;
         font-size: min(3.15vh, 4.8vw);
+    }
+
+    details {
+        cursor: pointer;
     }
 
     details:not([open]) > summary {
@@ -249,10 +265,11 @@ details > summary::marker {
     .cert-image-span.cert-viewer-on > .cert-viewer-container > .cert-viewer {
         top: 5vh;
         left: 7.5vw;
-        width: 85vw;
+        width: 90vw;
         height: 90vh;
         display: flex;
         flex-direction: column;
+        margin: 6vh 5vw 4vh 5vw;
     }
 
     .cert-image {
@@ -261,7 +278,7 @@ details > summary::marker {
         left: 5%;
     }
 
-    .cert-image.cert-image-zoomed {
+    .cert-image-zoomed > .cert-image {
         width: 270%;
     }
     
@@ -341,10 +358,15 @@ details > summary::marker {
         height: 4vh;
         position: absolute;
         top: 1vh;
+        pointer-events: all;
         background-position: center;
         background-size: 60% 60%;
         background-repeat: no-repeat;
         background-image: url(/public/images/prevarrowbluetintdark.svg);
+    }
+
+    button.cert-viewer-collapse-button {
+        left: 5vw;
     }
 
     button.cert-viewer-collapse-button:hover,

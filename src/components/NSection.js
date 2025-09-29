@@ -1,6 +1,6 @@
 import GenSection from './GenSection';
 
-function NSection(props)
+function NSection()
 {
     return (
         <>

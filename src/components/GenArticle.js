@@ -1,12 +1,14 @@
 import './Article.css';
-import { useArticle } from "./ArticleProvider";
-import { useReCenterActive } from "../hooks/ReCenterActive";
 import { useLayoutEffect } from "react";
+
+import { useReCenterActive } from "../hooks/ReCenterActive";
+
+import { useArticle } from "./ArticleProvider";
 import LevelTwoHeading from './LevelTwoHeading';
 
 function GenArticle(props)
 {
-    const { articleKey } = useArticle();
+    const { articleKey, activeCertViewer } = useArticle();
     const navRef = useReCenterActive(props.activeSelectorQuery, props.reCenterMode, props.trigger);
 
     useLayoutEffect(() => {
@@ -22,7 +24,7 @@ function GenArticle(props)
         <>
             <article className="cert-article plan-4pp" id = {`${articleKey}`} aria-labelledby = {`${articleKey}-article`}>
                 <LevelTwoHeading />
-                <nav className={props.pagination} ref={navRef}>
+                <nav className={`${props.pagination} ${activeCertViewer ? "active-cert-viewer" : ""}`} ref={navRef}>
                     <ol>
                         {props.sectionArranger()}
                     </ol>

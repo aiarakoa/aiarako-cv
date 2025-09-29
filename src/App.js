@@ -1,9 +1,11 @@
 import './App.css';
-import MainPage from './components/MainPage';
+
+import { useEffect } from 'react';
+
+import { useCV } from "./components/CVProvider";
 import Footer from './components/Footer';
 import Header from './components/Header';
-import {useEffect} from 'react';
-import { useCV } from "./components/CVProvider";
+import MainPage from './components/MainPage';
 
 function App()
 {
@@ -46,7 +48,7 @@ function App()
 
   if (error)
   {
-      console.log(error);
+      console.error(error);
       return <p role="alert">Failed to load CV data.</p>;
   }
   

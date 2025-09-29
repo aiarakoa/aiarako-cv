@@ -1,12 +1,12 @@
 import './Article.css';
-import PortfolioSection from './PortfolioSection';
-import GenArticle from './GenArticle';
-//import { useCV } from './CVProvider';
-import { useArticle } from './ArticleProvider';
-import { SectionProvider } from './SectionProvider';
 import { useState, useLayoutEffect } from "react";
 
-function PortfolioArticle(props)
+import { useArticle } from './ArticleProvider';
+import GenArticle from './GenArticle';
+import PortfolioSection from './PortfolioSection';
+import { SectionProvider } from './SectionProvider';
+
+function PortfolioArticle()
 {
 //    const name = "portfolio";
     const { activeArticle, sectionsCount, carouseledSectionKeys, setCarouseledSectionKeys } = useArticle();
@@ -39,7 +39,7 @@ function PortfolioArticle(props)
         {
             setCarouseledSectionKeys(carouSections => [...carouSections.slice(1, sectionsCount), carouSections[0]]);
         }
-        console.log(`rotateCarousel(${direction})`)
+//        console.log(`rotateCarousel(${direction})`)
     }
 
     function handleNavButtonVisibility()
@@ -73,7 +73,7 @@ function PortfolioArticle(props)
 
     function sectionCarousel()
     {
-        console.log(carouseledSectionKeys);
+//        console.log(carouseledSectionKeys);
         return carouseledSectionKeys.map(key => {
             return (
                 <li key = {key}>

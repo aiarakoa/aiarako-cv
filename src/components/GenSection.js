@@ -1,14 +1,9 @@
 import './Section.css';
-//import { Fragment } from "react";
-import { useCV } from "./CVProvider";
-import { useSection } from "./SectionProvider";
-//import { formatYearMonth } from "../lib/Utils";
-//import { useEffect, useState } from "react";
 import GenDetails from './GenDetails';
+import { useSection } from "./SectionProvider";
 
 function GenSection(props)
 {
-    const { sectionsPerGroup } = useCV();
     // const [ testVal, setTestVal ] = useState(Math.floor(Math.random() * 10000));
     const { sectionKey, activeSection } = useSection();
     // console.log(`${sectionKey}::${testVal}`);
@@ -20,7 +15,7 @@ function GenSection(props)
 
     return (
         <>
-            <section id = {`${sectionKey}`} aria-labelledby = {`${sectionKey}-article`}  heightfactor={sectionsPerGroup}>
+            <section id = {`${sectionKey}`} aria-labelledby = {`${sectionKey}-article`}>
                 <GenDetails />
                 {props.iFrameMapper ? props.iFrameMapper(activeSection) : mapIFrame(activeSection)}
             </section>

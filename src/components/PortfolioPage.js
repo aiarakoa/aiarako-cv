@@ -3,9 +3,8 @@ import { useCV } from "./CVProvider";
 
 function PortfolioPage(props)
 {
-  const {articles, sections} = useCV();
+  const {articles} = useCV();
   const thisArticle = articles.get(props.articleKey);
-  console.log(sections);
 
   return (
     <>

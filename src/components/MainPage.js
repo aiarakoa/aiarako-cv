@@ -1,10 +1,11 @@
 import './MainPage.css';
 
 import {Routes, Route, Navigate} from 'react-router-dom';
+
+import { ArticleProvider } from './ArticleProvider';
+import { useCV } from "./CVProvider";
 import NSectionArticle from './NSectionArticle';
 import PortfolioArticle from './PortfolioArticle';
-import { useCV } from "./CVProvider";
-import { ArticleProvider } from './ArticleProvider';
 
 function MainPage() {
   const {articles, status, error} = useCV();
@@ -16,7 +17,7 @@ function MainPage() {
 
   if (error && !articles)
   {
-      console.log(error);
+      console.error(error);
       return <p role="alert">Failed to load CV data.</p>;
   }
   

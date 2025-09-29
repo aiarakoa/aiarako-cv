@@ -32,6 +32,7 @@ export function CVProvider({ children })
   const [selectedLanguage, setSelectedLanguage]   = useState(null);
   const [status, setStatus]                       = useState(/** @type {"idle"|"loading"|"error"} */("loading"));
   const [error, setError]                         = useState(/** @type {Error|null} */(null));
+  const [openLangDialog, setOpenLangDialog]       = useState(null);
 
   const hasLoadedRef = useRef(false);
 
@@ -47,6 +48,7 @@ export function CVProvider({ children })
     setNavComponents(manifest.navComponents);
     setSelectedLanguage(manifest.defaultLanguage);
     setPresentationModeList(manifest.presentationMode);
+    setOpenLangDialog(false);
     const firstLoadPresentationMode = window.matchMedia('(min-width: 1200px)').matches ? 'laptop' : 'mobile';
     setPresentationMode(firstLoadPresentationMode);
     setSectionsPerGroup(manifest.sectionsPerGroup.find(secPerGroup => secPerGroup.presentationMode === firstLoadPresentationMode).sectionsPerGroup);
@@ -108,7 +110,7 @@ export function CVProvider({ children })
     <CVContext.Provider value={{ data, articles, sections, presentDayTags, languages,
         selectedLanguage, setSelectedLanguage, sectionsPerGroup, setSectionsPerGroup, sectionGroupIndexByArticle, setSectionGroupIndexByArticle,
         sectionsPerGroupByPresentationMode, setSectionsPerGroupByPresentationMode, activeLink, setActiveLink, presentationModeList, setPresentationModeList,
-        presentationMode, setPresentationMode, navComponents, resizeTick, setResizeTick, status, error}}>
+        presentationMode, setPresentationMode, navComponents, resizeTick, setResizeTick, openLangDialog, setOpenLangDialog, status, error}}>
       {children}
     </CVContext.Provider>
   );

@@ -49,9 +49,22 @@ h1.cv-header {
         width: 8vw;
     }
 
+    dialog.top-nav-dialog {
+        margin: 10vh auto;
+    }
+
+    dialog.lang-nav-dialog {
+        margin: 10vh auto;
+    }
+
     nav.top-nav.nav-dropdown-layout ul {
-        margin-top: 2.4vh;
-        width: max(10vw, 15vh);
+        /* margin-top: 2.4vh;
+        width: max(10vw, 15vh); */
+        margin-top: 0vh;
+        width: 100%;
+        height: 100%;
+        margin-inline-start: 0vw;
+        margin-inline-end: 0vw;
     }
     
     button.lang-button {
@@ -77,14 +90,14 @@ h1.cv-header {
     }
 
     nav.lang-nav.language-selection-layout ul {
-        margin-top: 2.4vh;
-        width: 60vw;
-        margin-left: 20vw;
+        margin-top: 0vh;
+        width: 100%;
+        margin-left: 0vw;
     }
 
     nav.lang-nav.language-selection-layout button.lang-button {
-        width: max(8vh, 5vw);
-        height: max(8vh, 5vw);
+        width: min(8vh, 6.5vw);
+        height: min(8vh, 6.5vw);
         font-size: max(3.2vh, 2vw);
     }
 
@@ -127,19 +140,22 @@ h1.cv-header {
     }    
 
     nav.top-nav.nav-dropdown-layout a {
-        font-size: max(4vh, 6vw);
+        font-size: min(4vh, 6vw);
     }    
 
     nav.top-nav ul > li {
         width: 33vw;
         height: 100%;
     }
-
+/*
     nav.top-nav.nav-dropdown-layout ul {
-        margin-top: 6vh;
-        width: max(25vh, 40vw);
+        margin-top: 0vh;
+        width: 100%;
+        height: 100%;
+        margin-inline-start: 0vw;
+        margin-inline-end: 0vw;
     }
-
+*/
     button.nav-seq-button {
         width: 3vh;
         height: 3vh;
@@ -158,16 +174,14 @@ h1.cv-header {
     }
 
     nav.lang-nav.language-selection-layout ul {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 6vh;
-        width: 80vw;
+        width: 100%;
+        height: 100%;
         justify-content: space-between;
     }
 
     nav.lang-nav.language-selection-layout button.lang-button {
-        width: max(5.1vh, 3.2vw);
-        height: max(5.1vh, 3.2vw);
+        width: min(8vh, 15vw);
+        height: min(8vh, 15vw);
         font-size: max(2.4vh, 1.5vw);
     }
 
@@ -266,8 +280,8 @@ nav.top-nav.nav-dropdown-layout {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0,0,0,0.8);
 }
 
@@ -277,7 +291,7 @@ nav.top-nav.nav-dropdown-layout ul {
     align-items: center;
     background-color: #eeebfa;
     overflow: visible;
-    height: auto;
+    /* height: auto; */
 }
 
 button.nav-seq-button {
@@ -342,13 +356,13 @@ button.lang-button {
     cursor: pointer;
 }
 
-nav.lang-nav.language-selection-layout button.lang-button[activelocale="true"],
+nav.lang-nav.language-selection-layout button.lang-button[data-active-locale="true"],
 nav.lang-nav.language-selection-layout button.lang-button:disabled,
 nav.lang-nav.language-selection-layout button.lang-button[disabled] {
     cursor: default;
 }
 
-nav.lang-nav.selected-language-layout button.lang-button[activelocale="true"],
+nav.lang-nav.selected-language-layout button.lang-button[data-active-locale="true"],
 nav.lang-nav.selected-language-layout button.lang-button:disabled,
 nav.lang-nav.selected-language-layout button.lang-button[disabled] {
     cursor: zoom-in;
@@ -364,36 +378,36 @@ nav.lang-nav ul {
     flex-direction: row;
 }
 
-nav.lang-nav.language-selection-layout button.lang-button:not([activelocale="true"]):hover span.lang-button-abbr {
+nav.lang-nav.language-selection-layout button.lang-button:not([data-active-locale="true"]):hover span.lang-button-abbr {
     visibility: hidden;
 }
 
-nav.lang-nav.language-selection-layout button.lang-button:not([activelocale="true"]) {
+nav.lang-nav.language-selection-layout button.lang-button:not([data-active-locale="true"]) {
     color: #5c7ad6;
     background-color: #eeebfa;
 }
 
-nav.lang-nav.language-selection-layout button.lang-button[languagecode="en-GB"]:not([activelocale="true"]):hover {
+nav.lang-nav.language-selection-layout button.lang-button[data-language-code="en-GB"]:not([data-active-locale="true"]):hover {
     background-image: url('/public/images/en-GB.png');
     background-size: contain;
 }
 
-nav.lang-nav.language-selection-layout button.lang-button[languagecode="en-US"]:not([activelocale="true"]):hover {
+nav.lang-nav.language-selection-layout button.lang-button[data-language-code="en-US"]:not([data-active-locale="true"]):hover {
     background-image: url('/public/images/en-US.png');
     background-size: contain;
 }
 
-nav.lang-nav.language-selection-layout button.lang-button[languagecode="es-ES"]:not([activelocale="true"]):hover {
+nav.lang-nav.language-selection-layout button.lang-button[data-language-code="es-ES"]:not([data-active-locale="true"]):hover {
     background-image: url('/public/images/es-ES.png');
     background-size: contain;
 }
 
-nav.lang-nav.language-selection-layout button.lang-button[languagecode="de-DE"]:not([activelocale="true"]):hover {
+nav.lang-nav.language-selection-layout button.lang-button[data-language-code="de-DE"]:not([data-active-locale="true"]):hover {
     background-image: url('/public/images/de-DE.png');
     background-size: contain;
 }
 
-nav.lang-nav.language-selection-layout button.lang-button[languagecode="fr-FR"]:not([activelocale="true"]):hover {
+nav.lang-nav.language-selection-layout button.lang-button[data-language-code="fr-FR"]:not([data-active-locale="true"]):hover {
     background-image: url('/public/images/fr-FR.png');
     background-size: contain;
 }
@@ -404,14 +418,18 @@ nav.lang-nav.selected-language-layout button.lang-button:hover {
     color: black;
 }
 
+nav.lang-nav.language-selection-layout button.lang-button[data-active-locale="true"] {
+    pointer-events: none;
+}
+
 nav.lang-nav.language-selection-layout {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0,0,0,0.8);
 }
 
