@@ -1,11 +1,9 @@
 {
-  "tags":
-  [
+  "tags": [
     {
       "uri": null,
       "slug": "de",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "ingénierie des données",
         "wildcard": "Data Engineering",
@@ -16,8 +14,7 @@
     {
       "uri": null,
       "slug": "ai",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "intelligence artificielle",
         "wildcard": "Artificial Intelligence",
@@ -28,8 +25,7 @@
     {
       "uri": null,
       "slug": "datascraping",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "capture de données d'écran",
         "wildcard": "data scraping",
@@ -39,8 +35,7 @@
     {
       "uri": null,
       "slug": "distributed",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "calcul distribué",
         "wildcard": "Distributed Computing",
@@ -50,8 +45,7 @@
     {
       "uri": null,
       "slug": "realtime",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "systémes temps réel",
         "wildcard": "real-time computing",
@@ -61,8 +55,7 @@
     {
       "uri": null,
       "slug": "threads",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "fils",
         "wildcard": "threads",
@@ -72,8 +65,7 @@
     {
       "uri": null,
       "slug": "cplus",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "C++",
         "abbreviated": false
@@ -82,8 +74,7 @@
     {
       "uri": null,
       "slug": "python",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Python",
         "abbreviated": false
@@ -92,8 +83,7 @@
     {
       "uri": null,
       "slug": "linux",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Linux",
         "abbreviated": false
@@ -102,8 +92,7 @@
     {
       "uri": null,
       "slug": "https",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "HTTPS",
         "abbreviated": false
@@ -112,8 +101,7 @@
     {
       "uri": null,
       "slug": "tls",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "TLS",
         "abbreviated": false
@@ -122,8 +110,7 @@
     {
       "uri": null,
       "slug": "mlops",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "MLOps",
         "abbreviated": false
@@ -132,8 +119,7 @@
     {
       "uri": null,
       "slug": "elt",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "extraction, chargement et transformation",
         "wildcard": "Extract-Load-Transform",
@@ -144,8 +130,7 @@
     {
       "uri": null,
       "slug": "etl",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "extraction, transformation et chargement",
         "wildcard": "Extract-Transform-Load",
@@ -156,8 +141,7 @@
     {
       "uri": null,
       "slug": "ds",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "science des données",
         "wildcard": "Data Science",
@@ -168,8 +152,7 @@
     {
       "uri": null,
       "slug": "png",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "PNG",
         "abbreviated": false
@@ -178,8 +161,7 @@
     {
       "uri": null,
       "slug": "ux",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "expérience utilisateur",
         "wildcard": "User eXperience",
@@ -190,8 +172,7 @@
     {
       "uri": null,
       "slug": "ui",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "interface utilisateur",
         "wildcard": "User Interface",
@@ -202,8 +183,7 @@
     {
       "uri": null,
       "slug": "js",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "JavaScript",
         "abbreviated": false
@@ -212,8 +192,7 @@
     {
       "uri": null,
       "slug": "css",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "feuilles de style en cascade",
         "wildcard": "Cascading Style Sheets",
@@ -224,8 +203,7 @@
     {
       "uri": null,
       "slug": "scada",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "système de contrôle et d’acquisition de données en temps réel",
         "wildcard": "supervisory control and data acquisition",
@@ -236,8 +214,7 @@
     {
       "uri": null,
       "slug": "postgres",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "PostgreSQL",
         "abbreviated": false
@@ -246,8 +223,7 @@
     {
       "uri": null,
       "slug": "svg",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "graphique vectoriel adaptable",
         "wildcard": "Scalable Vector Graphics",
@@ -258,8 +234,7 @@
     {
       "uri": null,
       "slug": "xls",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Microsoft Excel",
         "abbreviated": false
@@ -268,8 +243,7 @@
     {
       "uri": null,
       "slug": "frontend",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "développement web frontal",
         "wildcard": "Front-end web development",
@@ -279,8 +253,7 @@
     {
       "uri": null,
       "slug": "ml",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "apprentisage automatique",
         "wildcard": "Machine Learning",
@@ -291,8 +264,7 @@
     {
       "uri": null,
       "slug": "dl",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "apprentisage profond",
         "wildcard": "Deep Learning",
@@ -303,8 +275,7 @@
     {
       "uri": null,
       "slug": "cloud",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "informatique en nuage",
         "wildcard": "Cloud Computing",
@@ -314,8 +285,7 @@
     {
       "uri": null,
       "slug": "cv",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "vision par ordinateur",
         "wildcard": "Computer Vision",
@@ -326,8 +296,7 @@
     {
       "uri": null,
       "slug": "dv",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "visualisation des données",
         "wildcard": "Data Visualization",
@@ -338,8 +307,7 @@
     {
       "uri": null,
       "slug": "bigdata",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Big Data",
         "abbreviated": false
@@ -348,8 +316,7 @@
     {
       "uri": null,
       "slug": "od",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "données ouvertes",
         "wildcard": "Open Data",
@@ -360,8 +327,7 @@
     {
       "uri": null,
       "slug": "kg",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "graphes de connaissances",
         "wildcard": "knowledge graphs",
@@ -372,8 +338,7 @@
     {
       "uri": null,
       "slug": "datagov",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "gouvernance des données",
         "wildcard": "Data Governance",
@@ -383,8 +348,7 @@
     {
       "uri": null,
       "slug": "ts",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "séries temporelles",
         "wildcard": "time series",
@@ -395,8 +359,7 @@
     {
       "uri": null,
       "slug": "datamining",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "fouille de données",
         "wildcard": "data mining",
@@ -406,8 +369,7 @@
     {
       "uri": null,
       "slug": "dtmc",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "chaïnes de Markov à temps discret",
         "wildcard": "discrete-time Markov chain",
@@ -418,8 +380,7 @@
     {
       "uri": null,
       "slug": "mdp",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "processus de décision Markovien",
         "wildcard": "Markov decision process",
@@ -430,8 +391,7 @@
     {
       "uri": null,
       "slug": "fsm",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "automate fini",
         "wildcard": "finite-state machine",
@@ -442,8 +402,7 @@
     {
       "uri": null,
       "slug": "edac",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "détection et correction d'erreurs",
         "wildcard": "error detection and correction",
@@ -454,8 +413,7 @@
     {
       "uri": null,
       "slug": "crc",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "contrôle de redondance cyclique",
         "wildcard": "cyclic redundancy check",
@@ -466,8 +424,7 @@
     {
       "uri": null,
       "slug": "acl",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "liste de contrôle d'accès",
         "wildcard": "access-control list",
@@ -478,8 +435,7 @@
     {
       "uri": null,
       "slug": "stp",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "spanning tree protocol",
         "abbreviated": true,
@@ -489,8 +445,7 @@
     {
       "uri": null,
       "slug": "kkt",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Karush-Kuhn-Tucker",
         "abbreviated": true,
@@ -500,8 +455,7 @@
     {
       "uri": null,
       "slug": "netoptim",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "optimisation des réseaux",
         "wildcard": "network optimization",
@@ -511,8 +465,7 @@
     {
       "uri": null,
       "slug": "aws",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Amazon Web Services",
         "abbreviated": true,
@@ -522,8 +475,7 @@
     {
       "uri": null,
       "slug": "http",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Hypertext Transfer Protocol",
         "abbreviated": true,
@@ -533,8 +485,7 @@
     {
       "uri": null,
       "slug": "rdp",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Remote Desktop Protocol",
         "abbreviated": true,
@@ -544,8 +495,7 @@
     {
       "uri": null,
       "slug": "ssh",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Secure Shell",
         "abbreviated": true,
@@ -555,8 +505,7 @@
     {
       "uri": null,
       "slug": "vpc",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseau privé virtuel",
         "wildcard": "Virtual Private Network",
@@ -567,8 +516,7 @@
     {
       "uri": null,
       "slug": "awsvpc",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Virtual Private Cloud",
         "abbreviated": true,
@@ -578,8 +526,7 @@
     {
       "uri": null,
       "slug": "semantic",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "web sémantique",
         "wildcard": "semantic web",
@@ -589,8 +536,7 @@
     {
       "uri": null,
       "slug": "react",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "React",
         "abbreviated": false
@@ -599,8 +545,7 @@
     {
       "uri": null,
       "slug": "github",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "GitHub",
         "abbreviated": false
@@ -609,8 +554,7 @@
     {
       "uri": null,
       "slug": "git",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Git",
         "abbreviated": false
@@ -619,8 +563,7 @@
     {
       "uri": null,
       "slug": "dns",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "système de nom de domaine",
         "wildcard": "Domain Name Server",
@@ -631,8 +574,7 @@
     {
       "uri": null,
       "slug": "tcp",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Transmission Control Protocol",
         "abbreviated": true,
@@ -642,8 +584,7 @@
     {
       "uri": null,
       "slug": "udp",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "protocole de datagramme utilisateur",
         "wildcard": "User Datagram Protocol",
@@ -654,8 +595,7 @@
     {
       "uri": null,
       "slug": "r",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "R",
         "abbreviated": false
@@ -664,8 +604,7 @@
     {
       "uri": null,
       "slug": "snmp",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "protocole simple de gestion de réseau",
         "wildcard": "Simple Network Management Protocol",
@@ -676,8 +615,7 @@
     {
       "uri": null,
       "slug": "ip",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "protocole internet",
         "wildcard": "Internet Protocol",
@@ -688,8 +626,7 @@
     {
       "uri": null,
       "slug": "mpls",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "multiprotocol label switching",
         "abbreviated": true,
@@ -699,8 +636,7 @@
     {
       "uri": null,
       "slug": "rmon",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "remote network monitoring",
         "abbreviated": true,
@@ -710,8 +646,7 @@
     {
       "uri": null,
       "slug": "vm",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "machine virtuelle",
         "wildcard": "virtual machine",
@@ -722,8 +657,7 @@
     {
       "uri": null,
       "slug": "vbox",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Oracle VM VirtualBox",
         "abbreviated": false
@@ -732,8 +666,7 @@
     {
       "uri": null,
       "slug": "vmware",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "VMware",
         "abbreviated": false
@@ -742,8 +675,7 @@
     {
       "uri": null,
       "slug": "wimax",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "worldwide interoperability for microwave access",
         "abbreviated": true,
@@ -753,8 +685,7 @@
     {
       "uri": null,
       "slug": "wifi",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Wi-Fi",
         "abbreviated": false
@@ -763,8 +694,7 @@
     {
       "uri": null,
       "slug": "linearprog",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "optimisation linéaire",
         "wildcard": "linear programming",
@@ -774,8 +704,7 @@
     {
       "uri": null,
       "slug": "nonlinearprog",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "optimisation non linéaire",
         "wildcard": "nonlinear programming",
@@ -785,8 +714,7 @@
     {
       "uri": null,
       "slug": "intlinearprog",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "optimisation linéaire en nombres entiers",
         "wildcard": "integer linear programming",
@@ -796,8 +724,7 @@
     {
       "uri": null,
       "slug": "intlinearprog",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "optimisation linéaire en nombres entiers",
         "wildcard": "integer linear programming",
@@ -807,8 +734,7 @@
     {
       "uri": null,
       "slug": "mixlinearprog",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "optimisation linéaire en nombres entiers mixtes",
         "wildcard": "mixed-integer linear programming",
@@ -818,8 +744,7 @@
     {
       "uri": null,
       "slug": "nosql",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "NoSQL",
         "abbreviated": false
@@ -828,8 +753,7 @@
     {
       "uri": null,
       "slug": "sklearn",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "scikit-learn",
         "abbreviated": false
@@ -838,8 +762,7 @@
     {
       "uri": null,
       "slug": "nosql",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "NoSQL",
         "abbreviated": false
@@ -848,8 +771,7 @@
     {
       "uri": null,
       "slug": "shiny",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Shiny",
         "abbreviated": false
@@ -858,8 +780,7 @@
     {
       "uri": null,
       "slug": "bluetooth",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Bluetooth",
         "abbreviated": false
@@ -868,8 +789,7 @@
     {
       "uri": null,
       "slug": "wireless",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "transmission sans fil",
         "wildcard": "wireless communication",
@@ -879,8 +799,7 @@
     {
       "uri": null,
       "slug": "unittest",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "test unitaire",
         "wildcard": "unit testing",
@@ -890,8 +809,7 @@
     {
       "uri": null,
       "slug": "pyspark",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "PySpark",
         "abbreviated": false
@@ -900,8 +818,7 @@
     {
       "uri": null,
       "slug": "semistructdata",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "données semi-structurées",
         "wildcard": "semi-structured data",
@@ -911,8 +828,7 @@
     {
       "uri": null,
       "slug": "structdata",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "données structurées",
         "wildcard": "structured data",
@@ -922,8 +838,7 @@
     {
       "uri": null,
       "slug": "unstructdata",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "données non structurées",
         "wildcard": "unstructured data",
@@ -933,8 +848,7 @@
     {
       "uri": null,
       "slug": "autoencoder",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "auto-encodeur",
         "wildcard": "autoencoder",
@@ -944,8 +858,7 @@
     {
       "uri": null,
       "slug": "agentic",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "agentic AI",
         "abbreviated": false
@@ -954,8 +867,7 @@
     {
       "uri": null,
       "slug": "gan",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseaux antagonistes génératifs",
         "wildcard": "generative adversarial network",
@@ -966,8 +878,7 @@
     {
       "uri": null,
       "slug": "mac",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "contrôle d'accès au support",
         "wildcard": "medium access control",
@@ -978,8 +889,7 @@
     {
       "uri": null,
       "slug": "opencv",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "OpenCV",
         "abbreviated": false
@@ -988,8 +898,7 @@
     {
       "uri": null,
       "slug": "cnn",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseaux de neurones convolutifs",
         "wildcard": "convolutional neural network",
@@ -1000,8 +909,7 @@
     {
       "uri": null,
       "slug": "tl",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "apprentissage par transfert",
         "wildcard": "transfer learning",
@@ -1011,8 +919,7 @@
     {
       "uri": null,
       "slug": "supervl",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "apprentissage supervisé",
         "wildcard": "supervised learning",
@@ -1022,8 +929,7 @@
     {
       "uri": null,
       "slug": "unsupervl",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "apprentissage non supervisé",
         "wildcard": "unsupervised learning",
@@ -1033,8 +939,7 @@
     {
       "uri": null,
       "slug": "genai",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "IA générative",
         "wildcard": "generative AI",
@@ -1045,8 +950,7 @@
     {
       "uri": null,
       "slug": "xai",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "IA explicable",
         "wildcard": "explainable AI",
@@ -1057,8 +961,7 @@
     {
       "uri": null,
       "slug": "ci",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "intégration continue",
         "wildcard": "continuous integration",
@@ -1069,8 +972,7 @@
     {
       "uri": null,
       "slug": "cd",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "livraison continue",
         "wildcard": "continuous delivery",
@@ -1081,8 +983,7 @@
     {
       "uri": null,
       "slug": "nlp",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "traitement automatique des langues",
         "wildcard": "natural language processing",
@@ -1093,8 +994,7 @@
     {
       "uri": null,
       "slug": "reinforcel",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "apprentissage par renforcement",
         "wildcard": "reinforcement learning",
@@ -1104,8 +1004,7 @@
     {
       "uri": null,
       "slug": "dtmc",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "chaînes de Markov à temps discret",
         "wildcard": "discrete-time Markov chains",
@@ -1116,8 +1015,7 @@
     {
       "uri": null,
       "slug": "bayesnet",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseaux bayésiens",
         "wildcard": "bayesian networks",
@@ -1127,8 +1025,7 @@
     {
       "uri": null,
       "slug": "sparql",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "SPARQL Protocol and RDF Query Language",
         "abbreviated": true,
@@ -1138,8 +1035,7 @@
     {
       "uri": null,
       "slug": "rdf",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Resource Description Framework",
         "abbreviated": true,
@@ -1149,8 +1045,7 @@
     {
       "uri": null,
       "slug": "owl",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Web Ontology Language",
         "abbreviated": true,
@@ -1160,8 +1055,7 @@
     {
       "uri": null,
       "slug": "rml",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "RDF Mapping Language",
         "abbreviated": true,
@@ -1171,8 +1065,7 @@
     {
       "uri": null,
       "slug": "ld",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "données liées",
         "wildcard": "linked data",
@@ -1183,8 +1076,7 @@
     {
       "uri": null,
       "slug": "db",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "bases de données",
         "wildcard": "databases",
@@ -1195,8 +1087,7 @@
     {
       "uri": null,
       "slug": "sql",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "langage de requêtes structurées",
         "wildcard": "structured query language",
@@ -1207,8 +1098,7 @@
     {
       "uri": null,
       "slug": "linearsys",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "systèmes linéaires",
         "wildcard": "linear systems",
@@ -1218,8 +1108,7 @@
     {
       "uri": null,
       "slug": "stats",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "statistique",
         "wildcard": "statistics",
@@ -1229,8 +1118,7 @@
     {
       "uri": null,
       "slug": "net",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseautage",
         "wildcard": "networking",
@@ -1240,8 +1128,7 @@
     {
       "uri": null,
       "slug": "VPN",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "modélisation et simulation",
         "wildcard": "modeling and simulation",
@@ -1251,8 +1138,7 @@
     {
       "uri": null,
       "slug": "java",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Java",
         "abbreviated": false
@@ -1261,8 +1147,7 @@
     {
       "uri": null,
       "slug": "vhdl",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "VHSIC Hardware Description Language",
         "abbreviated": true,
@@ -1272,8 +1157,7 @@
     {
       "uri": null,
       "slug": "fpga",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseau des portes programmables in situ",
         "wildcard": "field-programmable gate array",
@@ -1284,8 +1168,7 @@
     {
       "uri": null,
       "slug": "csharp",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "C#",
         "abbreviated": false
@@ -1294,8 +1177,7 @@
     {
       "uri": null,
       "slug": "cipher",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "chiffrement",
         "wildcard": "encryption",
@@ -1305,8 +1187,7 @@
     {
       "uri": null,
       "slug": "ethernet",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Ethernet",
         "abbreviated": false
@@ -1315,8 +1196,7 @@
     {
       "uri": null,
       "slug": "lan",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseau local",
         "wildcard": "Local Area Network",
@@ -1327,8 +1207,7 @@
     {
       "uri": null,
       "slug": "wan",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseau étendu",
         "wildcard": "Wide Area Network",
@@ -1339,8 +1218,7 @@
     {
       "uri": null,
       "slug": "man",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseau métropolitain",
         "wildcard": "metropolitan area network",
@@ -1351,8 +1229,7 @@
     {
       "uri": null,
       "slug": "switching",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "switching",
         "wildcard": "commutation",
@@ -1362,8 +1239,7 @@
     {
       "uri": null,
       "slug": "routing",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "routage",
         "wildcard": "routing",
@@ -1373,8 +1249,7 @@
     {
       "uri": null,
       "slug": "nat",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "traduction d'adresse réseau",
         "wildcard": "network address translation",
@@ -1385,8 +1260,7 @@
     {
       "uri": null,
       "slug": "ensembleml",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "apprentissage ensembliste",
         "wildcard": "ensemble learning",
@@ -1396,8 +1270,7 @@
     {
       "uri": null,
       "slug": "vlan",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseau local virtuel",
         "wildcard": "Virtual Local Area Network",
@@ -1408,8 +1281,7 @@
     {
       "uri": null,
       "slug": "eclipse",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Eclipse",
         "abbreviated": false
@@ -1418,8 +1290,7 @@
     {
       "uri": null,
       "slug": "rstudio",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "RStudio",
         "abbreviated": false
@@ -1428,8 +1299,7 @@
     {
       "uri": null,
       "slug": "vscode",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Visual Studio Code",
         "abbreviated": true,
@@ -1439,8 +1309,7 @@
     {
       "uri": null,
       "slug": "numpy",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "NumPy",
         "abbreviated": false
@@ -1449,8 +1318,7 @@
     {
       "uri": null,
       "slug": "pandas",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Pandas",
         "abbreviated": false
@@ -1459,8 +1327,7 @@
     {
       "uri": null,
       "slug": "matplotlib",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Matplotlib",
         "abbreviated": false
@@ -1469,8 +1336,7 @@
     {
       "uri": null,
       "slug": "plotly",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Plotly",
         "abbreviated": false
@@ -1479,8 +1345,7 @@
     {
       "uri": null,
       "slug": "tensorflow",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "TensorFlow",
         "abbreviated": false
@@ -1489,8 +1354,7 @@
     {
       "uri": null,
       "slug": "selenium",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Selenium",
         "abbreviated": false
@@ -1499,8 +1363,7 @@
     {
       "uri": null,
       "slug": "cidr",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Classless Inter-Domain Routing",
         "abbreviated": true,
@@ -1510,8 +1373,7 @@
     {
       "uri": null,
       "slug": "llm",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "grande modèle de langage",
         "wildcard": "Large Language Models",
@@ -1522,8 +1384,7 @@
     {
       "uri": null,
       "slug": "pytorch",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "PyTorch",
         "abbreviated": false
@@ -1532,8 +1393,7 @@
     {
       "uri": null,
       "slug": "api",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "interface de programmation",
         "wildcard": "Application Programming Interface",
@@ -1544,8 +1404,7 @@
     {
       "uri": null,
       "slug": "awskms",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Key Management Service",
         "abbreviated": true,
@@ -1555,8 +1414,7 @@
     {
       "uri": null,
       "slug": "awsec2",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Elastic Compute Cloud",
         "abbreviated": true,
@@ -1566,8 +1424,7 @@
     {
       "uri": null,
       "slug": "awsroute53",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Route 53",
         "abbreviated": false
@@ -1576,8 +1433,7 @@
     {
       "uri": null,
       "slug": "awsaz",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Availability Zone",
         "abbreviated": true,
@@ -1587,8 +1443,7 @@
     {
       "uri": null,
       "slug": "awsalb",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Application Load Balancer",
         "abbreviated": true,
@@ -1598,8 +1453,7 @@
     {
       "uri": null,
       "slug": "awsnlb",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Network Load Balancer",
         "abbreviated": true,
@@ -1609,8 +1463,7 @@
     {
       "uri": null,
       "slug": "awsautoscale",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS EC2 Auto Scaling",
         "abbreviated": false
@@ -1619,8 +1472,7 @@
     {
       "uri": null,
       "slug": "awsregion",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Region",
         "abbreviated": false
@@ -1629,8 +1481,7 @@
     {
       "uri": null,
       "slug": "awsrds",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Relational Database Services",
         "abbreviated": true,
@@ -1640,8 +1491,7 @@
     {
       "uri": null,
       "slug": "awselb",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Elastic Load Balancing",
         "abbreviated": true,
@@ -1651,8 +1501,7 @@
     {
       "uri": null,
       "slug": "awsiam",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Identity and Access Management",
         "abbreviated": true,
@@ -1662,8 +1511,7 @@
     {
       "uri": null,
       "slug": "awslambda",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Lambda",
         "abbreviated": false
@@ -1672,8 +1520,7 @@
     {
       "uri": null,
       "slug": "serverless",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "informatique sans serveur",
         "wildcard": "serverless computing",
@@ -1683,8 +1530,7 @@
     {
       "uri": null,
       "slug": "awss3",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Simple Storage Service",
         "abbreviated": true,
@@ -1694,8 +1540,7 @@
     {
       "uri": null,
       "slug": "awsdynamo",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS DynamoDB",
         "abbreviated": false
@@ -1704,8 +1549,7 @@
     {
       "uri": null,
       "slug": "awsapigateway",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS API Gateway",
         "abbreviated": false
@@ -1714,8 +1558,7 @@
     {
       "uri": null,
       "slug": "awssdk",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Software Development Kits",
         "abbreviated": true,
@@ -1725,8 +1568,7 @@
     {
       "uri": null,
       "slug": "awssns",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Simple Notification Service",
         "abbreviated": true,
@@ -1736,8 +1578,7 @@
     {
       "uri": null,
       "slug": "awssqs",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Simple Queue Service",
         "abbreviated": true,
@@ -1747,8 +1588,7 @@
     {
       "uri": null,
       "slug": "awseventbridge",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS EventBridge",
         "abbreviated": false
@@ -1757,8 +1597,7 @@
     {
       "uri": null,
       "slug": "awscodebuild",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS CodeBuild",
         "abbreviated": false
@@ -1767,8 +1606,7 @@
     {
       "uri": null,
       "slug": "awscodepipeline",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS CodePipeline",
         "abbreviated": false
@@ -1777,8 +1615,7 @@
     {
       "uri": null,
       "slug": "awscli",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Command Line Interface",
         "abbreviated": true,
@@ -1788,8 +1625,7 @@
     {
       "uri": null,
       "slug": "awscloudform",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS CloudFormation",
         "abbreviated": false
@@ -1798,8 +1634,7 @@
     {
       "uri": null,
       "slug": "awssysmanager",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS System Manager",
         "abbreviated": false
@@ -1808,8 +1643,7 @@
     {
       "uri": null,
       "slug": "awsconfig",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Config",
         "abbreviated": false
@@ -1818,8 +1652,7 @@
     {
       "uri": null,
       "slug": "awsquicksight",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Quicksight",
         "abbreviated": false
@@ -1828,8 +1661,7 @@
     {
       "uri": null,
       "slug": "awseducate",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Educate",
         "abbreviated": false
@@ -1838,8 +1670,7 @@
     {
       "uri": null,
       "slug": "cambridge",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "Cambridge English",
         "abbreviated": false
@@ -1848,8 +1679,7 @@
     {
       "uri": null,
       "slug": "goethe",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "Institut Goethe",
         "wildcard": "Goethe-Institut",
@@ -1859,8 +1689,7 @@
     {
       "uri": null,
       "slug": "nativespeak",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "langue maternelle",
         "wildcard": "mother tongue",
@@ -1870,8 +1699,7 @@
     {
       "uri": null,
       "slug": "enc2",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "anglais - C2",
         "wildcard": "English language - C2",
@@ -1881,8 +1709,7 @@
     {
       "uri": null,
       "slug": "deb2",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "allemand - B2",
         "wildcard": "German language - B2",
@@ -1892,8 +1719,7 @@
     {
       "uri": null,
       "slug": "esnative",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "espagnol - langue maternelle",
         "wildcard": "Spanish language - mother tongue",
@@ -1903,8 +1729,7 @@
     {
       "uri": null,
       "slug": "linearnetcoding",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "linear network coding",
         "abbreviated": false
@@ -1913,8 +1738,7 @@
     {
       "uri": null,
       "slug": "exor",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "extremely opportunistic routing",
         "abbreviated": true,
@@ -1924,8 +1748,7 @@
     {
       "uri": null,
       "slug": "manet",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseau mobile ad hoc",
         "wildcard": "mobile ad hoc network",
@@ -1936,8 +1759,7 @@
     {
       "uri": null,
       "slug": "thesis",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "thèse",
         "wildcard": "thesis",
@@ -1947,8 +1769,7 @@
     {
       "uri": null,
       "slug": "wlan",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseau sans fil",
         "wildcard": "wireless LAN",
@@ -1959,8 +1780,7 @@
     {
       "uri": null,
       "slug": "i18n",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "internationalisation",
         "wildcard": "internationalization",
@@ -1971,8 +1791,7 @@
     {
       "uri": null,
       "slug": "l10n",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "régionalisation",
         "wildcard": "localization",
@@ -1983,8 +1802,7 @@
     {
       "uri": null,
       "slug": "awscm",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Certificate Manager",
         "abbreviated": true,
@@ -1994,8 +1812,7 @@
     {
       "uri": null,
       "slug": "awscloudfront",
-      "label":
-      {
+      "label": {
         "localised": false,
         "wildcard": "AWS Cloudfront",
         "abbreviated": false
@@ -2004,8 +1821,7 @@
     {
       "uri": null,
       "slug": "cdn",
-      "label":
-      {
+      "label": {
         "localised": true,
         "localisation": "réseau de diffusion de contenu",
         "wildcard": "content delivery network",
@@ -2014,8 +1830,7 @@
       }
     }
   ],
-  "articles":
-  [
+  "articles": [
     {
       "key": "personal-info",
       "path": "/",
@@ -2025,8 +1840,7 @@
       "navLinkDescription": "Persönliche Daten",
       "mobileNavLinkDescription": "Mein Profil",
       "layout": "n-section",
-      "sections":
-      [
+      "sections": [
         {
           "key": "executive-summary",
           "title": "Kurzprofil",
@@ -2034,17 +1848,13 @@
           "organisation": "",
           "organisationHasURL": false,
           "timeFrameExists": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "Data-Scientist in Ausbildung mit über 5 Jahren Erfahrung als Front-End-Entwickler für SCADA-Systeme. Sicher in Python, SQL, JS und CSS, mit akademischem Fundament in Machine Learning, Zeitreihen und Open Data. Derzeit im Masterstudium Data Science und in Vorbereitung anerkannter Zertifizierungen in KI, Cloud-Computing und BI.",
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false
         },
         {
@@ -2054,16 +1864,11 @@
           "organisation": "",
           "organisationHasURL": false,
           "timeFrameExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
+          "paragraphs": [],
+          "descriptionList": [
             {
               "dt": "Vorname",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "Carlos de la Cruz",
                   "type": "text"
@@ -2072,8 +1877,7 @@
             },
             {
               "dt": "Nachname",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "Ayala Vargas",
                   "type": "text"
@@ -2082,8 +1886,7 @@
             },
             {
               "dt": "Staatsangehörigkeit",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "Spanisch",
                   "type": "text"
@@ -2092,8 +1895,7 @@
             },
             {
               "dt": "Arbeitserlaubnis",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "Bürger der EU/EWR (Spanien); berechtigt zur Arbeit in der gesamten EU/EWR. Schweiz: bis zu 90 Arbeitstage je Kalenderjahr mit vorheriger Online-Meldung.",
                   "type": "text"
@@ -2110,16 +1912,11 @@
           "organisation": "",
           "organisationHasURL": false,
           "timeFrameExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
+          "paragraphs": [],
+          "descriptionList": [
             {
               "dt": "Telefon",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "+34689991118",
                   "type": "phone",
@@ -2129,8 +1926,7 @@
             },
             {
               "dt": "E-Mail",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "carlos.de.la.cruz.ayala.vargas@gmail.com",
                   "type": "mail",
@@ -2140,8 +1936,7 @@
             },
             {
               "dt": "LinkedIn",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "Carlos Ayala Vargas",
                   "type": "url",
@@ -2177,8 +1972,7 @@
           "timeFrameStart": "2025-07",
           "timeFrameEndExists": true,
           "timeFrameIsOver": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "Entwicklung einer MLOps-Infrastruktur unter Linux mit TLS, Python und C++98 für verteilte ML/DL-Systeme.",
               "type": "text"
@@ -2188,14 +1982,10 @@
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
+          "tags": [
             "cplus",
             "de",
             "mlops",
@@ -2223,27 +2013,16 @@
           "timeFrameStart": "2025-07",
           "timeFrameEndExists": true,
           "timeFrameIsOver": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "Unterstützung des Lead Data Scientist bei ELT-Prozessen und beim Modelltraining.",
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
-            "elt",
-            "etl",
-            "ds",
-            "ssh",
-            "vpn"
-          ]
+          "tags": ["elt", "etl", "ds", "ssh", "vpn"]
         },
         {
           "key": "vdx-front-end-developer",
@@ -2259,19 +2038,27 @@
           "timeFrameEndExists": true,
           "timeFrameIsOver": false,
           "paragraphs": [
-            { "content": "Entwicklung eines kundenspezifischen JS/CSS-Charting-Tools als erste Aufgabe; nach 5 Jahren weiterhin produktiv im SCADA-Dashboard mit 12+ Ansichten.", "type": "text" },
-            { "content": "Design von SCADA-HMI-Komponenten für 5+ Industriezweige durch Reverse Engineering von Legacy-Java/GWT-Code und über 100.000 undokumentierten XLS-Zeilen.", "type": "text" },
-            { "content": "Aufbau zustandsabhängiger interaktiver Elemente mit SVG, PNG und CSS zur Steigerung von Klarheit und Usability.", "type": "text" },
-            { "content": "Auswertung von Backend-Logs zur Identifikation von Verhaltensanomalien und Unterstützung der Wartung.", "type": "text" }
+            {
+              "content": "Entwicklung eines kundenspezifischen JS/CSS-Charting-Tools als erste Aufgabe; nach 5 Jahren weiterhin produktiv im SCADA-Dashboard mit 12+ Ansichten.",
+              "type": "text"
+            },
+            {
+              "content": "Design von SCADA-HMI-Komponenten für 5+ Industriezweige durch Reverse Engineering von Legacy-Java/GWT-Code und über 100.000 undokumentierten XLS-Zeilen.",
+              "type": "text"
+            },
+            {
+              "content": "Aufbau zustandsabhängiger interaktiver Elemente mit SVG, PNG und CSS zur Steigerung von Klarheit und Usability.",
+              "type": "text"
+            },
+            {
+              "content": "Auswertung von Backend-Logs zur Identifikation von Verhaltensanomalien und Unterstützung der Wartung.",
+              "type": "text"
+            }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
+          "tags": [
             "png",
             "ux",
             "ui",
@@ -2312,19 +2099,16 @@
           "timeFrameStart": "2024-09",
           "timeFrameEndExists": true,
           "timeFrameIsOver": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "60/72 ECTS abgeschlossen · Notendurchschnitt: 83 %",
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
+          "descriptionList": [
             {
               "dt": "Kurse",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "Machine Learning · Deep Learning · Cloud Computing · Computer Vision · Datenvisualisierung · Big Data · Python · Open Data · Zeitreihen · Data Mining · Data Governance · Datenprozesse",
                   "type": "text"
@@ -2334,8 +2118,7 @@
           ],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
+          "tags": [
             "ml",
             "dl",
             "ds",
@@ -2406,19 +2189,16 @@
           "timeFrameEndExists": true,
           "timeFrameIsOver": true,
           "timeFrameEnd": "2019-10",
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "Notendurchschnitt: 73 % · Abschlussarbeit: 100 %",
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
+          "descriptionList": [
             {
               "dt": "Kurse",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "Netzwerke · Datenbanken · Modellierung und Simulation · Statistik · Lineare Systeme · Verteilte Informationssysteme · Projekte · Kommunikationsnetze und -dienste · Protokolltechnik",
                   "type": "text"
@@ -2428,8 +2208,7 @@
           ],
           "iFrame": false,
           "hasCertImage": true,
-          "tags":
-          [
+          "tags": [
             "distributed",
             "db",
             "sql",
@@ -2512,21 +2291,11 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2025-06",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
-
-          ],
+          "paragraphs": [],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": true,
-          "tags":
-          [
-            "cambridge",
-            "enc2"
-          ]
+          "tags": ["cambridge", "enc2"]
         },
         {
           "key": "languages-spanish",
@@ -2535,21 +2304,11 @@
           "organisation": "Muttersprache",
           "organisationHasURL": false,
           "timeFrameExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
-
-          ],
+          "paragraphs": [],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
-            "nativespeak",
-            "esnative"
-          ]
+          "tags": ["nativespeak", "esnative"]
         },
         {
           "key": "languages-german",
@@ -2563,21 +2322,11 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2013-05",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
-
-          ],
+          "paragraphs": [],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": true,
-          "tags":
-          [
-            "goethe",
-            "deb2"
-          ]
+          "tags": ["goethe", "deb2"]
         },
         {
           "key": "languages-french",
@@ -2586,20 +2335,11 @@
           "organisation": "Ohne Zertifikat",
           "organisationHasURL": false,
           "timeFrameExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
-
-          ],
+          "paragraphs": [],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
-
-          ]
+          "tags": []
         }
       ]
     },
@@ -2612,8 +2352,7 @@
       "navLinkDescription": "Zertifikate",
       "mobileNavLinkDescription": "Zertifikate",
       "layout": "n-section",
-      "sections":
-      [
+      "sections": [
         {
           "key": "aws-cloud-consultant",
           "title": "Berater für AWS Cloud-Technologie",
@@ -2626,18 +2365,11 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2025-07",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
-
-          ],
+          "paragraphs": [],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": true,
-          "tags":
-          [
+          "tags": [
             "http",
             "etl",
             "elt",
@@ -2693,21 +2425,16 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2025-07",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "Dies ist nicht die offizielle AWS-Zertifizierung, sondern ein professionelles AWS-Zertifikat zur Prüfungsvorbereitung.",
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": true,
-          "tags":
-          [
+          "tags": [
             "aws",
             "cloud",
             "acl",
@@ -2750,18 +2477,11 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2025-07",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
-
-          ],
+          "paragraphs": [],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": true,
-          "tags":
-          [
+          "tags": [
             "http",
             "etl",
             "azure",
@@ -2810,16 +2530,11 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2025-07",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
+          "paragraphs": [],
+          "descriptionList": [
             {
               "dt": "Technische Skills",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "Azure · LLM · GenAI · Transfer Learning",
                   "type": "text"
@@ -2829,8 +2544,7 @@
           ],
           "iFrame": false,
           "hasCertImage": true,
-          "tags":
-          [
+          "tags": [
             "ml",
             "dl",
             "cnn",
@@ -2878,16 +2592,11 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2024-06",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
-
-          ],
-          "descriptionList":
-          [
+          "paragraphs": [],
+          "descriptionList": [
             {
               "dt": "Technische Skills",
-              "dd":
-              [
+              "dd": [
                 {
                   "content": "React · Figma · Git · UX/UI · CSS",
                   "type": "text"
@@ -2897,8 +2606,7 @@
           ],
           "iFrame": false,
           "hasCertImage": true,
-          "tags":
-          [
+          "tags": [
             "react",
             "github",
             "git",
@@ -2939,8 +2647,7 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2025-07",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "Aus der Bekanntmachung:",
               "type": "text"
@@ -2954,14 +2661,10 @@
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
+          "tags": [
             "ml",
             "dl",
             "ds",
@@ -3030,21 +2733,16 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2019-10",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "Meine Bachelorarbeit wurde von der ETSIT der Universidad Politécnica de Cartagena (UPCT) als beste Abschlussarbeit 2018/19 in Telematik ausgewählt und für den nationalen Wettbewerb „Premios COITT Futuro de las Telecomunicaciones“ nominiert, der die besten Bachelorarbeiten in Telekommunikation in Spanien auszeichnet.",
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
+          "tags": [
             "cplus",
             "wireless",
             "udp",
@@ -3076,8 +2774,7 @@
       "navLinkDescription": "Kenntnisse",
       "mobileNavLinkDescription": "Kenntnisse",
       "layout": "n-section",
-      "sections":
-      [
+      "sections": [
         {
           "key": "skills-platforms",
           "title": "Plattformen & Tools",
@@ -3085,23 +2782,16 @@
           "organisation": "",
           "organisationHasURL": false,
           "timeFrameExists": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "Git · PostgreSQL · JSON · AWS (grundlegend) · Azure (grundlegend) · Tableau (Basis) · Power BI (Basis) · Figma (Basis)",
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
-
-          ]
+          "tags": []
         },
         {
           "key": "skills-languages",
@@ -3110,23 +2800,16 @@
           "organisation": "",
           "organisationHasURL": false,
           "timeFrameExists": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "JavaScript · Python · SQL · CSS · R · Bash (Basis) · Java (Basis) · C++ (Basis)",
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
-
-          ]
+          "tags": []
         },
         {
           "key": "skills-frameworks",
@@ -3135,23 +2818,16 @@
           "organisation": "",
           "organisationHasURL": false,
           "timeFrameExists": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "Pandas · NumPy · scikit-learn · TensorFlow · R Shiny · Plotly · GeoPandas · rasterio · Matplotlib · OpenCV (Basis) · React (Basis) · Selenium",
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-
-          ],
+          "descriptionList": [],
           "iFrame": false,
           "hasCertImage": false,
-          "tags":
-          [
-
-          ]
+          "tags": []
         }
       ]
     },
@@ -3164,8 +2840,7 @@
       "navLinkDescription": "Portfolio",
       "mobileNavLinkDescription": "Portfolio",
       "layout": "portfolio",
-      "sections":
-      [
+      "sections": [
         {
           "key": "cv-app",
           "title": "React-Lebenslauf-App",
@@ -3176,8 +2851,7 @@
           "timeFrameTextualMonth": true,
           "timeFrameStart": "2025-09",
           "timeFrameEndExists": false,
-          "paragraphs":
-          [
+          "paragraphs": [
             {
               "content": "React-Anwendung für den Lebenslauf mit Internationalisierung, Bereichsnavigation und Paginierung innerhalb eines Abschnitts.",
               "type": "text"
@@ -3195,15 +2869,11 @@
               "type": "text"
             }
           ],
-          "descriptionList":
-          [
-            
-          ],
+          "descriptionList": [],
           "iFrame": true,
           "hasCertImage": false,
           "iFrameURL": "/images/cv",
-          "tags":
-          [
+          "tags": [
             "react",
             "awss3",
             "awsroute53",
@@ -3231,4 +2901,3 @@
     }
   ]
 }
-  

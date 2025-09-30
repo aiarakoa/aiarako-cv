@@ -1,28 +1,27 @@
 import './LangNav.css';
-import { useCV } from "./CVProvider";
+import { useCV } from './CVProvider';
 import GenNav from './GenNav.js';
 import LangNavList from './LangNavList.js';
 
-function LangNav()
-{
+function LangNav() {
   const { selectedLanguage } = useCV();
 
-  function checkExclusionClauses()
-  {
+  function checkExclusionClauses() {
     return false;
   }
 
   return (
     <>
       <GenNav
-        navType={"lang-nav"}
+        navType={'lang-nav'}
         handleExclusionClauses={checkExclusionClauses}
         trigger={selectedLanguage}
-        layoutToggle = {true}>
+        layoutToggle={true}
+      >
         <LangNavList />
       </GenNav>
     </>
-  )
+  );
 }
 
 export default LangNav;

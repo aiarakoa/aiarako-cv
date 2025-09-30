@@ -2,7 +2,7 @@ name: Build & Deploy (S3 + CloudFront)
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 concurrency:
   group: deploy-main
@@ -10,7 +10,7 @@ concurrency:
 
 permissions:
   contents: read
-  id-token: write   # OIDC
+  id-token: write # OIDC
 
 jobs:
   deploy:
@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run format:check
       - run: npm run lint
-      - run: npm run build   # CRA → ./build
+      - run: npm run build # CRA → ./build
 
       - name: Configure AWS (OIDC)
         uses: aws-actions/configure-aws-credentials@v4

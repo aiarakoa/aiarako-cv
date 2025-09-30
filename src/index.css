@@ -1,110 +1,110 @@
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-Black.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-Black.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
   font-weight: 900;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-BlackItalic.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-BlackItalic.woff2') format('woff2');
   font-display: swap;
   font-style: italic;
   font-weight: 900;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-Bold.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-Bold.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-BoldItalic.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-BoldItalic.woff2') format('woff2');
   font-display: swap;
   font-style: italic;
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-ExtraBold.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-ExtraBold.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
   font-weight: 800;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-ExtraBoldItalic.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-ExtraBoldItalic.woff2') format('woff2');
   font-display: swap;
   font-style: italic;
   font-weight: 800;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-Italic.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-Italic.woff2') format('woff2');
   font-display: swap;
   font-style: italic;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-Light.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-Light.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
   font-weight: 200;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-LightItalic.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-LightItalic.woff2') format('woff2');
   font-display: swap;
   font-style: italic;
   font-weight: 200;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-Medium.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-Medium.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-MediumItalic.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-MediumItalic.woff2') format('woff2');
   font-display: swap;
   font-style: italic;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-Regular.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-Regular.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-SemiBold.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-SemiBold.woff2') format('woff2');
   font-display: swap;
   font-style: normal;
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "Decalotype";
-  src: url("/public/fonts/Decalotype-SemiBoldItalic.woff2") format("woff2");
+  font-family: 'Decalotype';
+  src: url('/public/fonts/Decalotype-SemiBoldItalic.woff2') format('woff2');
   font-display: swap;
   font-style: italic;
   font-weight: 600;
@@ -118,8 +118,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 ul {

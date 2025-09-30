@@ -1,96 +1,84 @@
 {
-    "presentationMode":
-    [
-        "mobile", 
-        "laptop"
-    ],
-    "sectionsPerGroup":
-    [
-        {
-            "presentationMode": "mobile",
-            "sectionsPerGroup": 5
-        },
-        {
-            "presentationMode": "laptop",
-            "sectionsPerGroup": 3
-        }
-    ],
-    "languages":
-    [
-        {
-            "code": "en-GB",
-            "abbreviation": "UK",
-            "description": "English (UK)"
-        },
-        {
-            "code": "en-US",
-            "abbreviation": "US",
-            "description": "English (US)"
-        },
-        {
-            "code": "es-ES",
-            "abbreviation": "ES",
-            "description": "Español (ES)"
-        },
-        {
-            "code": "de-DE",
-            "abbreviation": "DE",
-            "description": "Deutsch (DE)"
-        },
-        {
-            "code": "fr-FR",
-            "abbreviation": "FR",
-            "description": "Français (FR)"
-        }
-    ],
-    "defaultLanguage": "en-GB",
-    "presentDayTags": 
+  "presentationMode": ["mobile", "laptop"],
+  "sectionsPerGroup": [
     {
-        "en-GB": "Present",
-        "en-US": "Present",
-        "es-ES": "Actualidad",
-        "fr-FR": "Présent",
-        "de-DE": "heute"
+      "presentationMode": "mobile",
+      "sectionsPerGroup": 5
     },
-    "navComponents":
-    [
+    {
+      "presentationMode": "laptop",
+      "sectionsPerGroup": 3
+    }
+  ],
+  "languages": [
+    {
+      "code": "en-GB",
+      "abbreviation": "UK",
+      "description": "English (UK)"
+    },
+    {
+      "code": "en-US",
+      "abbreviation": "US",
+      "description": "English (US)"
+    },
+    {
+      "code": "es-ES",
+      "abbreviation": "ES",
+      "description": "Español (ES)"
+    },
+    {
+      "code": "de-DE",
+      "abbreviation": "DE",
+      "description": "Deutsch (DE)"
+    },
+    {
+      "code": "fr-FR",
+      "abbreviation": "FR",
+      "description": "Français (FR)"
+    }
+  ],
+  "defaultLanguage": "en-GB",
+  "presentDayTags": {
+    "en-GB": "Present",
+    "en-US": "Present",
+    "es-ES": "Actualidad",
+    "fr-FR": "Présent",
+    "de-DE": "heute"
+  },
+  "navComponents": [
+    {
+      "root": "top-nav",
+      "layoutToggling": true,
+      "reCenterMode": "smooth",
+      "standardLayout": "nav-sliding-layout",
+      "modalLayout": "nav-dropdown-layout",
+      "activeSelectorType": "a",
+      "activeSelectorAttribute": "aria-current",
+      "activeSelectorValue": "page",
+      "exclusionClauses": [
         {
-            "root": "top-nav",
-            "layoutToggling": true,
-            "reCenterMode": "smooth",
-            "standardLayout": "nav-sliding-layout",
-            "modalLayout": "nav-dropdown-layout",
-            "activeSelectorType": "a",
-            "activeSelectorAttribute": "aria-current",
-            "activeSelectorValue": "page",
-            "exclusionClauses":
-            [
-                {
-                    "target": "target",
-                    "selector": true,
-                    "active": true,
-                    "has": false
-                },
-                {
-                    "target": "nav",
-                    "layout": "standardLayout",
-                    "has": true
-                }
-            ]
+          "target": "target",
+          "selector": true,
+          "active": true,
+          "has": false
         },
         {
-            "root": "lang-nav",
-            "layoutToggling": true,
-            "reCenterMode": "instant",
-            "standardLayout": "selected-language-layout",
-            "modalLayout": "language-selection-layout",
-            "activeSelectorType": "button",
-            "activeSelectorAttribute": "activelocale",
-            "activeSelectorValue": "true",
-            "exclusionClauses":
-            [
-
-            ]
+          "target": "nav",
+          "layout": "standardLayout",
+          "has": true
         }
-    ]
+      ]
+    },
+    {
+      "root": "lang-nav",
+      "layoutToggling": true,
+      "reCenterMode": "instant",
+      "standardLayout": "selected-language-layout",
+      "modalLayout": "language-selection-layout",
+      "activeSelectorType": "button",
+      "activeSelectorAttribute": "activelocale",
+      "activeSelectorValue": "true",
+      "exclusionClauses": []
+    }
+  ]
 }
