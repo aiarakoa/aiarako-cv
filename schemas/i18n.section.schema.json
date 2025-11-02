@@ -74,11 +74,7 @@
     {
       "if": { "properties": { "timeFrameExists": { "const": true } } },
       "then": {
-        "required": [
-          "timeFrameTextualMonth",
-          "timeFrameStart",
-          "timeFrameEndExists"
-        ]
+        "required": ["timeFrameTextualMonth", "timeFrameStart", "timeFrameEndExists"]
       },
       "else": {
         "not": { "anyOf": [{ "required": ["timeFrameStart"] }, { "required": ["timeFrameEnd"] }] }
@@ -90,9 +86,7 @@
         "properties": { "timeFrameEndExists": { "const": true } }
       },
       "then": {
-        "required": [
-          "timeFrameIsOver"
-        ]
+        "required": ["timeFrameIsOver"]
       },
       "else": { "not": { "required": ["timeFrameIsOver"] } }
     },
@@ -102,9 +96,7 @@
         "properties": { "timeFrameIsOver": { "const": true } }
       },
       "then": {
-        "required": [
-          "timeFrameEnd"
-        ]
+        "required": ["timeFrameEnd"]
       },
       "else": { "not": { "required": ["timeFrameEnd"] } }
     },

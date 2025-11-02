@@ -1,14 +1,11 @@
 {
   "$id": "urn:cv:i18n:mimic",
   "type": "object",
-  "required": [
-    "content",
-    "type"
-  ],
+  "required": ["content", "type"],
   "additionalProperties": false,
   "properties": {
     "content": { "type": "string" },
-    "type": { "enum": ["text", "phone", "mail", "url"]},
+    "type": { "enum": ["text", "phone", "mail", "url"] },
     "number": { "type": "string", "pattern": "^\\+([0-9]{1,4})[-\\s]?([0-9]{1,15})$" },
     "address": { "type": "string", "format": "email" },
     "url": { "type": "string", "format": "uri" }
