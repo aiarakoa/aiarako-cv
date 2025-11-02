@@ -1940,8 +1940,8 @@
       "sections": [
         {
           "key": "vdx-data-engineer",
-          "title": "Graduate Data Engineer",
-          "mobileTitle": "Graduate Data Engineer",
+          "title": "Data Engineer / Data Scientist",
+          "mobileTitle": "Data Engineer / Data Scientist",
           "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
           "organisationHasURL": true,
           "organisationURL": "http://vdx.es/",
@@ -1958,6 +1958,10 @@
             },
             {
               "content": "Currently working on thread management and bottleneck removal to reduce k-NN latency from 500–700 ms to 150–200 ms in a 5 FPS video pipeline.",
+              "type": "text"
+            },
+            {
+              "content": "Supporting the Lead Data Scientist on ELT processes and model training.",
               "type": "text"
             }
           ],
@@ -1976,32 +1980,11 @@
             "threads",
             "realtime",
             "ssh",
-            "vpn"
+            "vpn",
+            "elt",
+            "etl",
+            "ds"
           ]
-        },
-        {
-          "key": "vdx-data-scientist",
-          "title": "Graduate Data Scientist",
-          "mobileTitle": "Graduate Data Scientist",
-          "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
-          "organisationHasURL": true,
-          "organisationURL": "http://vdx.es/",
-          "organisationAnchorText": "Link to VDX",
-          "timeFrameExists": true,
-          "timeFrameTextualMonth": false,
-          "timeFrameStart": "2025-07",
-          "timeFrameEndExists": true,
-          "timeFrameIsOver": false,
-          "paragraphs": [
-            {
-              "content": "Supporting the Lead Data Scientist on ELT processes and model training.",
-              "type": "text"
-            }
-          ],
-          "descriptionList": [],
-          "iFrame": false,
-          "hasCertImage": false,
-          "tags": ["elt", "etl", "ds", "ssh", "vpn"]
         },
         {
           "key": "vdx-front-end-developer",
@@ -2545,7 +2528,7 @@
             "supervl",
             "distributed",
             "unsupervl",
-            "elt",
+            "etl",
             "elt",
             "nlp",
             "reinforcel",

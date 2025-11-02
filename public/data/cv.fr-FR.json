@@ -1961,8 +1961,8 @@
       "sections": [
         {
           "key": "vdx-data-engineer",
-          "title": "Ingénieur des données (jeune diplômé)",
-          "mobileTitle": "Ing. Donn. (J. diplômé)",
+          "title": "Ingénieur des données / Scientifique des données",
+          "mobileTitle": "Ing. Donn. / Scient. Donn.",
           "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
           "organisationHasURL": true,
           "organisationURL": "http://vdx.es/",
@@ -1979,6 +1979,10 @@
             },
             {
               "content": "Travail en cours sur la gestion des threads et l’élimination des goulots d’étranglement afin de réduire la latence k-NN de 500–700 ms à 150–200 ms dans une chaîne vidéo à 5 FPS.",
+              "type": "text"
+            },
+            {
+              "content": "Soutien au Lead Data Scientist sur les processus ELT et l’entraînement des modèles.",
               "type": "text"
             }
           ],
@@ -1997,32 +2001,11 @@
             "threads",
             "realtime",
             "ssh",
-            "vpn"
+            "vpn",
+            "elt",
+            "etl",
+            "ds"
           ]
-        },
-        {
-          "key": "vdx-data-scientist",
-          "title": "Scientifique des données (jeune diplômé)",
-          "mobileTitle": "Scient. Donn. (J. diplômé)",
-          "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
-          "organisationHasURL": true,
-          "organisationURL": "http://vdx.es/",
-          "organisationAnchorText": "Lien vers VDX",
-          "timeFrameExists": true,
-          "timeFrameTextualMonth": false,
-          "timeFrameStart": "2025-07",
-          "timeFrameEndExists": true,
-          "timeFrameIsOver": false,
-          "paragraphs": [
-            {
-              "content": "Soutien au Lead Data Scientist sur les processus ELT et l’entraînement des modèles.",
-              "type": "text"
-            }
-          ],
-          "descriptionList": [],
-          "iFrame": false,
-          "hasCertImage": false,
-          "tags": ["elt", "etl", "ds", "ssh", "vpn"]
         },
         {
           "key": "vdx-front-end-developer",
@@ -2567,7 +2550,7 @@
             "distributed",
             "unsupervl",
             "elt",
-            "elt",
+            "etl",
             "nlp",
             "reinforcel",
             "tl",

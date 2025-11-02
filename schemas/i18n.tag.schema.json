@@ -1,0 +1,18 @@
+{
+  "$id": "urn:cv:i18n:tag",
+  "type": "object",
+  "required": ["uri", "slug", "label"],
+  "additionalProperties": false,
+  "properties": {
+    "uri": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "label": {
+      "$ref": "urn:cv:i18n:label"
+    }
+  }
+}

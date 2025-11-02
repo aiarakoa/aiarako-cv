@@ -1,0 +1,93 @@
+{
+  "$id": "urn:cv:i18n:mimic",
+  "type": "object",
+  "required": [
+    "content",
+    "type"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "content": { "type": "string" },
+    "type": { "enum": ["text", "phone", "mail", "url"]},
+    "number": { "type": "string", "pattern": "^\\+([0-9]{1,4})[-\\s]?([0-9]{1,15})$" },
+    "address": { "type": "string", "format": "email" },
+    "url": { "type": "string", "format": "uri" }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "phone"
+          }
+        }
+      },
+      "then": {
+        "required": ["number"]
+      },
+      "else": {
+        "not": {
+          "required": ["number"]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "mail"
+          }
+        }
+      },
+      "then": {
+        "required": ["address"]
+      },
+      "else": {
+        "not": {
+          "required": ["address"]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "url"
+          }
+        }
+      },
+      "then": {
+        "required": ["url"]
+      },
+      "else": {
+        "not": {
+          "required": ["url"]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "text"
+          }
+        }
+      },
+      "then": {
+        "not": {
+          "anyOf": [
+            {
+              "required": ["number"]
+            },
+            {
+              "required": ["address"]
+            },
+            {
+              "required": ["url"]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

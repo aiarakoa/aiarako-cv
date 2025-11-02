@@ -1,0 +1,49 @@
+{
+  "$id": "urn:cv:i18n:article",
+  "type": "object",
+  "required": [
+    "key",
+    "path",
+    "title",
+    "mobileTitle",
+    "subtitle",
+    "navLinkDescription",
+    "mobileNavLinkDescription",
+    "layout",
+    "sections"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "key": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string",
+      "pattern": "^\\/"
+    },
+    "title": {
+      "type": "string"
+    },
+    "mobileTitle": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "navLinkDescription": {
+      "type": "string"
+    },
+    "mobileNavLinkDescription": {
+      "type": "string"
+    },
+    "layout": {
+      "enum": ["n-section", "portfolio"]
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "urn:cv:i18n:section"
+      }
+    }
+  }
+}

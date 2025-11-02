@@ -1961,8 +1961,8 @@
       "sections": [
         {
           "key": "vdx-data-engineer",
-          "title": "Data Engineer (Berufseinsteiger)",
-          "mobileTitle": "Data Engineer (Einst.)",
+          "title": "Data Engineer / Data Scientist",
+          "mobileTitle": "Data Engineer / Data Scientist",
           "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
           "organisationHasURL": true,
           "organisationURL": "http://vdx.es/",
@@ -1979,6 +1979,10 @@
             },
             {
               "content": "Derzeit Arbeit an Thread-Steuerung und Beseitigung von Engpässen, um die k-NN-Latenz von 500–700 ms auf 150–200 ms in einer 5-FPS-Video-Pipeline zu senken.",
+              "type": "text"
+            },
+            {
+              "content": "Unterstützung des Lead Data Scientist bei ELT-Prozessen und beim Modelltraining.",
               "type": "text"
             }
           ],
@@ -1997,32 +2001,11 @@
             "threads",
             "realtime",
             "ssh",
-            "vpn"
+            "vpn",
+            "elt",
+            "etl",
+            "ds"
           ]
-        },
-        {
-          "key": "vdx-data-scientist",
-          "title": "Data Scientist (Berufseinsteiger)",
-          "mobileTitle": "Data Scientist (Einst.)",
-          "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
-          "organisationHasURL": true,
-          "organisationURL": "http://vdx.es/",
-          "organisationAnchorText": "Link zu VDX",
-          "timeFrameExists": true,
-          "timeFrameTextualMonth": false,
-          "timeFrameStart": "2025-07",
-          "timeFrameEndExists": true,
-          "timeFrameIsOver": false,
-          "paragraphs": [
-            {
-              "content": "Unterstützung des Lead Data Scientist bei ELT-Prozessen und beim Modelltraining.",
-              "type": "text"
-            }
-          ],
-          "descriptionList": [],
-          "iFrame": false,
-          "hasCertImage": false,
-          "tags": ["elt", "etl", "ds", "ssh", "vpn"]
         },
         {
           "key": "vdx-front-end-developer",
@@ -2567,7 +2550,7 @@
             "distributed",
             "unsupervl",
             "elt",
-            "elt",
+            "etl",
             "nlp",
             "reinforcel",
             "tl",

@@ -1,0 +1,98 @@
+entities: 
+	- root
+	- tag
+		- label
+	- article
+		- section
+
+SCHEMA -- object:
+	- mandatory "tags" (array of 1 to N objects):
+		- mandatory "uri" (string) might be null
+		- mandatory "slug" (string) NOT NULL
+		- mandatory label (object)
+			- mandatory "localised" (boolean) NOT NULL
+			- if "localised" then mandatory "localisation" (string) NOT NULL
+			- mandatory "wildcard" (string) NOT NULL
+			- mandatory "abbreviated" (boolean) NOT NULL
+			- if "abbreviated" then mandatory "abbreviation" (string) NOT NULL
+	- mandatory "articles" (array of 1 to N objects):
+		- mandatory "key" (string) NOT NULL
+		- mandatory "path" (string) NOT NULL
+		- mandatory "title" (string) NOT NULL
+		- mandatory "mobileTitle" (string) NOT NULL
+		- mandatory "subtitle" (string) NOT NULL
+		- mandatory "navLinkDescription" (string) NOT NULL
+		- mandatory "mobileNavLinkDescription" (string) NOT NULL
+		- mandatory "layout" (string) NOT NULL can have values in ["n-section", "portfolio"]
+		- mandatory "sections" (array of 1 to N objects):
+			- mandatory "key" (string) NOT NULL
+			- mandatory "title" (string) NOT NULL
+			- mandatory "mobileTitle" (string) NOT NULL
+			- mandatory "organisation" (string) NOT NULL
+			- mandatory "organisationHasURL" (boolean) NOT NULL
+			- if "organisationHasURL" then mandatory "organisationURL" (string parseable as URL) NOT NULL
+			- if "organisationHasURL" then mandatory "organisationAnchorText" (string) NOT NULL
+			- mandatory "timeFrameExists" (boolean) NOT NULL
+			- if "timeFrameExists" then mandatory "timeFrameTextualMonth" (boolean) NOT NULL
+			- if "timeFrameExists" then mandatory "timeFrameStart" (string) NOT NULL
+			- if "timeFrameExists" then mandatory "timeFrameEndExists" (boolean) NOT NULL
+			- if "timeFrameEndExists" then mandatory "timeFrameEnd" (boolean) NOT NULL
+			- if "timeFrameEndExists" then mandatory "timeFrameIsOver" (boolean) NOT NULL
+			- if "timeFrameEndExists" and "timeFrameIsOver" then mandatory "timeFrameEnd" (string) NOT NULL
+			- mandatory "paragraphs" (array of 0 to 4 objects):
+				- mandatory "content" (string) NOT NULL
+				- mandatory "type" (string) NOT NULL can have values in ["text", "phone", "mail", "url"]
+				- if "type" == "phone" then mandatory "number" (string parseable as phone number) NOT NULL
+				- if "type" == "mail" then mandatory "address" (string parseable as e-mail) NOT NULL
+				- if "type" == "url" then mandatory "url" (string parseable as URL) NOT NULL
+			- mandatory "descriptionList" (array of 0 to 4 objects):
+				- mandatory "dt" (string) NOT NULL
+				- mandatory "dd" (array of 1 to 1 objects) NOT NULL
+					- mandatory "content" (string) NOT NULL
+					- mandatory "type" (string) NOT NULL can have values in ["text", "phone", "mail", "url"]
+					- if "type" == "phone" then mandatory "number" (string parseable as phone number) NOT NULL
+					- if "type" == "mail" then mandatory "address" (string parseable as e-mail) NOT NULL
+					- if "type" == "url" then mandatory "url" (string parseable as URL) NOT NULL
+			- mandatory "iFrame" (boolean) NOT NULL
+			- if "iFrame" then mandatory "iFrameURL" (string parseable as URL) NOT NULL
+			- mandatory "hasCertImage" (boolean) NOT NULL
+			- mandatory "tags" (array of 1 to N strings):
+				- each string must match "slug" in root -> "tags" -> {object}
+
+
+
+
+
+
+
+			
+    "paragraphs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["content", "type"],
+        "additionalProperties": false,
+        "properties": {
+          "content": { "type": "string" },
+          "type": { "enum": ["text", "url", "mail", "phone"] },
+          "url": { "type": "string", "format": "uri" },
+          "address": { "type": "string", "format": "email" },
+          "number": { "type": "string" }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "url" } } },
+            "then": { "required": ["url"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "mail" } } },
+            "then": { "required": ["address"] }
+          },
+          {
+            "if": { "properties": { "type": { "const": "phone" } } },
+            "then": { "required": ["number"] }
+          }
+        ]
+      }
+    },
+

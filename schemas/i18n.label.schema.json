@@ -1,0 +1,59 @@
+{
+  "$id": "urn:cv:i18n:label",
+  "type": "object",
+  "required": ["wildcard", "localised", "abbreviated"],
+  "additionalProperties": false,
+  "properties": {
+    "abbreviated": {
+      "type": "boolean"
+    },
+    "abbreviation": {
+      "type": "string"
+    },
+    "localisation": {
+      "type": "string"
+    },
+    "localised": {
+      "type": "boolean"
+    },
+    "wildcard": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "localised": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "required": ["localisation"]
+      },
+      "else": {
+        "not": {
+          "required": ["localisation"]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "abbreviated": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "required": ["abbreviation"]
+      },
+      "else": {
+        "not": {
+          "required": ["abbreviation"]
+        }
+      }
+    }
+  ]
+}

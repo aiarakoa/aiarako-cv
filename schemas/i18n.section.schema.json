@@ -1,0 +1,117 @@
+{
+  "$id": "urn:cv:i18n:section",
+  "type": "object",
+  "required": [
+    "key",
+    "title",
+    "mobileTitle",
+    "organisation",
+    "organisationHasURL",
+    "timeFrameExists",
+    "paragraphs",
+    "descriptionList",
+    "iFrame"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "key": { "type": "string" },
+    "title": { "type": "string" },
+    "mobileTitle": { "type": "string" },
+    "organisation": { "type": "string" },
+    "organisationHasURL": { "type": "boolean" },
+    "organisationURL": { "type": "string", "format": "uri" },
+    "organisationAnchorText": { "type": "string" },
+
+    "timeFrameExists": { "type": "boolean" },
+    "timeFrameTextualMonth": { "type": "boolean" },
+    "timeFrameStart": {
+      "type": "string",
+      "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+    },
+    "timeFrameEndExists": { "type": "boolean" },
+    "timeFrameIsOver": { "type": "boolean" },
+    "timeFrameEnd": {
+      "type": "string",
+      "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+    },
+
+    "paragraphs": {
+      "type": "array",
+      "items": {
+        "$ref": "urn:cv:i18n:mimic"
+      }
+    },
+
+    "descriptionList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["dt", "dd"],
+        "additionalProperties": false,
+        "properties": {
+          "dt": { "type": "string" },
+          "dd": {
+            "type": "array",
+            "items": {
+              "$ref": "urn:cv:i18n:mimic"
+            }
+          }
+        }
+      }
+    },
+    "iFrame": { "type": "boolean" },
+    "hasCertImage": { "type": "boolean" },
+    "tags": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "iFrameURL": { "type": "string", "format": "uri-reference" }
+  },
+
+  "allOf": [
+    {
+      "if": { "properties": { "organisationHasURL": { "const": true } } },
+      "then": { "required": ["organisationURL", "organisationAnchorText"] },
+      "else": { "not": { "required": ["organisationURL", "organisationAnchorText"] } }
+    },
+    {
+      "if": { "properties": { "timeFrameExists": { "const": true } } },
+      "then": {
+        "required": [
+          "timeFrameTextualMonth",
+          "timeFrameStart",
+          "timeFrameEndExists"
+        ]
+      },
+      "else": {
+        "not": { "anyOf": [{ "required": ["timeFrameStart"] }, { "required": ["timeFrameEnd"] }] }
+      }
+    },
+    {
+      "if": {
+        "required": ["timeFrameEndExists"],
+        "properties": { "timeFrameEndExists": { "const": true } }
+      },
+      "then": {
+        "required": [
+          "timeFrameIsOver"
+        ]
+      },
+      "else": { "not": { "required": ["timeFrameIsOver"] } }
+    },
+    {
+      "if": {
+        "required": ["timeFrameIsOver"],
+        "properties": { "timeFrameIsOver": { "const": true } }
+      },
+      "then": {
+        "required": [
+          "timeFrameEnd"
+        ]
+      },
+      "else": { "not": { "required": ["timeFrameEnd"] } }
+    },
+    {
+      "if": { "properties": { "iFrame": { "const": true } } },
+      "then": { "required": ["iFrameURL"] },
+      "else": { "not": { "required": ["iFrameURL"] } }
+    }
+  ]
+}

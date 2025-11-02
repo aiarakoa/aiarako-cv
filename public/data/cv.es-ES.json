@@ -1931,8 +1931,8 @@
       "sections": [
         {
           "key": "vdx-data-engineer",
-          "title": "Ingeniero de datos recién titulado",
-          "mobileTitle": "Ing. Datos (recién tit.)",
+          "title": "Ingeniero de datos / Científico de datos",
+          "mobileTitle": "Ingeniero de datos / Científico de datos",
           "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
           "organisationHasURL": true,
           "organisationURL": "http://vdx.es/",
@@ -1949,6 +1949,10 @@
             },
             {
               "content": "Actualmente trabajando en gestión de hilos y eliminación de cuellos de botella para reducir la latencia de k-NN de 500–700 ms a 150–200 ms en un flujo de vídeo de 5 FPS.",
+              "type": "text"
+            },
+            {
+              "content": "Apoyo a Lead Data Scientist en procesos de ELT y entrenamiento de modelos.",
               "type": "text"
             }
           ],
@@ -1967,32 +1971,11 @@
             "threads",
             "realtime",
             "ssh",
-            "vpn"
+            "vpn",
+            "elt",
+            "etl",
+            "ds"
           ]
-        },
-        {
-          "key": "vdx-data-scientist",
-          "title": "Científico de datos recién titulado",
-          "mobileTitle": "Cient. datos (recién tit.)",
-          "organisation": "Vision, Dispositivos y eXtensiones, S.L.",
-          "organisationHasURL": true,
-          "organisationURL": "http://vdx.es/",
-          "organisationAnchorText": "Enlace a VDX",
-          "timeFrameExists": true,
-          "timeFrameTextualMonth": false,
-          "timeFrameStart": "2025-07",
-          "timeFrameEndExists": true,
-          "timeFrameIsOver": false,
-          "paragraphs": [
-            {
-              "content": "Apoyo a Lead Data Scientist en procesos de ELT y entrenamiento de modelos.",
-              "type": "text"
-            }
-          ],
-          "descriptionList": [],
-          "iFrame": false,
-          "hasCertImage": false,
-          "tags": ["elt", "etl", "ds", "ssh", "vpn"]
         },
         {
           "key": "vdx-front-end-developer",
@@ -2536,7 +2519,7 @@
             "supervl",
             "distributed",
             "unsupervl",
-            "elt",
+            "etl",
             "elt",
             "nlp",
             "reinforcel",
