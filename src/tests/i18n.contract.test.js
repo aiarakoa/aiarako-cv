@@ -1,9 +1,10 @@
 /** @jest-environment node */
-import { test, expect, describe } from '@jest/globals';
-import fs from 'fs';
-import path from 'path';
+import { test, expect } from '@jest/globals';
 import Ajv from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
+
+import fs from 'fs';
+import path from 'path';
 
 const fromRoot = (...p) => path.join(process.cwd(), ...p);
 
